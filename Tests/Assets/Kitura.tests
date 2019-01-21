@@ -1,0 +1,566 @@
+Test Suite 'All tests' started at 2019-01-19 00:09:33.156
+Test Suite 'KituraPackageTests.xctest' started at 2019-01-19 00:09:33.156
+Test Suite 'MiscellaneousTests' started at 2019-01-19 00:09:33.156
+Test Case '-[KituraTests.MiscellaneousTests testHeaders]' started.
+Test Case '-[KituraTests.MiscellaneousTests testHeaders]' passed (0.095 seconds).
+Test Case '-[KituraTests.MiscellaneousTests testHeadersHelpers]' started.
+Test Case '-[KituraTests.MiscellaneousTests testHeadersHelpers]' passed (0.000 seconds).
+Test Suite 'MiscellaneousTests' passed at 2019-01-19 00:09:33.252.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.096 (0.096) seconds
+Test Suite 'TestBridgingHTTPStatusCode' started at 2019-01-19 00:09:33.252
+Test Case '-[KituraTests.TestBridgingHTTPStatusCode testSimpleResponse]' started.
+Test Case '-[KituraTests.TestBridgingHTTPStatusCode testSimpleResponse]' passed (0.126 seconds).
+Test Suite 'TestBridgingHTTPStatusCode' passed at 2019-01-19 00:09:33.378.
+     Executed 1 test, with 0 failures (0 unexpected) in 0.126 (0.126) seconds
+Test Suite 'TestBridgingRequestError' started at 2019-01-19 00:09:33.379
+Test Case '-[KituraTests.TestBridgingRequestError testRequestError]' started.
+Test Case '-[KituraTests.TestBridgingRequestError testRequestError]' passed (0.053 seconds).
+Test Suite 'TestBridgingRequestError' passed at 2019-01-19 00:09:33.431.
+     Executed 1 test, with 0 failures (0 unexpected) in 0.053 (0.053) seconds
+Test Suite 'TestCodableRouter' started at 2019-01-19 00:09:33.431
+Test Case '-[KituraTests.TestCodableRouter testBasicDelete]' started.
+Test Case '-[KituraTests.TestCodableRouter testBasicDelete]' passed (0.158 seconds).
+Test Case '-[KituraTests.TestCodableRouter testBasicDeleteSingle]' started.
+Test Case '-[KituraTests.TestCodableRouter testBasicDeleteSingle]' passed (0.155 seconds).
+Test Case '-[KituraTests.TestCodableRouter testBasicGetArray]' started.
+Test Case '-[KituraTests.TestCodableRouter testBasicGetArray]' passed (0.153 seconds).
+Test Case '-[KituraTests.TestCodableRouter testBasicGetIdentifiersArray]' started.
+Test Case '-[KituraTests.TestCodableRouter testBasicGetIdentifiersArray]' passed (0.208 seconds).
+Test Case '-[KituraTests.TestCodableRouter testBasicGetSingle]' started.
+Test Case '-[KituraTests.TestCodableRouter testBasicGetSingle]' passed (0.160 seconds).
+Test Case '-[KituraTests.TestCodableRouter testBasicGetSingleton]' started.
+Test Case '-[KituraTests.TestCodableRouter testBasicGetSingleton]' passed (0.158 seconds).
+Test Case '-[KituraTests.TestCodableRouter testBasicPatch]' started.
+Test Case '-[KituraTests.TestCodableRouter testBasicPatch]' passed (6.195 seconds).
+Test Case '-[KituraTests.TestCodableRouter testBasicPost]' started.
+Test Case '-[KituraTests.TestCodableRouter testBasicPost]' passed (0.364 seconds).
+Test Case '-[KituraTests.TestCodableRouter testBasicPostIdentifier]' started.
+Test Case '-[KituraTests.TestCodableRouter testBasicPostIdentifier]' passed (0.163 seconds).
+Test Case '-[KituraTests.TestCodableRouter testBasicPut]' started.
+Test Case '-[KituraTests.TestCodableRouter testBasicPut]' passed (6.194 seconds).
+Test Case '-[KituraTests.TestCodableRouter testCodableDeleteQueryParameters]' started.
+Test Case '-[KituraTests.TestCodableRouter testCodableDeleteQueryParameters]' passed (0.291 seconds).
+Test Case '-[KituraTests.TestCodableRouter testCodableGetArrayQueryParameters]' started.
+Test Case '-[KituraTests.TestCodableRouter testCodableGetArrayQueryParameters]' passed (0.285 seconds).
+Test Case '-[KituraTests.TestCodableRouter testCodableGetSingleQueryParameters]' started.
+Test Case '-[KituraTests.TestCodableRouter testCodableGetSingleQueryParameters]' passed (0.292 seconds).
+Test Case '-[KituraTests.TestCodableRouter testCodablePostSuccessStatuses]' started.
+Test Case '-[KituraTests.TestCodableRouter testCodablePostSuccessStatuses]' passed (0.158 seconds).
+Test Case '-[KituraTests.TestCodableRouter testCodableRoutesWithBodyParsingFail]' started.
+Test Case '-[KituraTests.TestCodableRouter testCodableRoutesWithBodyParsingFail]' passed (4.194 seconds).
+Test Case '-[KituraTests.TestCodableRouter testErrorOverridesBody]' started.
+Test Case '-[KituraTests.TestCodableRouter testErrorOverridesBody]' passed (8.488 seconds).
+Test Case '-[KituraTests.TestCodableRouter testIdentifierNotExpected]' started.
+Test Case '-[KituraTests.TestCodableRouter testIdentifierNotExpected]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestCodableRouter testIdentifierNotSupplied]' started.
+Test Case '-[KituraTests.TestCodableRouter testIdentifierNotSupplied]' passed (0.053 seconds).
+Test Case '-[KituraTests.TestCodableRouter testInvalidIdentifierSupplied]' started.
+Test Case '-[KituraTests.TestCodableRouter testInvalidIdentifierSupplied]' passed (0.052 seconds).
+Test Case '-[KituraTests.TestCodableRouter testJoinPath]' started.
+Test Case '-[KituraTests.TestCodableRouter testJoinPath]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestCodableRouter testNoDataCustomStatus]' started.
+Test Case '-[KituraTests.TestCodableRouter testNoDataCustomStatus]' passed (2.124 seconds).
+Test Case '-[KituraTests.TestCodableRouter testNoDataDefaultStatus]' started.
+Test Case '-[KituraTests.TestCodableRouter testNoDataDefaultStatus]' passed (2.122 seconds).
+Test Case '-[KituraTests.TestCodableRouter testPartialIdentifierSupplied]' started.
+Test Case '-[KituraTests.TestCodableRouter testPartialIdentifierSupplied]' passed (0.054 seconds).
+Test Case '-[KituraTests.TestCodableRouter testRouteParameters]' started.
+Test Case '-[KituraTests.TestCodableRouter testRouteParameters]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestCodableRouter testRouteWithTrailingSlash]' started.
+Test Case '-[KituraTests.TestCodableRouter testRouteWithTrailingSlash]' passed (4.238 seconds).
+Test Suite 'TestCodableRouter' passed at 2019-01-19 00:10:09.793.
+     Executed 25 tests, with 0 failures (0 unexpected) in 36.360 (36.362) seconds
+Test Suite 'TestContentType' started at 2019-01-19 00:10:09.793
+Test Case '-[KituraTests.TestContentType testFilename]' started.
+Test Case '-[KituraTests.TestContentType testFilename]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestContentType testInitialize]' started.
+Test Case '-[KituraTests.TestContentType testInitialize]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestContentType testIsContentType]' started.
+Test Case '-[KituraTests.TestContentType testIsContentType]' passed (0.000 seconds).
+Test Suite 'TestContentType' passed at 2019-01-19 00:10:09.794.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'TestCookies' started at 2019-01-19 00:10:09.794
+Test Case '-[KituraTests.TestCookies testCookieFromServer]' started.
+Test Case '-[KituraTests.TestCookies testCookieFromServer]' passed (0.111 seconds).
+Test Case '-[KituraTests.TestCookies testCookieToServerWithSemiColonSeparator]' started.
+Test Case '-[KituraTests.TestCookies testCookieToServerWithSemiColonSeparator]' passed (0.053 seconds).
+Test Case '-[KituraTests.TestCookies testCookieToServerWithSemiColonSpaceSeparator]' started.
+Test Case '-[KituraTests.TestCookies testCookieToServerWithSemiColonSpaceSeparator]' passed (0.054 seconds).
+Test Case '-[KituraTests.TestCookies testCookieToServerWithSemiColonWhitespacesSeparator]' started.
+Test Case '-[KituraTests.TestCookies testCookieToServerWithSemiColonWhitespacesSeparator]' passed (0.049 seconds).
+Test Case '-[KituraTests.TestCookies testNoCookies]' started.
+Test Case '-[KituraTests.TestCookies testNoCookies]' passed (0.093 seconds).
+Test Suite 'TestCookies' passed at 2019-01-19 00:10:10.155.
+     Executed 5 tests, with 0 failures (0 unexpected) in 0.360 (0.360) seconds
+Test Suite 'TestCustomCoders' started at 2019-01-19 00:10:10.155
+Test Case '-[KituraTests.TestCustomCoders testCustomCoder]' started.
+Test Case '-[KituraTests.TestCustomCoders testCustomCoder]' passed (0.108 seconds).
+Test Case '-[KituraTests.TestCustomCoders testCustomQueryEncoder]' started.
+Test Case '-[KituraTests.TestCustomCoders testCustomQueryEncoder]' passed (0.253 seconds).
+Test Case '-[KituraTests.TestCustomCoders testRawCustomCoder]' started.
+Test Case '-[KituraTests.TestCustomCoders testRawCustomCoder]' passed (0.105 seconds).
+Test Suite 'TestCustomCoders' passed at 2019-01-19 00:10:10.620.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.465 (0.466) seconds
+Test Suite 'TestDecodingErrorExtension' started at 2019-01-19 00:10:10.620
+Test Case '-[KituraTests.TestDecodingErrorExtension testMalformedJson]' started.
+Test Case '-[KituraTests.TestDecodingErrorExtension testMalformedJson]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestDecodingErrorExtension testMissingRequiredKey]' started.
+Test Case '-[KituraTests.TestDecodingErrorExtension testMissingRequiredKey]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestDecodingErrorExtension testMissingValue]' started.
+Test Case '-[KituraTests.TestDecodingErrorExtension testMissingValue]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestDecodingErrorExtension testWrongType]' started.
+Test Case '-[KituraTests.TestDecodingErrorExtension testWrongType]' passed (0.000 seconds).
+Test Suite 'TestDecodingErrorExtension' passed at 2019-01-19 00:10:10.622.
+     Executed 4 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'TestErrors' started at 2019-01-19 00:10:10.622
+Test Case '-[KituraTests.TestErrors testInvalidEndpoint]' started.
+Test Case '-[KituraTests.TestErrors testInvalidEndpoint]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestErrors testInvalidHeader]' started.
+Test Case '-[KituraTests.TestErrors testInvalidHeader]' passed (0.049 seconds).
+Test Case '-[KituraTests.TestErrors testInvalidMethod]' started.
+Test Case '-[KituraTests.TestErrors testInvalidMethod]' passed (0.054 seconds).
+Test Suite 'TestErrors' passed at 2019-01-19 00:10:10.775.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.153 (0.153) seconds
+Test Suite 'TestMediaType' started at 2019-01-19 00:10:10.775
+Test Case '-[KituraTests.TestMediaType testAllTextMediaTypeBuilder]' started.
+Test Case '-[KituraTests.TestMediaType testAllTextMediaTypeBuilder]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestMediaType testAllTextSlashMediaTypeBuilder]' started.
+Test Case '-[KituraTests.TestMediaType testAllTextSlashMediaTypeBuilder]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestMediaType testHTMLMediaTypeBuilder]' started.
+Test Case '-[KituraTests.TestMediaType testHTMLMediaTypeBuilder]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestMediaType testIncorrectTopLevelType]' started.
+Test Case '-[KituraTests.TestMediaType testIncorrectTopLevelType]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestMediaType testInvalidMediaType]' started.
+Test Case '-[KituraTests.TestMediaType testInvalidMediaType]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestMediaType testMediaCaseInsensitive]' started.
+Test Case '-[KituraTests.TestMediaType testMediaCaseInsensitive]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestMediaType testPartsAllTextMediaTypeBuilder]' started.
+Test Case '-[KituraTests.TestMediaType testPartsAllTextMediaTypeBuilder]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestMediaType testPartsHTMLMediaTypeBuilder]' started.
+Test Case '-[KituraTests.TestMediaType testPartsHTMLMediaTypeBuilder]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestMediaType testPartsMediaCaseInsensitive]' started.
+Test Case '-[KituraTests.TestMediaType testPartsMediaCaseInsensitive]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestMediaType testValidMediaType]' started.
+Test Case '-[KituraTests.TestMediaType testValidMediaType]' passed (0.000 seconds).
+Test Suite 'TestMediaType' passed at 2019-01-19 00:10:10.777.
+     Executed 10 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'TestMultiplicity' started at 2019-01-19 00:10:10.777
+Test Case '-[KituraTests.TestMultiplicity testCombined]' started.
+Test Case '-[KituraTests.TestMultiplicity testCombined]' passed (0.148 seconds).
+Test Case '-[KituraTests.TestMultiplicity testPlus]' started.
+Test Case '-[KituraTests.TestMultiplicity testPlus]' passed (0.151 seconds).
+Test Case '-[KituraTests.TestMultiplicity testQuestion]' started.
+Test Case '-[KituraTests.TestMultiplicity testQuestion]' passed (0.146 seconds).
+Test Case '-[KituraTests.TestMultiplicity testStar]' started.
+Test Case '-[KituraTests.TestMultiplicity testStar]' passed (0.149 seconds).
+Test Suite 'TestMultiplicity' passed at 2019-01-19 00:10:11.371.
+     Executed 4 tests, with 0 failures (0 unexpected) in 0.593 (0.594) seconds
+Test Suite 'TestRangeHeaderDataExtensions' started at 2019-01-19 00:10:11.371
+Test Case '-[KituraTests.TestRangeHeaderDataExtensions testPartialDataRead]' started.
+Test Case '-[KituraTests.TestRangeHeaderDataExtensions testPartialDataRead]' passed (0.008 seconds).
+Test Case '-[KituraTests.TestRangeHeaderDataExtensions testPartialDataReadEntireFile]' started.
+Test Case '-[KituraTests.TestRangeHeaderDataExtensions testPartialDataReadEntireFile]' passed (0.002 seconds).
+Test Case '-[KituraTests.TestRangeHeaderDataExtensions testPartialDataReadWithErrorFileNotFound]' started.
+Test Case '-[KituraTests.TestRangeHeaderDataExtensions testPartialDataReadWithErrorFileNotFound]' passed (0.002 seconds).
+Test Suite 'TestRangeHeaderDataExtensions' passed at 2019-01-19 00:10:11.383.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.011 (0.012) seconds
+Test Suite 'TestRangeHeaderParser' started at 2019-01-19 00:10:11.383
+Test Case '-[KituraTests.TestRangeHeaderParser testIsBytesRangeHeader]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testIsBytesRangeHeader]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testParseString]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testParseString]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testReturnNilOnInvalidNonDigitsRanges]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testReturnNilOnInvalidNonDigitsRanges]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testReturnNilOnInvalidRanges]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testReturnNilOnInvalidRanges]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testReturnNilOnMalformedHeader]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testReturnNilOnMalformedHeader]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldCapEndAtSize]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldCapEndAtSize]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldCombineOverlappingRanges]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldCombineOverlappingRanges]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldCombineOverlappingRangesAndRetainOriginalOrder]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldCombineOverlappingRangesAndRetainOriginalOrder]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseNonBytesRange]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseNonBytesRange]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseNormalString]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseNormalString]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringAskingForLastByte]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringAskingForLastByte]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringWithBytesEqualZeroZero]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringWithBytesEqualZeroZero]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringWithMultipleRanges]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringWithMultipleRanges]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringWithOnlyEnd]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringWithOnlyEnd]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringWithOnlyStart]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringWithOnlyStart]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringWithSomeInvalidRanges]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseStringWithSomeInvalidRanges]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseWithStartBytesEqualtToZero]' started.
+Test Case '-[KituraTests.TestRangeHeaderParser testShouldParseWithStartBytesEqualtToZero]' passed (0.000 seconds).
+Test Suite 'TestRangeHeaderParser' passed at 2019-01-19 00:10:11.388.
+     Executed 17 tests, with 0 failures (0 unexpected) in 0.005 (0.005) seconds
+Test Suite 'TestRequests' started at 2019-01-19 00:10:11.388
+Test Case '-[KituraTests.TestRequests testCustomMiddlewareURLParameter]' started.
+Test Case '-[KituraTests.TestRequests testCustomMiddlewareURLParameter]' passed (0.051 seconds).
+Test Case '-[KituraTests.TestRequests testCustomMiddlewareURLParameterWithQueryParam]' started.
+Test Case '-[KituraTests.TestRequests testCustomMiddlewareURLParameterWithQueryParam]' passed (0.052 seconds).
+Test Case '-[KituraTests.TestRequests testMultipleParametersMultipleHandlers]' started.
+Test Case '-[KituraTests.TestRequests testMultipleParametersMultipleHandlers]' passed (0.098 seconds).
+Test Case '-[KituraTests.TestRequests testOneParameterMultipleHandlers]' started.
+Test Case '-[KituraTests.TestRequests testOneParameterMultipleHandlers]' passed (0.053 seconds).
+Test Case '-[KituraTests.TestRequests testParameterExit]' started.
+Test Case '-[KituraTests.TestRequests testParameterExit]' passed (0.097 seconds).
+Test Case '-[KituraTests.TestRequests testParameters]' started.
+Test Case '-[KituraTests.TestRequests testParameters]' passed (0.097 seconds).
+Test Case '-[KituraTests.TestRequests testQueryParameters]' started.
+Test Case '-[KituraTests.TestRequests testQueryParameters]' passed (0.111 seconds).
+Test Case '-[KituraTests.TestRequests testRouteParameters]' started.
+Test Case '-[KituraTests.TestRequests testRouteParameters]' passed (0.053 seconds).
+Test Suite 'TestRequests' passed at 2019-01-19 00:10:12.000.
+     Executed 8 tests, with 0 failures (0 unexpected) in 0.611 (0.612) seconds
+Test Suite 'TestResponse' started at 2019-01-19 00:10:12.000
+Test Case '-[KituraTests.TestResponse testAcceptEncodingTypes]' started.
+Test Case '-[KituraTests.TestResponse testAcceptEncodingTypes]' passed (0.100 seconds).
+Test Case '-[KituraTests.TestResponse testAcceptTypes]' started.
+Test Case '-[KituraTests.TestResponse testAcceptTypes]' passed (0.105 seconds).
+Test Case '-[KituraTests.TestResponse testChangeStatusCodeOnInvokedSend]' started.
+Test Case '-[KituraTests.TestResponse testChangeStatusCodeOnInvokedSend]' passed (0.100 seconds).
+Test Case '-[KituraTests.TestResponse testEmptyHandler]' started.
+Test Case '-[KituraTests.TestResponse testEmptyHandler]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestResponse testErrorHandler]' started.
+Test Case '-[KituraTests.TestResponse testErrorHandler]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestResponse testFormat]' started.
+Test Case '-[KituraTests.TestResponse testFormat]' passed (0.150 seconds).
+Test Case '-[KituraTests.TestResponse testHeaderModifiers]' started.
+Test Case '-[KituraTests.TestResponse testHeaderModifiers]' passed (0.058 seconds).
+Test Case '-[KituraTests.TestResponse testJsonp]' started.
+Test Case '-[KituraTests.TestResponse testJsonp]' passed (0.250 seconds).
+Test Case '-[KituraTests.TestResponse testLargeGet]' started.
+Test Case '-[KituraTests.TestResponse testLargeGet]' passed (0.089 seconds).
+Test Case '-[KituraTests.TestResponse testLargePost]' started.
+Test Case '-[KituraTests.TestResponse testLargePost]' passed (2.146 seconds).
+Test Case '-[KituraTests.TestResponse testLifecycle]' started.
+Test Case '-[KituraTests.TestResponse testLifecycle]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestResponse testLink]' started.
+Test Case '-[KituraTests.TestResponse testLink]' passed (0.104 seconds).
+Test Case '-[KituraTests.TestResponse testMultipartFormParsing]' started.
+Test Case '-[KituraTests.TestResponse testMultipartFormParsing]' passed (0.207 seconds).
+Test Case '-[KituraTests.TestResponse testOptionalStringNilResponse]' started.
+Test Case '-[KituraTests.TestResponse testOptionalStringNilResponse]' passed (0.053 seconds).
+Test Case '-[KituraTests.TestResponse testOptionalStringResponse]' started.
+Test Case '-[KituraTests.TestResponse testOptionalStringResponse]' passed (0.055 seconds).
+Test Case '-[KituraTests.TestResponse testParameters]' started.
+Test Case '-[KituraTests.TestResponse testParameters]' passed (0.048 seconds).
+Test Case '-[KituraTests.TestResponse testParametersPercent20InPath]' started.
+Test Case '-[KituraTests.TestResponse testParametersPercent20InPath]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestResponse testParametersPercent20InQuery]' started.
+Test Case '-[KituraTests.TestResponse testParametersPercent20InQuery]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestResponse testParametersPercentageEncoding]' started.
+Test Case '-[KituraTests.TestResponse testParametersPercentageEncoding]' passed (0.046 seconds).
+Test Case '-[KituraTests.TestResponse testParametersPlusInPath]' started.
+Test Case '-[KituraTests.TestResponse testParametersPlusInPath]' passed (0.052 seconds).
+Test Case '-[KituraTests.TestResponse testParametersPlusInQuery]' started.
+Test Case '-[KituraTests.TestResponse testParametersPlusInQuery]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestResponse testPostJSONRequest]' started.
+Test Case '-[KituraTests.TestResponse testPostJSONRequest]' passed (0.054 seconds).
+Test Case '-[KituraTests.TestResponse testPostRequest]' started.
+Test Case '-[KituraTests.TestResponse testPostRequest]' passed (0.054 seconds).
+Test Case '-[KituraTests.TestResponse testPostRequestTheHardWay]' started.
+Test Case '-[KituraTests.TestResponse testPostRequestTheHardWay]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestResponse testPostRequestUrlEncoded]' started.
+Test Case '-[KituraTests.TestResponse testPostRequestUrlEncoded]' passed (0.157 seconds).
+Test Case '-[KituraTests.TestResponse testPostRequestWithDoubleBodyParser]' started.
+Test Case '-[KituraTests.TestResponse testPostRequestWithDoubleBodyParser]' passed (0.048 seconds).
+Test Case '-[KituraTests.TestResponse testRawDataPost]' started.
+Test Case '-[KituraTests.TestResponse testRawDataPost]' passed (2.061 seconds).
+Test Case '-[KituraTests.TestResponse testRedirect]' started.
+Test Case '-[KituraTests.TestResponse testRedirect]' passed (0.094 seconds).
+Test Case '-[KituraTests.TestResponse testResponseNoEndOrNext]' started.
+Test Case '-[KituraTests.TestResponse testResponseNoEndOrNext]' passed (0.053 seconds).
+Test Case '-[KituraTests.TestResponse testRouteFunc]' started.
+Test Case '-[KituraTests.TestResponse testRouteFunc]' passed (0.107 seconds).
+Test Case '-[KituraTests.TestResponse testSend]' started.
+Test Case '-[KituraTests.TestResponse testSend]' passed (0.370 seconds).
+Test Case '-[KituraTests.TestResponse testSendAfterEnd]' started.
+Test Case '-[KituraTests.TestResponse testSendAfterEnd]' passed (0.051 seconds).
+Test Case '-[KituraTests.TestResponse testSimpleResponse]' started.
+Test Case '-[KituraTests.TestResponse testSimpleResponse]' passed (0.049 seconds).
+Test Case '-[KituraTests.TestResponse testSubdomains]' started.
+Test Case '-[KituraTests.TestResponse testSubdomains]' passed (0.155 seconds).
+Test Case '-[KituraTests.TestResponse testUserInfo]' started.
+Test Case '-[KituraTests.TestResponse testUserInfo]' passed (0.050 seconds).
+Test Suite 'TestResponse' passed at 2019-01-19 00:10:19.219.
+     Executed 35 tests, with 0 failures (0 unexpected) in 7.217 (7.219) seconds
+Test Suite 'TestRouteRegex' started at 2019-01-19 00:10:19.219
+Test Case '-[KituraTests.TestRouteRegex testBuildRegexFromPattern]' started.
+Test Case '-[KituraTests.TestRouteRegex testBuildRegexFromPattern]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestRouteRegex testCustomMatchesWithModifiers]' started.
+Test Case '-[KituraTests.TestRouteRegex testCustomMatchesWithModifiers]' passed (1.102 seconds).
+Test Case '-[KituraTests.TestRouteRegex testRouteWithPercentEncoding]' started.
+Test Case '-[KituraTests.TestRouteRegex testRouteWithPercentEncoding]' passed (0.051 seconds).
+Test Case '-[KituraTests.TestRouteRegex testSimpleCustomMatches]' started.
+Test Case '-[KituraTests.TestRouteRegex testSimpleCustomMatches]' passed (0.199 seconds).
+Test Case '-[KituraTests.TestRouteRegex testSimpleMatches]' started.
+Test Case '-[KituraTests.TestRouteRegex testSimpleMatches]' passed (0.254 seconds).
+Test Case '-[KituraTests.TestRouteRegex testSimpleModifiers]' started.
+Test Case '-[KituraTests.TestRouteRegex testSimpleModifiers]' passed (0.786 seconds).
+Test Case '-[KituraTests.TestRouteRegex testSimplePaths]' started.
+Test Case '-[KituraTests.TestRouteRegex testSimplePaths]' passed (0.393 seconds).
+Test Suite 'TestRouteRegex' passed at 2019-01-19 00:10:22.005.
+     Executed 7 tests, with 0 failures (0 unexpected) in 2.785 (2.786) seconds
+Test Suite 'TestRouterHTTPVerbsGenerated' started at 2019-01-19 00:10:22.005
+Test Case '-[KituraTests.TestRouterHTTPVerbsGenerated testFirstTypeVerbsAdded]' started.
+Test Case '-[KituraTests.TestRouterHTTPVerbsGenerated testFirstTypeVerbsAdded]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestRouterHTTPVerbsGenerated testFourthTypeVerbsAdded]' started.
+Test Case '-[KituraTests.TestRouterHTTPVerbsGenerated testFourthTypeVerbsAdded]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestRouterHTTPVerbsGenerated testSecondTypeVerbsAdded]' started.
+Test Case '-[KituraTests.TestRouterHTTPVerbsGenerated testSecondTypeVerbsAdded]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestRouterHTTPVerbsGenerated testThirdTypeVerbsAdded]' started.
+Test Case '-[KituraTests.TestRouterHTTPVerbsGenerated testThirdTypeVerbsAdded]' passed (0.001 seconds).
+Test Suite 'TestRouterHTTPVerbsGenerated' passed at 2019-01-19 00:10:22.008.
+     Executed 4 tests, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'TestServer' started at 2019-01-19 00:10:22.009
+Test Case '-[KituraTests.TestServer testServerFail]' started.
+Test Case '-[KituraTests.TestServer testServerFail]' passed (0.040 seconds).
+Test Case '-[KituraTests.TestServer testServerRestart]' started.
+Test Case '-[KituraTests.TestServer testServerRestart]' passed (0.175 seconds).
+Test Case '-[KituraTests.TestServer testServerRun]' started.
+/Users/tib/Downloads/Kitura-master/Tests/KituraTests/TestServer.swift:116: error: -[KituraTests.TestServer testServerRun] : failed - Error code: -9992(0x-2708), Address already in use
+/Users/tib/Downloads/Kitura-master/Tests/KituraTests/TestServer.swift:144: error: -[KituraTests.TestServer testServerRun] : Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "FastCGIServer started()".
+/Users/tib/Downloads/Kitura-master/Tests/KituraTests/TestServer.swift:146: error: -[KituraTests.TestServer testServerRun] : XCTAssertNil failed: "Error Domain=com.apple.XCTestErrorDomain Code=0 "(null)"" -
+Test Case '-[KituraTests.TestServer testServerRun]' failed (10.169 seconds).
+Test Case '-[KituraTests.TestServer testServerStartStop]' started.
+/Users/tib/Downloads/Kitura-master/Tests/KituraTests/TestServer.swift:116: error: -[KituraTests.TestServer testServerStartStop] : failed - Error code: -9992(0x-2708), Address already in use
+/Users/tib/Downloads/Kitura-master/Tests/KituraTests/TestServer.swift:131: error: -[KituraTests.TestServer testServerStartStop] : Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "FastCGIServer started()", "FastCGIServer stopped()".
+/Users/tib/Downloads/Kitura-master/Tests/KituraTests/TestServer.swift:132: error: -[KituraTests.TestServer testServerStartStop] : XCTAssertNil failed: "Error Domain=com.apple.XCTestErrorDomain Code=0 "(null)"" -
+Test Case '-[KituraTests.TestServer testServerStartStop]' failed (10.008 seconds).
+Test Suite 'TestServer' failed at 2019-01-19 00:10:42.400.
+     Executed 4 tests, with 6 failures (0 unexpected) in 20.392 (20.392) seconds
+Test Suite 'TestStack' started at 2019-01-19 00:10:42.401
+Test Case '-[KituraTests.TestStack testEmpty]' started.
+Test Case '-[KituraTests.TestStack testEmpty]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestStack testPushPop]' started.
+Test Case '-[KituraTests.TestStack testPushPop]' passed (0.000 seconds).
+Test Suite 'TestStack' passed at 2019-01-19 00:10:42.401.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'TestStaticFileServer' started at 2019-01-19 00:10:42.402
+Test Case '-[KituraTests.TestStaticFileServer testAbsolutePathFunction]' started.
+Test Case '-[KituraTests.TestStaticFileServer testAbsolutePathFunction]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testAbsoluteRootPath]' started.
+Test Case '-[KituraTests.TestStaticFileServer testAbsoluteRootPath]' passed (0.000 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testDataIsNotCorrupted]' started.
+Test Case '-[KituraTests.TestStaticFileServer testDataIsNotCorrupted]' passed (0.195 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testFileServer]' started.
+Test Case '-[KituraTests.TestStaticFileServer testFileServer]' passed (0.496 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testGetDefaultResponse]' started.
+Test Case '-[KituraTests.TestStaticFileServer testGetDefaultResponse]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testGetKituraResource]' started.
+Test Case '-[KituraTests.TestStaticFileServer testGetKituraResource]' passed (0.052 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testGetMissingKituraResource]' started.
+Test Case '-[KituraTests.TestStaticFileServer testGetMissingKituraResource]' passed (0.056 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testGetTraversedFile]' started.
+Test Case '-[KituraTests.TestStaticFileServer testGetTraversedFile]' passed (0.047 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testGetTraversedFileKituraResource]' started.
+Test Case '-[KituraTests.TestStaticFileServer testGetTraversedFileKituraResource]' passed (0.047 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testGetWithSpecialCharacters]' started.
+Test Case '-[KituraTests.TestStaticFileServer testGetWithSpecialCharacters]' passed (0.052 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testGetWithSpecialCharactersEncoded]' started.
+Test Case '-[KituraTests.TestStaticFileServer testGetWithSpecialCharactersEncoded]' passed (0.051 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testGetWithWhiteSpaces]' started.
+Test Case '-[KituraTests.TestStaticFileServer testGetWithWhiteSpaces]' passed (0.051 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testParameterizedSubRouterSubFolderStaticFileServer]' started.
+Test Case '-[KituraTests.TestStaticFileServer testParameterizedSubRouterSubFolderStaticFileServer]' passed (0.089 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testParameterizedSubRouterSubFolderStaticFileServerRedirect]' started.
+Test Case '-[KituraTests.TestStaticFileServer testParameterizedSubRouterSubFolderStaticFileServerRedirect]' passed (0.118 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestIsIgnoredOnNonGetMethod]' started.
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestIsIgnoredOnNonGetMethod]' passed (0.052 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestIsIgnoredOnOptionOff]' started.
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestIsIgnoredOnOptionOff]' passed (0.053 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequests]' started.
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequests]' passed (0.052 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestsWithLargeLastBytePos]' started.
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestsWithLargeLastBytePos]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestsWithMultipleRanges]' started.
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestsWithMultipleRanges]' passed (0.056 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithIfRangeHeaderAsLastModified]' started.
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithIfRangeHeaderAsLastModified]' passed (0.099 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithIfRangeHeaderAsOldLastModified]' started.
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithIfRangeHeaderAsOldLastModified]' passed (0.050 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithIfRangeHeaderWithETag]' started.
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithIfRangeHeaderWithETag]' passed (0.117 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithIfRangeHeaderWithOldETag]' started.
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithIfRangeHeaderWithOldETag]' passed (0.055 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithNotSatisfiableRange]' started.
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithNotSatisfiableRange]' passed (0.057 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithSintacticallyInvalidRange]' started.
+Test Case '-[KituraTests.TestStaticFileServer testRangeRequestWithSintacticallyInvalidRange]' passed (0.067 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testSubRouterStaticFileServer]' started.
+Test Case '-[KituraTests.TestStaticFileServer testSubRouterStaticFileServer]' passed (0.052 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testSubRouterStaticFileServerRedirect]' started.
+Test Case '-[KituraTests.TestStaticFileServer testSubRouterStaticFileServerRedirect]' passed (0.085 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testSubRouterSubFolderStaticFileServer]' started.
+Test Case '-[KituraTests.TestStaticFileServer testSubRouterSubFolderStaticFileServer]' passed (0.052 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testSubRouterSubFolderStaticFileServerRedirect]' started.
+Test Case '-[KituraTests.TestStaticFileServer testSubRouterSubFolderStaticFileServerRedirect]' passed (0.089 seconds).
+Test Case '-[KituraTests.TestStaticFileServer testWelcomePageCanBeDisabled]' started.
+Test Case '-[KituraTests.TestStaticFileServer testWelcomePageCanBeDisabled]' passed (0.049 seconds).
+Test Suite 'TestStaticFileServer' passed at 2019-01-19 00:10:44.743.
+     Executed 30 tests, with 0 failures (0 unexpected) in 2.339 (2.342) seconds
+Test Suite 'TestSubrouter' started at 2019-01-19 00:10:44.743
+Test Case '-[KituraTests.TestSubrouter testExternSub]' started.
+Test Case '-[KituraTests.TestSubrouter testExternSub]' passed (0.100 seconds).
+Test Case '-[KituraTests.TestSubrouter testMergeParams]' started.
+Test Case '-[KituraTests.TestSubrouter testMergeParams]' passed (0.155 seconds).
+Test Case '-[KituraTests.TestSubrouter testMultipleMiddleware]' started.
+Test Case '-[KituraTests.TestSubrouter testMultipleMiddleware]' passed (0.051 seconds).
+Test Case '-[KituraTests.TestSubrouter testSimpleSub]' started.
+Test Case '-[KituraTests.TestSubrouter testSimpleSub]' passed (0.097 seconds).
+Test Case '-[KituraTests.TestSubrouter testSubSubs]' started.
+Test Case '-[KituraTests.TestSubrouter testSubSubs]' passed (0.099 seconds).
+Test Suite 'TestSubrouter' passed at 2019-01-19 00:10:45.246.
+     Executed 5 tests, with 0 failures (0 unexpected) in 0.502 (0.503) seconds
+Test Suite 'TestSwaggerGeneration' started at 2019-01-19 00:10:45.246
+Test Case '-[KituraTests.TestSwaggerGeneration testArrayReturnTypes]' started.
+Test Case '-[KituraTests.TestSwaggerGeneration testArrayReturnTypes]' passed (0.101 seconds).
+Test Case '-[KituraTests.TestSwaggerGeneration testBasePath]' started.
+Test Case '-[KituraTests.TestSwaggerGeneration testBasePath]' passed (0.095 seconds).
+Test Case '-[KituraTests.TestSwaggerGeneration testInfo]' started.
+Test Case '-[KituraTests.TestSwaggerGeneration testInfo]' passed (0.095 seconds).
+Test Case '-[KituraTests.TestSwaggerGeneration testInputTypesModelled]' started.
+Test Case '-[KituraTests.TestSwaggerGeneration testInputTypesModelled]' passed (0.172 seconds).
+Test Case '-[KituraTests.TestSwaggerGeneration testNestedTypesModelled]' started.
+Test Case '-[KituraTests.TestSwaggerGeneration testNestedTypesModelled]' passed (0.100 seconds).
+Test Case '-[KituraTests.TestSwaggerGeneration testSwaggerContent]' started.
+Test Case '-[KituraTests.TestSwaggerGeneration testSwaggerContent]' passed (0.100 seconds).
+Test Case '-[KituraTests.TestSwaggerGeneration testSwaggerDefinitions]' started.
+Test Case '-[KituraTests.TestSwaggerGeneration testSwaggerDefinitions]' passed (0.102 seconds).
+Test Case '-[KituraTests.TestSwaggerGeneration testSwaggerQueryParams]' started.
+Test Case '-[KituraTests.TestSwaggerGeneration testSwaggerQueryParams]' passed (0.104 seconds).
+Test Case '-[KituraTests.TestSwaggerGeneration testSwaggerVersion]' started.
+Test Case '-[KituraTests.TestSwaggerGeneration testSwaggerVersion]' passed (0.121 seconds).
+Test Suite 'TestSwaggerGeneration' passed at 2019-01-19 00:10:46.236.
+     Executed 9 tests, with 0 failures (0 unexpected) in 0.989 (0.990) seconds
+Test Suite 'TestTemplateEngine' started at 2019-01-19 00:10:46.236
+Test Case '-[KituraTests.TestTemplateEngine testAddWithFileExtensions]' started.
+Test Case '-[KituraTests.TestTemplateEngine testAddWithFileExtensions]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testAddWithFileExtensionsWithoutTheDefaultOne]' started.
+Test Case '-[KituraTests.TestTemplateEngine testAddWithFileExtensionsWithoutTheDefaultOne]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testCodableAddWithFileExtensions]' started.
+Test Case '-[KituraTests.TestTemplateEngine testCodableAddWithFileExtensions]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testCodableAddWithFileExtensionsWithoutTheDefaultOne]' started.
+Test Case '-[KituraTests.TestTemplateEngine testCodableAddWithFileExtensionsWithoutTheDefaultOne]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testCodableRender]' started.
+Test Case '-[KituraTests.TestTemplateEngine testCodableRender]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithExtensionAndWithoutDefaultTemplateEngine]' started.
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithExtensionAndWithoutDefaultTemplateEngine]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithExtensionAndWithoutDefaultTemplateEngineAfterSettingViewsPath]' started.
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithExtensionAndWithoutDefaultTemplateEngineAfterSettingViewsPath]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithOptionsWithServer]' started.
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithOptionsWithServer]' passed (0.052 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithServer]' started.
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithServer]' passed (0.051 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithServerAndSubRouter]' started.
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithServerAndSubRouter]' passed (0.053 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithTuple]' started.
+Test Case '-[KituraTests.TestTemplateEngine testCodableRenderWithTuple]' passed (0.051 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testEmptyTemplateName]' started.
+Test Case '-[KituraTests.TestTemplateEngine testEmptyTemplateName]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testEmptyTemplateNameCodable]' started.
+Test Case '-[KituraTests.TestTemplateEngine testEmptyTemplateNameCodable]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testMissingExtension]' started.
+Test Case '-[KituraTests.TestTemplateEngine testMissingExtension]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testMissingExtensionCodable]' started.
+Test Case '-[KituraTests.TestTemplateEngine testMissingExtensionCodable]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testNoDefaultEngine]' started.
+Test Case '-[KituraTests.TestTemplateEngine testNoDefaultEngine]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testNoDefaultEngineCodable]' started.
+Test Case '-[KituraTests.TestTemplateEngine testNoDefaultEngineCodable]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testRender]' started.
+Test Case '-[KituraTests.TestTemplateEngine testRender]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testRenderWithExtensionAndWithoutDefaultTemplateEngine]' started.
+Test Case '-[KituraTests.TestTemplateEngine testRenderWithExtensionAndWithoutDefaultTemplateEngine]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testRenderWithExtensionAndWithoutDefaultTemplateEngineAfterSettingViewsPath]' started.
+Test Case '-[KituraTests.TestTemplateEngine testRenderWithExtensionAndWithoutDefaultTemplateEngineAfterSettingViewsPath]' passed (0.001 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testRenderWithOptionsWithServer]' started.
+Test Case '-[KituraTests.TestTemplateEngine testRenderWithOptionsWithServer]' passed (0.052 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testRenderWithServer]' started.
+Test Case '-[KituraTests.TestTemplateEngine testRenderWithServer]' passed (0.054 seconds).
+Test Case '-[KituraTests.TestTemplateEngine testRenderWithServerAndSubRouter]' started.
+Test Case '-[KituraTests.TestTemplateEngine testRenderWithServerAndSubRouter]' passed (0.051 seconds).
+Test Suite 'TestTemplateEngine' passed at 2019-01-19 00:10:46.614.
+     Executed 23 tests, with 0 failures (0 unexpected) in 0.377 (0.378) seconds
+Test Suite 'TestTypeSafeMiddleware' started at 2019-01-19 00:10:46.614
+Test Case '-[KituraTests.TestTypeSafeMiddleware testCustomCoder]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testCustomCoder]' passed (4.240 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testCustomCoderGet]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testCustomCoderGet]' passed (0.294 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMiddlewareLogging]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMiddlewareLogging]' passed (0.059 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareDelete]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareDelete]' passed (0.163 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareDeleteIdentifier]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareDeleteIdentifier]' passed (0.164 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareDeleteOptionalParameters]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareDeleteOptionalParameters]' passed (0.115 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareDeleteParameters]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareDeleteParameters]' passed (0.159 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetArray]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetArray]' passed (0.153 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetArrayOptionalParameters]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetArrayOptionalParameters]' passed (0.163 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetArrayParameters]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetArrayParameters]' passed (0.158 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetIdentifier]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetIdentifier]' passed (0.156 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetIdentifierCodableArray]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetIdentifierCodableArray]' passed (0.153 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetSingleton]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetSingleton]' passed (0.155 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetSingletonParameters]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewareGetSingletonParameters]' passed (0.161 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewarePatch]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewarePatch]' passed (6.187 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewarePost]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewarePost]' passed (0.159 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewarePostIdentifier]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewarePostIdentifier]' passed (0.156 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewarePut]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testMultipleMiddlewarePut]' passed (6.181 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareDelete]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareDelete]' passed (0.113 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareDeleteIdentifier]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareDeleteIdentifier]' passed (0.102 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareDeleteOptionalParameters]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareDeleteOptionalParameters]' passed (0.113 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareDeleteParameters]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareDeleteParameters]' passed (0.112 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetArray]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetArray]' passed (0.104 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetArrayOptionalParameters]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetArrayOptionalParameters]' passed (0.154 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetArrayParameters]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetArrayParameters]' passed (0.112 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetIdentifier]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetIdentifier]' passed (0.104 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetIdentifierCodableArray]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetIdentifierCodableArray]' passed (0.106 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetSingleton]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetSingleton]' passed (0.104 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetSingletonParameters]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewareGetSingletonParameters]' passed (0.115 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewarePatch]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewarePatch]' passed (4.127 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewarePost]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewarePost]' passed (0.110 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewarePostIdentifier]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewarePostIdentifier]' passed (0.108 seconds).
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewarePut]' started.
+Test Case '-[KituraTests.TestTypeSafeMiddleware testSingleMiddlewarePut]' passed (4.133 seconds).
+Test Suite 'TestTypeSafeMiddleware' passed at 2019-01-19 00:11:15.308.
+     Executed 33 tests, with 0 failures (0 unexpected) in 28.692 (28.694) seconds
+Test Suite 'KituraPackageTests.xctest' failed at 2019-01-19 00:11:15.308.
+     Executed 241 tests, with 6 failures (0 unexpected) in 102.133 (102.152) seconds
+Test Suite 'All tests' failed at 2019-01-19 00:11:15.309.
+     Executed 241 tests, with 6 failures (0 unexpected) in 102.133 (102.153) seconds

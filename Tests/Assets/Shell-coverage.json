@@ -1,0 +1,1938 @@
+{
+    "version": "2.0.0",
+    "type": "llvm.coverage.json.export",
+    "data": [
+        {
+            "files": [
+                {
+                    "filename": "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift",
+                    "segments": [
+                        [
+                            19,
+                            45,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            21, //line number
+                            9,  // number of calls?
+                            0,  //actually called
+                            1,
+                            1
+                        ],
+                        [
+                            22,
+                            52,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            23,
+                            9,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            24,
+                            47,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            25,
+                            10,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            26,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            33,
+                            26,
+                            2,
+                            1,
+                            1
+                        ],
+                        [
+                            35,
+                            13,
+                            2,
+                            1,
+                            1
+                        ],
+                        [
+                            35,
+                            46,
+                            2,
+                            1,
+                            0
+                        ],
+                        [
+                            36,
+                            13,
+                            2,
+                            1,
+                            1
+                        ],
+                        [
+                            36,
+                            46,
+                            2,
+                            1,
+                            0
+                        ],
+                        [
+                            37,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            52,
+                            16,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            54,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            59,
+                            38,
+                            16358,
+                            1,
+                            1
+                        ],
+                        [
+                            61,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            63,
+                            23,
+                            2,
+                            1,
+                            1
+                        ],
+                        [
+                            64,
+                            37,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            66,
+                            10,
+                            2,
+                            1,
+                            1
+                        ],
+                        [
+                            68,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            100,
+                            74,
+                            6,
+                            1,
+                            1
+                        ],
+                        [
+                            104,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            120,
+                            57,
+                            6,
+                            1,
+                            1
+                        ],
+                        [
+                            125,
+                            30,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            130,
+                            10,
+                            6,
+                            1,
+                            1
+                        ],
+                        [
+                            141,
+                            62,
+                            45264,
+                            1,
+                            1
+                        ],
+                        [
+                            143,
+                            34,
+                            45264,
+                            1,
+                            1
+                        ],
+                        [
+                            146,
+                            14,
+                            45264,
+                            1,
+                            0
+                        ],
+                        [
+                            147,
+                            10,
+                            6,
+                            1,
+                            0
+                        ],
+                        [
+                            148,
+                            61,
+                            45333,
+                            1,
+                            1
+                        ],
+                        [
+                            150,
+                            34,
+                            45333,
+                            1,
+                            1
+                        ],
+                        [
+                            153,
+                            14,
+                            45333,
+                            1,
+                            0
+                        ],
+                        [
+                            154,
+                            10,
+                            6,
+                            1,
+                            0
+                        ],
+                        [
+                            176,
+                            40,
+                            6,
+                            1,
+                            1
+                        ],
+                        [
+                            177,
+                            55,
+                            2,
+                            1,
+                            1
+                        ],
+                        [
+                            179,
+                            73,
+                            2,
+                            1,
+                            1
+                        ],
+                        [
+                            181,
+                            18,
+                            2,
+                            1,
+                            1
+                        ],
+                        [
+                            182,
+                            82,
+                            2,
+                            1,
+                            0
+                        ],
+                        [
+                            183,
+                            14,
+                            4,
+                            1,
+                            1
+                        ],
+                        [
+                            184,
+                            79,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            186,
+                            14,
+                            4,
+                            1,
+                            1
+                        ],
+                        [
+                            187,
+                            60,
+                            4,
+                            1,
+                            0
+                        ],
+                        [
+                            188,
+                            10,
+                            6,
+                            1,
+                            0
+                        ],
+                        [
+                            189,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            200,
+                            91,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            202,
+                            21,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            203,
+                            16,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            206,
+                            14,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            207,
+                            19,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            209,
+                            14,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            210,
+                            10,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            211,
+                            6,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "expansions": [],
+                    "summary": {
+                        "lines": {
+                            "count": 158,
+                            "covered": 151,
+                            "percent": 95
+                        },
+                        "functions": {
+                            "count": 16,
+                            "covered": 15,
+                            "percent": 93
+                        },
+                        "instantiations": {
+                            "count": 16,
+                            "covered": 15,
+                            "percent": 93
+                        },
+                        "regions": {
+                            "count": 32,
+                            "covered": 27,
+                            "notcovered": 5,
+                            "percent": 84
+                        }
+                    }
+                },
+                {
+                    "filename": "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift",
+                    "segments": [
+                        [
+                            24,
+                            63,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            26,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            28,
+                            77,
+                            7,
+                            1,
+                            1
+                        ],
+                        [
+                            29,
+                            24,
+                            7,
+                            1,
+                            1
+                        ],
+                        [
+                            29,
+                            30,
+                            7,
+                            1,
+                            0
+                        ],
+                        [
+                            29,
+                            32,
+                            7,
+                            1,
+                            1
+                        ],
+                        [
+                            29,
+                            40,
+                            7,
+                            1,
+                            0
+                        ],
+                        [
+                            29,
+                            42,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            29,
+                            96,
+                            7,
+                            1,
+                            0
+                        ],
+                        [
+                            30,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            34,
+                            30,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            38,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            40,
+                            22,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            41,
+                            12,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            44,
+                            10,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            45,
+                            39,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            51,
+                            13,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            52,
+                            35,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            52,
+                            39,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            52,
+                            41,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            52,
+                            42,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            52,
+                            44,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            52,
+                            75,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            53,
+                            13,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            54,
+                            88,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            55,
+                            14,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            56,
+                            10,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            57,
+                            15,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            59,
+                            10,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            60,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            62,
+                            35,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            69,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            72,
+                            37,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            79,
+                            118,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            81,
+                            10,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            84,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            86,
+                            36,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            91,
+                            12,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            93,
+                            10,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            94,
+                            39,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            96,
+                            13,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            98,
+                            90,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            100,
+                            18,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            101,
+                            35,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            101,
+                            39,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            101,
+                            41,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            101,
+                            42,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            101,
+                            44,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            101,
+                            75,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            103,
+                            13,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            104,
+                            88,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            105,
+                            14,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            106,
+                            10,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            107,
+                            15,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            109,
+                            10,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            110,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            112,
+                            25,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            118,
+                            30,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            119,
+                            34,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            121,
+                            14,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            122,
+                            44,
+                            0,
+                            1,
+                            1
+                        ],
+                        [
+                            124,
+                            14,
+                            1,
+                            1,
+                            1
+                        ],
+                        [
+                            127,
+                            10,
+                            1,
+                            1,
+                            0
+                        ],
+                        [
+                            129,
+                            6,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "expansions": [],
+                    "summary": {
+                        "lines": {
+                            "count": 115,
+                            "covered": 101,
+                            "percent": 87
+                        },
+                        "functions": {
+                            "count": 18,
+                            "covered": 14,
+                            "percent": 77
+                        },
+                        "instantiations": {
+                            "count": 18,
+                            "covered": 14,
+                            "percent": 77
+                        },
+                        "regions": {
+                            "count": 40,
+                            "covered": 28,
+                            "notcovered": 12,
+                            "percent": 70
+                        }
+                    }
+                }
+            ],
+            "functions": [
+                {
+                    "name": "$s5Shell0A5ErrorO20localizedDescriptionSSvg",
+                    "count": 1,
+                    "regions": [
+                        [
+                            19,
+                            45,
+                            26,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            21,
+                            9,
+                            22,
+                            52,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            23,
+                            9,
+                            24,
+                            47,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            25,
+                            10,
+                            26,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$sSo12NSFileHandleC5ShellE10isStandard33_95DBF62DDAC341142027A00D3F629766LLSbvg",
+                    "count": 2,
+                    "regions": [
+                        [
+                            33,
+                            26,
+                            37,
+                            6,
+                            2,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$sSo12NSFileHandleC5ShellE10isStandard33_95DBF62DDAC341142027A00D3F629766LLSbvgSbyKXEfu_",
+                    "count": 2,
+                    "regions": [
+                        [
+                            35,
+                            13,
+                            35,
+                            46,
+                            2,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$sSo12NSFileHandleC5ShellE10isStandard33_95DBF62DDAC341142027A00D3F629766LLSbvgSbyKXEfu0_",
+                    "count": 2,
+                    "regions": [
+                        [
+                            36,
+                            13,
+                            36,
+                            46,
+                            2,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$s5Shell0A11DataHandlerPAAE3endyyF",
+                    "count": 0,
+                    "regions": [
+                        [
+                            52,
+                            16,
+                            54,
+                            6,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$sSo12NSFileHandleC5ShellE6handleyy10Foundation4DataVF",
+                    "count": 16358,
+                    "regions": [
+                        [
+                            59,
+                            38,
+                            61,
+                            6,
+                            16358,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$sSo12NSFileHandleC5ShellE3endyyF",
+                    "count": 2,
+                    "regions": [
+                        [
+                            63,
+                            23,
+                            68,
+                            6,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            64,
+                            37,
+                            66,
+                            10,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            66,
+                            10,
+                            68,
+                            6,
+                            2,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "__ntd_Shell_line:73:6",
+                    "count": 6,
+                    "regions": [
+                        [
+                            100,
+                            74,
+                            104,
+                            6,
+                            6,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$s5ShellAAC3runyS2SKF",
+                    "count": 6,
+                    "regions": [
+                        [
+                            120,
+                            57,
+                            189,
+                            6,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            125,
+                            30,
+                            130,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            130,
+                            10,
+                            188,
+                            10,
+                            6,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$s5ShellAAC3runyS2SKFySo12NSFileHandleCcfU0_",
+                    "count": 45264,
+                    "regions": [
+                        [
+                            141,
+                            62,
+                            147,
+                            10,
+                            45264,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$s5ShellAAC3runyS2SKFySo12NSFileHandleCcfU0_yycfU_",
+                    "count": 45264,
+                    "regions": [
+                        [
+                            143,
+                            34,
+                            146,
+                            14,
+                            45264,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$s5ShellAAC3runyS2SKFySo12NSFileHandleCcfU1_",
+                    "count": 45333,
+                    "regions": [
+                        [
+                            148,
+                            61,
+                            154,
+                            10,
+                            45333,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$s5ShellAAC3runyS2SKFySo12NSFileHandleCcfU1_yycfU_",
+                    "count": 45333,
+                    "regions": [
+                        [
+                            150,
+                            34,
+                            153,
+                            14,
+                            45333,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$s5ShellAAC3runyS2SKFSSyKXEfU3_",
+                    "count": 6,
+                    "regions": [
+                        [
+                            176,
+                            40,
+                            188,
+                            10,
+                            6,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            177,
+                            55,
+                            183,
+                            14,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            179,
+                            73,
+                            181,
+                            18,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            181,
+                            18,
+                            182,
+                            82,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            183,
+                            14,
+                            188,
+                            10,
+                            4,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            184,
+                            79,
+                            186,
+                            14,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            186,
+                            14,
+                            187,
+                            60,
+                            4,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$s5ShellAAC3run_10completionySS_ySSSg_s5Error_pSgtctF",
+                    "count": 1,
+                    "regions": [
+                        [
+                            200,
+                            91,
+                            211,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$s5ShellAAC3run_10completionySS_ySSSg_s5Error_pSgtctFyycfU_",
+                    "count": 1,
+                    "regions": [
+                        [
+                            202,
+                            21,
+                            210,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            203,
+                            16,
+                            206,
+                            14,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            207,
+                            19,
+                            209,
+                            14,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            209,
+                            14,
+                            210,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Sources/Shell/Shell.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC7invalid33_21DCF8B7C6CAF9D6CD4B2CD5C23C2B34LL5error8expectedys5Error_p_SStF",
+                    "count": 0,
+                    "regions": [
+                        [
+                            24,
+                            63,
+                            26,
+                            6,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC6assert33_21DCF8B7C6CAF9D6CD4B2CD5C23C2B34LL4type6result8expectedySS_xxtSQRzlF",
+                    "count": 7,
+                    "regions": [
+                        [
+                            28,
+                            77,
+                            30,
+                            6,
+                            7,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC6assert33_21DCF8B7C6CAF9D6CD4B2CD5C23C2B34LL4type6result8expectedySS_xxtSQRzlFxyKXEfu_",
+                    "count": 7,
+                    "regions": [
+                        [
+                            29,
+                            24,
+                            29,
+                            30,
+                            7,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC6assert33_21DCF8B7C6CAF9D6CD4B2CD5C23C2B34LL4type6result8expectedySS_xxtSQRzlFxyKXEfu0_",
+                    "count": 7,
+                    "regions": [
+                        [
+                            29,
+                            32,
+                            29,
+                            40,
+                            7,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC6assert33_21DCF8B7C6CAF9D6CD4B2CD5C23C2B34LL4type6result8expectedySS_xxtSQRzlFSSyXEfu1_",
+                    "count": 0,
+                    "regions": [
+                        [
+                            29,
+                            42,
+                            29,
+                            96,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC10testOutputyyKF",
+                    "count": 1,
+                    "regions": [
+                        [
+                            34,
+                            30,
+                            38,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC9testErroryyF",
+                    "count": 1,
+                    "regions": [
+                        [
+                            40,
+                            22,
+                            60,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            41,
+                            12,
+                            44,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            45,
+                            39,
+                            56,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            51,
+                            13,
+                            52,
+                            76,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            53,
+                            13,
+                            54,
+                            88,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            55,
+                            14,
+                            56,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            57,
+                            15,
+                            59,
+                            10,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            59,
+                            10,
+                            60,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC9testErroryyFSiyKXEfu_",
+                    "count": 1,
+                    "regions": [
+                        [
+                            52,
+                            35,
+                            52,
+                            39,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC9testErroryyFSiyKXEfu0_",
+                    "count": 1,
+                    "regions": [
+                        [
+                            52,
+                            41,
+                            52,
+                            42,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC9testErroryyFSSyXEfu1_",
+                    "count": 0,
+                    "regions": [
+                        [
+                            52,
+                            44,
+                            52,
+                            75,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC15testEnvironmentyyKF",
+                    "count": 1,
+                    "regions": [
+                        [
+                            62,
+                            35,
+                            69,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC17testOutputHandleryyKF",
+                    "count": 1,
+                    "regions": [
+                        [
+                            72,
+                            37,
+                            84,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            79,
+                            118,
+                            81,
+                            10,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            81,
+                            10,
+                            84,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC16testErrorHandleryyKF",
+                    "count": 1,
+                    "regions": [
+                        [
+                            86,
+                            36,
+                            110,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            91,
+                            12,
+                            93,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            94,
+                            39,
+                            106,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            96,
+                            13,
+                            102,
+                            120,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            98,
+                            90,
+                            100,
+                            18,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            100,
+                            18,
+                            102,
+                            120,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            103,
+                            13,
+                            104,
+                            88,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            105,
+                            14,
+                            106,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            107,
+                            15,
+                            109,
+                            10,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            109,
+                            10,
+                            110,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC16testErrorHandleryyKFSiyKXEfu_",
+                    "count": 1,
+                    "regions": [
+                        [
+                            101,
+                            35,
+                            101,
+                            39,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC16testErrorHandleryyKFSiyKXEfu0_",
+                    "count": 1,
+                    "regions": [
+                        [
+                            101,
+                            41,
+                            101,
+                            42,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC16testErrorHandleryyKFSSyXEfu1_",
+                    "count": 0,
+                    "regions": [
+                        [
+                            101,
+                            44,
+                            101,
+                            75,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC12testAsyncRunyyF",
+                    "count": 1,
+                    "regions": [
+                        [
+                            112,
+                            25,
+                            129,
+                            6,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                },
+                {
+                    "name": "$s10ShellTestsAAC12testAsyncRunyyFySSSg_s5Error_pSgtcfU_",
+                    "count": 1,
+                    "regions": [
+                        [
+                            118,
+                            30,
+                            127,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            119,
+                            34,
+                            121,
+                            14,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            121,
+                            14,
+                            127,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            122,
+                            44,
+                            124,
+                            14,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        [
+                            124,
+                            14,
+                            127,
+                            10,
+                            1,
+                            0,
+                            0,
+                            0
+                        ]
+                    ],
+                    "filenames": [
+                        "/Users/tib/Downloads/Shell-master/Tests/ShellTests/ShellTests.swift"
+                    ]
+                }
+            ],
+            "totals": {
+                "lines": {
+                    "count": 273,
+                    "covered": 252,
+                    "percent": 92
+                },
+                "functions": {
+                    "count": 34,
+                    "covered": 29,
+                    "percent": 85
+                },
+                "instantiations": {
+                    "count": 34,
+                    "covered": 29,
+                    "percent": 85
+                },
+                "regions": {
+                    "count": 72,
+                    "covered": 55,
+                    "notcovered": 17,
+                    "percent": 76
+                }
+            }
+        }
+    ]
+}

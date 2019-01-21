@@ -1,0 +1,48 @@
+{
+  "endDate" : 1547901937,
+  "children" : [
+    {
+      "endDate" : 1547901937,
+      "children" : [
+        {
+          "endDate" : 1547901936.9990001,
+          "children" : [
+
+          ],
+          "startDate" : 1547901936.977,
+          "cases" : [
+            {
+              "failureInfo" : {
+                "line" : 0,
+                "file" : "<unknown>",
+                "reason" : "failed: caught error: The operation couldn’t be completed. (PromiseTests.WrenchError error 1.)"
+              },
+              "outcome" : "failure",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testUnexpected",
+              "duration" : 0.021000000000000001
+            }
+          ],
+          "unexpected" : 1,
+          "outcome" : "failure",
+          "name" : "PromiseTests"
+        }
+      ],
+      "startDate" : 1547901936.977,
+      "cases" : [
+
+      ],
+      "unexpected" : 2,
+      "outcome" : "failure",
+      "name" : "PromiseTests.xctest"
+    }
+  ],
+  "startDate" : 1547901936.9760001,
+  "cases" : [
+
+  ],
+  "unexpected" : 1,
+  "outcome" : "failure",
+  "name" : "Selected tests"
+}

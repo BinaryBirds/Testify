@@ -1,0 +1,42 @@
+Test Suite 'All tests' started at 2019-01-19 13:08:34.929
+Test Suite 'ShellOutPackageTests.xctest' started at 2019-01-19 13:08:34.929
+Test Suite 'ShellOutTests' started at 2019-01-19 13:08:34.930
+Test Case '-[ShellOutTests.ShellOutTests testCapturingErrorWithHandle]' started.
+Test Case '-[ShellOutTests.ShellOutTests testCapturingErrorWithHandle]' passed (0.269 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testCapturingOutputWithHandle]' started.
+Test Case '-[ShellOutTests.ShellOutTests testCapturingOutputWithHandle]' passed (0.185 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testErrorDescription]' started.
+Test Case '-[ShellOutTests.ShellOutTests testErrorDescription]' passed (0.001 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testGitCommands]' started.
+Test Case '-[ShellOutTests.ShellOutTests testGitCommands]' passed (1.833 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testSeriesOfCommands]' started.
+/Users/tib/Downloads/ShellOut-master/Tests/ShellOutTests/ShellOutTests.swift:50: error: -[ShellOutTests.ShellOutTests testSeriesOfCommands] : XCTAssertEqual failed: ("Hello
+world") is not equal to ("Hello
+wdorld") -
+Test Case '-[ShellOutTests.ShellOutTests testSeriesOfCommands]' failed (0.169 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testSeriesOfCommandsAtPath]' started.
+Test Case '-[ShellOutTests.ShellOutTests testSeriesOfCommandsAtPath]' passed (0.345 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testSingleCommandAtPath]' started.
+/Users/tib/Downloads/ShellOut-master/Tests/ShellOutTests/ShellOutTests.swift:32: error: -[ShellOutTests.ShellOutTests testSingleCommandAtPath] : XCTAssertEqual failed: ("Hello") is not equal to ("Heallo") -
+Test Case '-[ShellOutTests.ShellOutTests testSingleCommandAtPath]' failed (0.336 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testSingleCommandAtPathContainingSpace]' started.
+Test Case '-[ShellOutTests.ShellOutTests testSingleCommandAtPathContainingSpace]' passed (0.525 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testSingleCommandAtPathContainingTilde]' started.
+Test Case '-[ShellOutTests.ShellOutTests testSingleCommandAtPathContainingTilde]' passed (0.165 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testSwiftPackageManagerCommands]' started.
+Test Case '-[ShellOutTests.ShellOutTests testSwiftPackageManagerCommands]' passed (1.665 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testThrowingError]' started.
+Test Case '-[ShellOutTests.ShellOutTests testThrowingError]' passed (0.188 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testWithArguments]' started.
+/Users/tib/Downloads/ShellOut-master/Tests/ShellOutTests/ShellOutTests.swift:18: error: -[ShellOutTests.ShellOutTests testWithArguments] : XCTAssertEqual failed: ("Hello world") is not equal to ("Hello worldd") -
+Test Case '-[ShellOutTests.ShellOutTests testWithArguments]' failed (0.180 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testWithInlineArguments]' started.
+Test Case '-[ShellOutTests.ShellOutTests testWithInlineArguments]' passed (0.159 seconds).
+Test Case '-[ShellOutTests.ShellOutTests testWithoutArguments]' started.
+Test Case '-[ShellOutTests.ShellOutTests testWithoutArguments]' passed (0.172 seconds).
+Test Suite 'ShellOutTests' failed at 2019-01-19 13:08:41.124.
+Executed 14 tests, with 3 failures (0 unexpected) in 6.193 (6.194) seconds
+Test Suite 'ShellOutPackageTests.xctest' failed at 2019-01-19 13:08:41.124.
+Executed 14 tests, with 3 failures (0 unexpected) in 6.193 (6.194) seconds
+Test Suite 'All tests' failed at 2019-01-19 13:08:41.124.
+Executed 14 tests, with 3 failures (0 unexpected) in 6.193 (6.194) seconds

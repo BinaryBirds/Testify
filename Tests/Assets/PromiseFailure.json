@@ -1,0 +1,600 @@
+{
+  "endDate" : 1547901789.3310001,
+  "children" : [
+    {
+      "endDate" : 1547901789.3299999,
+      "children" : [
+        {
+          "endDate" : 1547901785.9000001,
+          "children" : [
+
+          ],
+          "startDate" : 1547901767.3559999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ExecutionContextTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testConcurrency",
+              "duration" : 15.353999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ExecutionContextTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testInvalidatableQueueSupportsNonMainQueues",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ExecutionContextTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testInvalidatedInvalidatableQueue",
+              "duration" : 0.10199999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ExecutionContextTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testNonInvalidatedInvalidatableQueue",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ExecutionContextTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testTapContinuesToFireInvalidatableQueue",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ExecutionContextTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testThreads",
+              "duration" : 3.0750000000000002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ExecutionContextTests"
+        },
+        {
+          "endDate" : 1547901786.175,
+          "children" : [
+
+          ],
+          "startDate" : 1547901785.901,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "PromiseAllTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAll",
+              "duration" : 0.108
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseAllTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAllWithEmptyArray",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseAllTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAllWithPreFulfilledValues",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseAllTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAllWithRejectionHappeningFirst",
+              "duration" : 0.058000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseAllTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAllWithRejectionHappeningLast",
+              "duration" : 0.10299999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "PromiseAllTests"
+        },
+        {
+          "endDate" : 1547901787.201,
+          "children" : [
+
+          ],
+          "startDate" : 1547901786.175,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "PromiseAlwaysTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAlways",
+              "duration" : 0.50700000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseAlwaysTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAlwaysInstantFulfill",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseAlwaysTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAlwaysInstantReject",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseAlwaysTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAlwaysRejects",
+              "duration" : 0.51500000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "PromiseAlwaysTests"
+        },
+        {
+          "endDate" : 1547901788.141,
+          "children" : [
+
+          ],
+          "startDate" : 1547901787.2019999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "PromiseDelayTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testDelay",
+              "duration" : 0.20200000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseDelayTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testTimeoutFunctionFails",
+              "duration" : 0.51900000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseDelayTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testTimeoutFunctionSucceeds",
+              "duration" : 0.012
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseDelayTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testTimeoutPromise",
+              "duration" : 0.20300000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "PromiseDelayTests"
+        },
+        {
+          "endDate" : 1547901788.1470001,
+          "children" : [
+
+          ],
+          "startDate" : 1547901788.142,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "PromiseEnsureTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testEnsureOnlyCalledOnSucceess",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseEnsureTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testEnsureRejects",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseEnsureTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testEnsureSucceeds",
+              "duration" : 0.001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "PromiseEnsureTests"
+        },
+        {
+          "endDate" : 1547901788.2520001,
+          "children" : [
+
+          ],
+          "startDate" : 1547901788.1470001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "PromiseKickoffTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testFailingKickoff",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseKickoffTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testKickoff",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseKickoffTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testPromiseKickoff",
+              "duration" : 0.10199999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "PromiseKickoffTests"
+        },
+        {
+          "endDate" : 1547901788.3670001,
+          "children" : [
+
+          ],
+          "startDate" : 1547901788.253,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "PromiseRaceTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testInstantReject",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseRaceTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testInstantResolve",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseRaceTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRace",
+              "duration" : 0.056000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseRaceTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRaceFailure",
+              "duration" : 0.052999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "PromiseRaceTests"
+        },
+        {
+          "endDate" : 1547901788.7950001,
+          "children" : [
+
+          ],
+          "startDate" : 1547901788.3670001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "PromiseRecoverTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testIgnoreRecover",
+              "duration" : 0.107
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseRecoverTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testIgnoreRecoverInstant",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseRecoverTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRecover",
+              "duration" : 0.105
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseRecoverTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRecoverInstant",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseRecoverTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRecoverWithThrowingFunction",
+              "duration" : 0.106
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseRecoverTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRecoverWithThrowingFunctionError",
+              "duration" : 0.10299999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "PromiseRecoverTests"
+        },
+        {
+          "endDate" : 1547901788.802,
+          "children" : [
+
+          ],
+          "startDate" : 1547901788.796,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "PromiseRetryTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRetry",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseRetryTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRetryWithInstantSuccess",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseRetryTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRetryWithNeverSuccess",
+              "duration" : 0.002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "PromiseRetryTests"
+        },
+        {
+          "endDate" : 1547901789.313,
+          "children" : [
+
+          ],
+          "startDate" : 1547901788.803,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAsync",
+              "duration" : 0.056000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAsyncRejection",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testAsyncThrowing",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testDoubleReject",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testDoubleResolve",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testFlatMap",
+              "duration" : 0.108
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testFulfilled",
+              "duration" : 0.052999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testMap",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testPending",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRejected",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRejectedAfterFulfilled",
+              "duration" : 0.050999999999999997
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testRejectThenResolve",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testResolveThenReject",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testThen",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testThenWhenPending",
+              "duration" : 0.053999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testTrailingClosuresCompile",
+              "duration" : 0.107
+            },
+            {
+              "failureInfo" : {
+                "line" : 232,
+                "file" : "\/Users\/tib\/Downloads\/Promise-master\/PromiseTests\/PromiseTests.swift",
+                "reason" : "XCTAssertTrue failed"
+              },
+              "outcome" : "failure",
+              "className" : "PromiseTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testZalgoContained",
+              "duration" : 0.012
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "failure",
+          "name" : "PromiseTests"
+        },
+        {
+          "endDate" : 1547901789.3199999,
+          "children" : [
+
+          ],
+          "startDate" : 1547901789.3139999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "PromiseThrowsTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testThrowsInFlatmapping",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseThrowsTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testThrowsInFlatmappingWithError",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseThrowsTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testThrowsInMapping",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseThrowsTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testThrowsInMappingWithError",
+              "duration" : 0.001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "PromiseThrowsTests"
+        },
+        {
+          "endDate" : 1547901789.329,
+          "children" : [
+
+          ],
+          "startDate" : 1547901789.3210001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "PromiseZipTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testMultipleParameters",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "PromiseZipTests",
+              "moduleName" : "PromiseTests",
+              "testName" : "testZipping2",
+              "duration" : 0.0060000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "PromiseZipTests"
+        }
+      ],
+      "startDate" : 1547901767.3559999,
+      "cases" : [
+
+      ],
+      "unexpected" : 0,
+      "outcome" : "failure",
+      "name" : "PromiseTests.xctest"
+    }
+  ],
+  "startDate" : 1547901767.355,
+  "cases" : [
+
+  ],
+  "unexpected" : 0,
+  "outcome" : "failure",
+  "name" : "All tests"
+}

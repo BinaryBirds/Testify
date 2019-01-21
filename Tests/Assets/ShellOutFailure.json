@@ -1,0 +1,149 @@
+{
+  "endDate" : 1547899721.1240001,
+  "children" : [
+    {
+      "endDate" : 1547899721.1240001,
+      "children" : [
+        {
+          "endDate" : 1547899721.1240001,
+          "children" : [
+
+          ],
+          "startDate" : 1547899714.9300001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testCapturingErrorWithHandle",
+              "duration" : 0.26900000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testCapturingOutputWithHandle",
+              "duration" : 0.185
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testErrorDescription",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testGitCommands",
+              "duration" : 1.833
+            },
+            {
+              "failureInfo" : {
+                "line" : 50,
+                "file" : "\/Users\/tib\/Downloads\/ShellOut-master\/Tests\/ShellOutTests\/ShellOutTests.swift",
+                "reason" : "XCTAssertEqual failed: (\"Helloworld\") is not equal to (\"Hellowdorld\")"
+              },
+              "outcome" : "failure",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testSeriesOfCommands",
+              "duration" : 0.16900000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testSeriesOfCommandsAtPath",
+              "duration" : 0.34499999999999997
+            },
+            {
+              "failureInfo" : {
+                "line" : 32,
+                "file" : "\/Users\/tib\/Downloads\/ShellOut-master\/Tests\/ShellOutTests\/ShellOutTests.swift",
+                "reason" : "XCTAssertEqual failed: (\"Hello\") is not equal to (\"Heallo\")"
+              },
+              "outcome" : "failure",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testSingleCommandAtPath",
+              "duration" : 0.33600000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testSingleCommandAtPathContainingSpace",
+              "duration" : 0.52500000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testSingleCommandAtPathContainingTilde",
+              "duration" : 0.16500000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testSwiftPackageManagerCommands",
+              "duration" : 1.665
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testThrowingError",
+              "duration" : 0.188
+            },
+            {
+              "failureInfo" : {
+                "line" : 18,
+                "file" : "\/Users\/tib\/Downloads\/ShellOut-master\/Tests\/ShellOutTests\/ShellOutTests.swift",
+                "reason" : "XCTAssertEqual failed: (\"Hello world\") is not equal to (\"Hello worldd\")"
+              },
+              "outcome" : "failure",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testWithArguments",
+              "duration" : 0.17999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testWithInlineArguments",
+              "duration" : 0.159
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellOutTests",
+              "moduleName" : "ShellOutTests",
+              "testName" : "testWithoutArguments",
+              "duration" : 0.17199999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "failure",
+          "name" : "ShellOutTests"
+        }
+      ],
+      "startDate" : 1547899714.9289999,
+      "cases" : [
+
+      ],
+      "unexpected" : 0,
+      "outcome" : "failure",
+      "name" : "ShellOutPackageTests.xctest"
+    }
+  ],
+  "startDate" : 1547899714.9289999,
+  "cases" : [
+
+  ],
+  "unexpected" : 0,
+  "outcome" : "failure",
+  "name" : "All tests"
+}

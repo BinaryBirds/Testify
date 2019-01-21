@@ -1,0 +1,4028 @@
+{
+  "endDate" : 1547853870.7030001,
+  "children" : [
+    {
+      "endDate" : 1547853870.6900001,
+      "children" : [
+        {
+          "endDate" : 1547853802.276,
+          "children" : [
+
+          ],
+          "startDate" : 1547853800.767,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "AutomaticValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithAcceptableComplexContentTypeResponseSucceeds",
+              "duration" : 0.78600000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "AutomaticValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithAcceptableStatusCodeAndContentTypeResponseSucceeds",
+              "duration" : 0.17799999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "AutomaticValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceeds",
+              "duration" : 0.17899999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "AutomaticValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithUnacceptableContentTypeResponseFails",
+              "duration" : 0.17999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "AutomaticValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithUnacceptableStatusCodeResponseFails",
+              "duration" : 0.17899999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "AutomaticValidationTestCase"
+        },
+        {
+          "endDate" : 1547853804.651,
+          "children" : [
+
+          ],
+          "startDate" : 1547853802.277,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "BasicAuthenticationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testHiddenHTTPBasicAuthentication",
+              "duration" : 0.34799999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "BasicAuthenticationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testHTTPBasicAuthenticationWithInvalidCredentials",
+              "duration" : 1.0660000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "BasicAuthenticationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testHTTPBasicAuthenticationWithValidCredentials",
+              "duration" : 0.95399999999999996
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "BasicAuthenticationTestCase"
+        },
+        {
+          "endDate" : 1547853818.164,
+          "children" : [
+
+          ],
+          "startDate" : 1547853804.652,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "CacheTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testDefaultCachePolicy",
+              "duration" : 3.2349999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "CacheTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testIgnoreLocalCacheDataPolicy",
+              "duration" : 3.2210000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "CacheTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLCacheContainsCachedResponsesForAllRequests",
+              "duration" : 2.298
+            },
+            {
+              "outcome" : "success",
+              "className" : "CacheTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testUseLocalCacheDataAndDontLoadFromNetworkPolicy",
+              "duration" : 2.3639999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "CacheTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testUseLocalCacheDataIfExistsOtherwiseLoadFromNetworkPolicy",
+              "duration" : 2.3839999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "CacheTestCase"
+        },
+        {
+          "endDate" : 1547853819.7809999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853818.1659999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ContentTypeValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithAcceptableContentTypeResponseSucceeds",
+              "duration" : 0.184
+            },
+            {
+              "outcome" : "success",
+              "className" : "ContentTypeValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceeds",
+              "duration" : 0.182
+            },
+            {
+              "outcome" : "success",
+              "className" : "ContentTypeValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceedsWhenResponseIsNil",
+              "duration" : 0.67900000000000005
+            },
+            {
+              "outcome" : "success",
+              "className" : "ContentTypeValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithNoAcceptableContentTypeResponseFails",
+              "duration" : 0.183
+            },
+            {
+              "outcome" : "success",
+              "className" : "ContentTypeValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithNoAcceptableContentTypeResponseSucceedsWhenNoDataIsReturned",
+              "duration" : 0.185
+            },
+            {
+              "outcome" : "success",
+              "className" : "ContentTypeValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithUnacceptableContentTypeResponseFails",
+              "duration" : 0.192
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ContentTypeValidationTestCase"
+        },
+        {
+          "endDate" : 1547853819.971,
+          "children" : [
+
+          ],
+          "startDate" : 1547853819.7820001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "CustomResponseSerializerTestCases",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatCustomResponseSerializersCanBeWrittenWithoutCompilerIssues",
+              "duration" : 0.187
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "CustomResponseSerializerTestCases"
+        },
+        {
+          "endDate" : 1547853820.7079999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853819.9719999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "CustomValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatCustomValidationCanThrowCustomError",
+              "duration" : 0.193
+            },
+            {
+              "outcome" : "success",
+              "className" : "CustomValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatCustomValidationClosureHasAccessToServerResponseData",
+              "duration" : 0.17899999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "CustomValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationExtensionCanThrowCustomError",
+              "duration" : 0.17699999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "CustomValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationExtensionHasAccessToServerResponseData",
+              "duration" : 0.18099999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "CustomValidationTestCase"
+        },
+        {
+          "endDate" : 1547853820.7969999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853820.71,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerFailsWhenDataIsNil",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerFailsWhenErrorIsNotNil",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerSucceedsWhenDataIsNotNil",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerFailsWhenDataIsEmpty",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerFailsWhenDataIsInvalidJSON",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerFailsWhenDataIsNil",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerFailsWhenErrorIsNotNil",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerSucceedsWhenDataIsValidJSON",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWhenDataIsEmpty",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWhenDataIsNil",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWhenErrorIsNotNil",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ProvidedEncoding",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ResponseEncoding",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerSucceedsWithUTF8DataAndNoProvidedEncoding",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerSucceedsWithUTF8DataAndUTF8ProvidedEncoding",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DataResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerSucceedsWithUTF8DataUsingResponseTextEncodingName",
+              "duration" : 0.0030000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "DataResponseSerializationTestCase"
+        },
+        {
+          "endDate" : 1547853820.8310001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853820.8,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "DecodableResponseSerializerTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDecodableResponseSerializerFailsWhenDataIsEmpty",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DecodableResponseSerializerTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDecodableResponseSerializerFailsWhenDataIsInvalidRepresentation",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DecodableResponseSerializerTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDecodableResponseSerializerFailsWhenDataIsNil",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DecodableResponseSerializerTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDecodableResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DecodableResponseSerializerTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDecodableResponseSerializerFailsWhenErrorIsNotNil",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DecodableResponseSerializerTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDecodableResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DecodableResponseSerializerTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDecodableResponseSerializerSucceedsWhenDataIsValidJSON",
+              "duration" : 0.0030000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "DecodableResponseSerializerTests"
+        },
+        {
+          "endDate" : 1547853821.1730001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853820.8329999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "DownloadInitializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testDownloadClassMethodWithMethodURLAndDestination",
+              "duration" : 0.16900000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadInitializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testDownloadClassMethodWithMethodURLHeadersAndDestination",
+              "duration" : 0.16600000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "DownloadInitializationTestCase"
+        },
+        {
+          "endDate" : 1547853824.2839999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853821.175,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseFlatMapErrorTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapErrorCatchesTransformationError",
+              "duration" : 2.919
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseFlatMapErrorTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapErrorPreservesSuccessValue",
+              "duration" : 0.17599999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseFlatMapErrorTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapErrorTransformsError",
+              "duration" : 0.01
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "DownloadResponseFlatMapErrorTestCase"
+        },
+        {
+          "endDate" : 1547853824.6600001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853824.286,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseFlatMapTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapCatchesTransformationError",
+              "duration" : 0.189
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseFlatMapTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapPreservesFailureError",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseFlatMapTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapTransformsSuccessValue",
+              "duration" : 0.17299999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "DownloadResponseFlatMapTestCase"
+        },
+        {
+          "endDate" : 1547853824.846,
+          "children" : [
+
+          ],
+          "startDate" : 1547853824.6619999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseMapErrorTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMapErrorPreservesSuccessValue",
+              "duration" : 0.17199999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseMapErrorTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMapErrorTransformsFailureValue",
+              "duration" : 0.0080000000000000002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "DownloadResponseMapErrorTestCase"
+        },
+        {
+          "endDate" : 1547853825.0339999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853824.8469999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseMapTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMapPreservesFailureError",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseMapTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMapTransformsSuccessValue",
+              "duration" : 0.17399999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "DownloadResponseMapTestCase"
+        },
+        {
+          "endDate" : 1547853825.1500001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853825.0350001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerFailsWhenErrorIsNotNil",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerFailsWhenFileDataIsEmpty",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerFailsWhenFileURLIsInvalid",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerFailsWhenFileURLIsNil",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerFailsWhenFileURLIsNilWithNonEmptyResponseStatusCode",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataResponseSerializerSucceedsWhenFileDataIsNotNil",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerFailsWhenDataIsInvalidJSON",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerFailsWhenErrorIsNotNil",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerFailsWhenFileDataIsEmpty",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerFailsWhenFileURLIsInvalid",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerFailsWhenFileURLIsNil",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONResponseSerializerSucceedsWhenDataIsValidJSON",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWhenErrorIsNotNil",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWhenFileDataIsEmpty",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWhenFileURLIsInvalid",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWhenFileURLIsNil",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ProvidedEncoding",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ResponseEncoding",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerSucceedsWithUTF8DataAndNoProvidedEncoding",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerSucceedsWithUTF8DataAndUTF8ProvidedEncoding",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseSerializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatStringResponseSerializerSucceedsWithUTF8DataUsingResponseTextEncodingName",
+              "duration" : 0.0040000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "DownloadResponseSerializationTestCase"
+        },
+        {
+          "endDate" : 1547853827.3050001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853825.1530001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testCancelledDownloadRequest",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testDownloadRequest",
+              "duration" : 0.32900000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testDownloadRequestWithHeaders",
+              "duration" : 0.16900000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testDownloadRequestWithParameters",
+              "duration" : 0.17499999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testDownloadRequestWithProgress",
+              "duration" : 0.69599999999999995
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDownloadingFileAndMovingToDestinationThatIsOccupiedThrowsError",
+              "duration" : 0.20200000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDownloadingFileAndMovingToDirectoryThatDoesNotExistThrowsError",
+              "duration" : 0.184
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDownloadOptionsCanCreateIntermediateDirectoriesPriorToMovingFile",
+              "duration" : 0.192
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDownloadOptionsCanRemovePreviousFilePriorToMovingFile",
+              "duration" : 0.186
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "DownloadResponseTestCase"
+        },
+        {
+          "endDate" : 1547853832.3900001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853827.3069999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "DownloadResumeDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatCancelledDownloadCanBeResumedWithResumeData",
+              "duration" : 4.0140000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResumeDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatCancelledDownloadResponseDataMatchesResumeData",
+              "duration" : 0.54600000000000004
+            },
+            {
+              "outcome" : "success",
+              "className" : "DownloadResumeDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatCancelledDownloadResumeDataIsAvailableWithJSONResponseSerializer",
+              "duration" : 0.51900000000000002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "DownloadResumeDataTestCase"
+        },
+        {
+          "endDate" : 1547853834.3110001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853832.392,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "HTTPDigestAuthenticationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testHTTPDigestAuthenticationWithInvalidCredentials",
+              "duration" : 1.0569999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "HTTPDigestAuthenticationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testHTTPDigestAuthenticationWithValidCredentials",
+              "duration" : 0.85799999999999998
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "HTTPDigestAuthenticationTestCase"
+        },
+        {
+          "endDate" : 1547853834.3329999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853834.313,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "HTTPHeadersTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testHeadersAreStoreUniquelyByCaseInsensitiveName",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "HTTPHeadersTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testHeadersCanBeProperlySortedByName",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "HTTPHeadersTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testHeadersCanInsensitivelyGetAndSetThroughSubscript",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "HTTPHeadersTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testHeadersHaveUnsortedDescription",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "HTTPHeadersTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testHeadersPreserveLastFormAndValueOfAName",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "HTTPHeadersTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testHeadersPreserveOrderOfInsertion",
+              "duration" : 0.002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "HTTPHeadersTests"
+        },
+        {
+          "endDate" : 1547853834.3540001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853834.3340001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "JSONParameterEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataIsProperlyEncodedAndProperContentTypeIsSet",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "JSONParameterEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataIsProperlyEncodedButContentTypeIsNotSetIfRequestAlreadyHasAContentType",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "JSONParameterEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONEncoderCanBeCustomized",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "JSONParameterEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONEncoderDefaultWorks",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "JSONParameterEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatJSONEncoderPrettyPrintedPrintsPretty",
+              "duration" : 0.002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "JSONParameterEncoderTests"
+        },
+        {
+          "endDate" : 1547853834.3710001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853834.3559999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "JSONParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testJSONParameterEncodeArray",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "JSONParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testJSONParameterEncodeComplexParameters",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "JSONParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testJSONParameterEncodeNilParameters",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "JSONParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testJSONParameterEncodeParametersRetainsCustomContentType",
+              "duration" : 0.002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "JSONParameterEncodingTestCase"
+        },
+        {
+          "endDate" : 1547853834.4330001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853834.372,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncodingDataBodyPart",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncodingFileBodyPart",
+              "duration" : 0.021000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncodingMultipleBodyPartsWithVaryingTypes",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncodingMultipleDataBodyParts",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncodingMultipleFileBodyParts",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncodingMultipleStreamBodyParts",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncodingStreamBodyPart",
+              "duration" : 0.0040000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "MultipartFormDataEncodingTestCase"
+        },
+        {
+          "endDate" : 1547853834.464,
+          "children" : [
+
+          ],
+          "startDate" : 1547853834.4349999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataFailureTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAppendingFileBodyPartThatIsDirectoryReturnsError",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataFailureTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAppendingFileBodyPartThatIsNotFileURLReturnsError",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataFailureTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAppendingFileBodyPartThatIsNotReachableReturnsError",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataFailureTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAppendingFileBodyPartWithInvalidLastPathComponentReturnsError",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataFailureTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatWritingEncodedDataToBadURLFails",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataFailureTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatWritingEncodedDataToExistingFileURLFails",
+              "duration" : 0.0050000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "MultipartFormDataFailureTestCase"
+        },
+        {
+          "endDate" : 1547853834.4749999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853834.4660001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataPropertiesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatContentLengthMatchesTotalBodyPartSize",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataPropertiesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatContentTypeContainsBoundary",
+              "duration" : 0.0030000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "MultipartFormDataPropertiesTestCase"
+        },
+        {
+          "endDate" : 1547853834.526,
+          "children" : [
+
+          ],
+          "startDate" : 1547853834.4760001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataWriteEncodedDataToDiskTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testWritingEncodedDataBodyPartToDisk",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataWriteEncodedDataToDiskTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testWritingEncodedFileBodyPartToDisk",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataWriteEncodedDataToDiskTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testWritingEncodedStreamBodyPartToDisk",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataWriteEncodedDataToDiskTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testWritingMultipleEncodedBodyPartsWithVaryingTypesToDisk",
+              "duration" : 0.0080000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataWriteEncodedDataToDiskTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testWritingMultipleEncodedDataBodyPartsToDisk",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataWriteEncodedDataToDiskTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testWritingMultipleEncodedFileBodyPartsToDisk",
+              "duration" : 0.010999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipartFormDataWriteEncodedDataToDiskTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testWritingMultipleEncodedStreamBodyPartsToDisk",
+              "duration" : 0.0050000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "MultipartFormDataWriteEncodedDataToDiskTestCase"
+        },
+        {
+          "endDate" : 1547853835.0769999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853834.5280001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "MultipleValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithAcceptableStatusCodeAndContentTypeResponseSucceeds",
+              "duration" : 0.17799999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipleValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithUnacceptableStatusCodeAndContentTypeResponseFailsWithContentTypeError",
+              "duration" : 0.18099999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "MultipleValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithUnacceptableStatusCodeAndContentTypeResponseFailsWithStatusCodeError",
+              "duration" : 0.184
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "MultipleValidationTestCase"
+        },
+        {
+          "endDate" : 1547853835.1589999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853835.079,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAddressManagerCanBeDeinitialized",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAddressManagerIsNotifiedWhenStartListeningIsCalled",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAddressManagerStartsWithReachableStatus",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatHostManagerCanBeDeinitialized",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatHostManagerIsNotifiedWhenStartListeningIsCalled",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatHostManagerIsReachableOnWiFi",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatHostManagerStartsWithReachableStatus",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManagerCanBeInitializedFromAddress",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManagerCanBeInitializedFromHost",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManagerReturnsNotReachableOnWWANStatusWhenIsWWANAndConnectionIsRequired",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManagerReturnsNotReachableStatusWhenConnectionIsRequired",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManagerReturnsNotReachableStatusWhenInterventionIsRequired",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManagerReturnsNotReachableStatusWhenReachableFlagIsAbsent",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsNotRequired",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsOnDemand",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsOnTraffic",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "NetworkReachabilityManagerTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManagerReturnsReachableOnWWANStatusWhenIsWWAN",
+              "duration" : 0.0030000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "NetworkReachabilityManagerTestCase"
+        },
+        {
+          "endDate" : 1547853839.701,
+          "children" : [
+
+          ],
+          "startDate" : 1547853835.161,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "RequestDebugDescriptionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testGETRequestDebugDescription",
+              "duration" : 0.64600000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestDebugDescriptionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testGETRequestWithDuplicateHeadersDebugDescription",
+              "duration" : 0.65800000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestDebugDescriptionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testGETRequestWithJSONHeaderDebugDescription",
+              "duration" : 0.65200000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestDebugDescriptionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testMultipartFormDataRequestWithDuplicateHeadersDebugDescription",
+              "duration" : 0.59899999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestDebugDescriptionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testPOSTRequestDebugDescription",
+              "duration" : 0.60499999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestDebugDescriptionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testPOSTRequestWithCookieDebugDescription",
+              "duration" : 0.68200000000000005
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestDebugDescriptionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testPOSTRequestWithCookiesDisabledDebugDescription",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestDebugDescriptionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testPOSTRequestWithJSONParametersDebugDescription",
+              "duration" : 0.66600000000000004
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestDebugDescriptionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatRequestWithInvalidURLDebugDescription",
+              "duration" : 0.012
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "RequestDebugDescriptionTestCase"
+        },
+        {
+          "endDate" : 1547853840.4389999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853839.7030001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "RequestDescriptionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testRequestDescription",
+              "duration" : 0.73299999999999998
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "RequestDescriptionTestCase"
+        },
+        {
+          "endDate" : 1547853843.714,
+          "children" : [
+
+          ],
+          "startDate" : 1547853840.441,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "RequestResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testPOSTRequestWithBase64EncodedImages",
+              "duration" : 1.1339999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testPOSTRequestWithUnicodeParameters",
+              "duration" : 0.188
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testRequestResponse",
+              "duration" : 0.191
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testRequestResponseWithProgress",
+              "duration" : 0.57799999999999996
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatRequestsCanPassEncodableParametersAsAURLQuery",
+              "duration" : 0.184
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatRequestsCanPassEncodableParametersAsJSONBodyData",
+              "duration" : 0.184
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatRequestsCanPassEncodableParametersAsURLEncodedBodyData",
+              "duration" : 0.188
+            },
+            {
+              "outcome" : "success",
+              "className" : "RequestResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseSerializationWorksWithSerializationQueue",
+              "duration" : 0.61299999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "RequestResponseTestCase"
+        },
+        {
+          "endDate" : 1547853843.911,
+          "children" : [
+
+          ],
+          "startDate" : 1547853843.717,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ResponseDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseDataReturnsFailureResultWithOptionalDataAndError",
+              "duration" : 0.010999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseDataReturnsSuccessResultWithValidData",
+              "duration" : 0.17999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ResponseDataTestCase"
+        },
+        {
+          "endDate" : 1547853844.119,
+          "children" : [
+
+          ],
+          "startDate" : 1547853843.9119999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ResponseFlatMapErrorTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapErrorCatchesTransformationError",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseFlatMapErrorTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapErrorPreservesSuccessValue",
+              "duration" : 0.182
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseFlatMapErrorTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapErrorTransformsError",
+              "duration" : 0.01
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ResponseFlatMapErrorTestCase"
+        },
+        {
+          "endDate" : 1547853844.507,
+          "children" : [
+
+          ],
+          "startDate" : 1547853844.1199999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ResponseFlatMapTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapCatchesTransformationError",
+              "duration" : 0.182
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseFlatMapTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapPreservesFailureError",
+              "duration" : 0.010999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseFlatMapTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapTransformsSuccessValue",
+              "duration" : 0.187
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ResponseFlatMapTestCase"
+        },
+        {
+          "endDate" : 1547853844.7049999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853844.5090001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ResponseJSONDecodableTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseJSONReturnsSuccessResultWithValidJSON",
+              "duration" : 0.182
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseJSONDecodableTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseStringReturnsFailureResultWithOptionalDataAndError",
+              "duration" : 0.01
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ResponseJSONDecodableTestCase"
+        },
+        {
+          "endDate" : 1547853845.2780001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853844.707,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ResponseJSONTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseJSONReturnsSuccessResultForGETRequest",
+              "duration" : 0.186
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseJSONTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseJSONReturnsSuccessResultForPOSTRequest",
+              "duration" : 0.17999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseJSONTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseJSONReturnsSuccessResultWithValidJSON",
+              "duration" : 0.187
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseJSONTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseStringReturnsFailureResultWithOptionalDataAndError",
+              "duration" : 0.010999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ResponseJSONTestCase"
+        },
+        {
+          "endDate" : 1547853845.477,
+          "children" : [
+
+          ],
+          "startDate" : 1547853845.28,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ResponseMapErrorTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMapErrorPreservesSuccessValue",
+              "duration" : 0.183
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseMapErrorTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMapErrorTransformsFailureValue",
+              "duration" : 0.01
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ResponseMapErrorTestCase"
+        },
+        {
+          "endDate" : 1547853845.701,
+          "children" : [
+
+          ],
+          "startDate" : 1547853845.4790001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ResponseMapTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMapPreservesFailureError",
+              "duration" : 0.012
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseMapTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMapTransformsSuccessValue",
+              "duration" : 0.20599999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ResponseMapTestCase"
+        },
+        {
+          "endDate" : 1547853845.901,
+          "children" : [
+
+          ],
+          "startDate" : 1547853845.7030001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ResponseStringTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseStringReturnsFailureResultWithOptionalDataAndError",
+              "duration" : 0.012999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseStringTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseStringReturnsSuccessResultWithValidString",
+              "duration" : 0.17999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ResponseStringTestCase"
+        },
+        {
+          "endDate" : 1547853846.105,
+          "children" : [
+
+          ],
+          "startDate" : 1547853845.902,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseReturnsFailureResultWithOptionalDataAndError",
+              "duration" : 0.01
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResponseTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatResponseReturnsSuccessResultWithValidData",
+              "duration" : 0.189
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ResponseTestCase"
+        },
+        {
+          "endDate" : 1547853846.25,
+          "children" : [
+
+          ],
+          "startDate" : 1547853846.1059999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testFlatMapErrorCapturesThrownError",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testFlatMapErrorTransformsErrorValue",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testFunctionalMethodsCanBeChained",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testIfFailureDoesNotExecuteWhenSuccess",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testIfFailureExecutesWhenFailure",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testIfSuccessDoesNotExecutesWhenFailure",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testIfSuccessExecutesWhenSuccess",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testMapErrorPreservesSuccessError",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testMapErrorTransformsErrorValue",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDebugDescriptionStringMatchesExpectedValueForFailureCase",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDebugDescriptionStringMatchesExpectedValueForSuccessCase",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDescriptionStringMatchesExpectedValueForFailureCase",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDescriptionStringMatchesExpectedValueForSuccessCase",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatErrorPropertyReturnsErrorForFailureCase",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatErrorPropertyReturnsNilForSuccessCase",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapCatchesTransformationError",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapPreservesFailureError",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatFlatMapTransformsSuccessValue",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatInitializerFromThrowingClosureCatchesErrorAsAFailure",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatInitializerFromThrowingClosureStoresResultAsASuccess",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatIsFailurePropertyReturnsFalseForSuccessCase",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatIsFailurePropertyReturnsTrueForFailureCase",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatIsSuccessPropertyReturnsFalseForFailureCase",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatIsSuccessPropertyReturnsTrueForSuccessCase",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMapPreservesFailureError",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMapTransformsSuccessValue",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUnwrapReturnsSuccessValue",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUnwrapThrowsFailureError",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValuePropertyReturnsNilForFailureCase",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValuePropertyReturnsValueForSuccessCase",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testWithErrorDoesNotExecuteWhenSuccess",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testWithErrorExecutesWhenFailure",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testWithValueDoesNotExecutesWhenFailure",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ResultTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testWithValueExecutesWhenSuccess",
+              "duration" : 0.0030000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ResultTestCase"
+        },
+        {
+          "endDate" : 1547853846.2739999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853846.253,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyCertificatesInBundleTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testOnlyValidCertificatesAreDetected",
+              "duration" : 0.019
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ServerTrustPolicyCertificatesInBundleTestCase"
+        },
+        {
+          "endDate" : 1547853846.3210001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853846.2750001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyCompositeTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredLeafCertificateFailsDefaultAndRevocationComposite",
+              "duration" : 0.017000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyCompositeTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyCompositeTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidCertificateChainPassesDefaultAndRevocationCompositeChecks",
+              "duration" : 0.014999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ServerTrustPolicyCompositeTestCase"
+        },
+        {
+          "endDate" : 1547853846.332,
+          "children" : [
+
+          ],
+          "startDate" : 1547853846.323,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyDisableEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatCertificateChainMissingIntermediateCertificatePassesEvaluation",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyDisableEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredLeafCertificatePassesEvaluation",
+              "duration" : 0.0030000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ServerTrustPolicyDisableEvaluationTestCase"
+        },
+        {
+          "endDate" : 1547853846.3710001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853846.3340001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAnchoredRootCertificatePassesBasicX509ValidationWithoutRootInTrust",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAnchoredRootCertificatePassesBasicX509ValidationWithRootInTrust",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatCertificateMissingDNSNamePassesBasicX509Validation",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateFailsBasicX509Validation",
+              "duration" : 0.01
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase"
+        },
+        {
+          "endDate" : 1547853846.4530001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853846.3729999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationSSLPolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAnchoredRootCertificatePassesSSLValidationWithoutRootInTrust",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationSSLPolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAnchoredRootCertificatePassesSSLValidationWithRootInTrust",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationSSLPolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatCertificateMissingDNSNameFailsSSLValidation",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationSSLPolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDNSNameCertificatePassesSSLValidation",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationSSLPolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateFailsSSLValidation",
+              "duration" : 0.0080000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationSSLPolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMultipleDNSNamesCertificatePassesSSLValidationForAllEntries",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationSSLPolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPassingNilForHostParameterAllowsCertificateMissingDNSNameToPassSSLValidation",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationSSLPolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatURICertificateFailsSSLValidation",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyExplorationSSLPolicyValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatWildcardCertificatePassesSSLValidation",
+              "duration" : 0.012
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ServerTrustPolicyExplorationSSLPolicyValidationTestCase"
+        },
+        {
+          "endDate" : 1547853846.569,
+          "children" : [
+
+          ],
+          "startDate" : 1547853846.4549999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformDefaultEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateChainFailsEvaluationWithHostValidation",
+              "duration" : 0.01
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformDefaultEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateChainFailsEvaluationWithoutHostValidation",
+              "duration" : 0.01
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformDefaultEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMissingDNSNameLeafCertificateFailsEvaluationWithHostValidation",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformDefaultEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMissingDNSNameLeafCertificatePassesEvaluationWithoutHostValidation",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformDefaultEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMissingIntermediateCertificateInChainFailsEvaluationWithHostValidation",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformDefaultEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMissingIntermediateCertificateInChainFailsEvaluationWithoutHostValidation",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformDefaultEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatNonAnchoredRootCertificateChainFailsEvaluationWithHostValidation",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformDefaultEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformDefaultEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidCertificateChainPassesEvaluationWithHostValidation",
+              "duration" : 0.010999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformDefaultEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidCertificateChainPassesEvaluationWithoutHostValidation",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformDefaultEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatWildcardedLeafCertificateChainPassesEvaluationWithHostValidation",
+              "duration" : 0.012
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ServerTrustPolicyPerformDefaultEvaluationTestCase"
+        },
+        {
+          "endDate" : 1547853846.7079999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853846.5710001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformRevokedEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateChainFailsEvaluationWithHostValidation",
+              "duration" : 0.0080000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformRevokedEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateChainFailsEvaluationWithoutHostValidation",
+              "duration" : 0.01
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformRevokedEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMissingDNSNameLeafCertificateFailsEvaluationWithHostValidation",
+              "duration" : 0.014
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformRevokedEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMissingDNSNameLeafCertificatePassesEvaluationWithoutHostValidation",
+              "duration" : 0.010999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformRevokedEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMissingIntermediateCertificateInChainFailsEvaluationWithHostValidation",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformRevokedEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatMissingIntermediateCertificateInChainFailsEvaluationWithoutHostValidation",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformRevokedEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatNonAnchoredRootCertificateChainFailsEvaluationWithHostValidation",
+              "duration" : 0.0080000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformRevokedEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformRevokedEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidCertificateChainPassesEvaluationWithHostValidation",
+              "duration" : 0.017999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformRevokedEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidCertificateChainPassesEvaluationWithoutHostValidation",
+              "duration" : 0.012
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPerformRevokedEvaluationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatWildcardedLeafCertificateChainPassesEvaluationWithHostValidation",
+              "duration" : 0.014999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ServerTrustPolicyPerformRevokedEvaluationTestCase"
+        },
+        {
+          "endDate" : 1547853846.9809999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853846.71,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinnedIntermediateCertificatePassesEvaluationWithoutHostValidation",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinnedIntermediateCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation",
+              "duration" : 0.014
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinnedIntermediateCertificateWithoutCertificateChainValidationPassesEvaluation",
+              "duration" : 0.01
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinnedLeafCertificatePassesEvaluationWithoutHostValidation",
+              "duration" : 0.010999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinnedLeafCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinnedLeafCertificateWithoutCertificateChainValidationPassesEvaluation",
+              "duration" : 0.01
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinnedRootCertificatePassesEvaluationWithoutHostValidation",
+              "duration" : 0.01
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinnedRootCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation",
+              "duration" : 0.012
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinnedRootCertificateWithoutCertificateChainValidationPassesEvaluation",
+              "duration" : 0.01
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningExpiredLeafCertificateFailsEvaluationWithHostValidation",
+              "duration" : 0.01
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningExpiredLeafCertificateFailsEvaluationWithoutHostValidation",
+              "duration" : 0.010999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningIntermediateCertificateNotInCertificateChainFailsEvaluationWithHostValidation",
+              "duration" : 0.010999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningIntermediateCertificateNotInCertificateChainFailsEvaluationWithoutHostValidation",
+              "duration" : 0.01
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningIntermediateCertificateNotInCertificateChainWithoutCertificateChainValidationFailsEvaluation",
+              "duration" : 0.0080000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningIntermediateCertificateWithExpiredLeafCertificateFailsEvaluationWithHostValidation",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningIntermediateCertificateWithExpiredLeafCertificateFailsEvaluationWithoutHostValidation",
+              "duration" : 0.012
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningIntermediateCertificateWithExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningLeafCertificateNotInCertificateChainFailsEvaluationWithHostValidation",
+              "duration" : 0.0080000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningLeafCertificateNotInCertificateChainFailsEvaluationWithoutHostValidation",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningLeafCertificateNotInCertificateChainWithoutCertificateChainValidationFailsEvaluation",
+              "duration" : 0.012999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningMultipleCertificatesWithoutCertificateChainValidationPassesEvaluation",
+              "duration" : 0.012
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinCertificatesTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningRootCertificateWithExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation",
+              "duration" : 0.0089999999999999993
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ServerTrustPolicyPinCertificatesTestCase"
+        },
+        {
+          "endDate" : 1547853847.1530001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853846.983,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningBackupKeyPassesEvaluationWithHostValidation",
+              "duration" : 0.010999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningBackupKeyPassesEvaluationWithoutHostValidation",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningIntermediateKeyPassesEvaluationWithHostValidation",
+              "duration" : 0.01
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningIntermediateKeyPassesEvaluationWithoutHostValidation",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningIntermediateKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate",
+              "duration" : 0.0080000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningKeyNotInCertificateChainFailsEvaluationWithHostValidation",
+              "duration" : 0.012999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningKeyNotInCertificateChainFailsEvaluationWithoutHostValidation",
+              "duration" : 0.0080000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningLeafKeyPassesEvaluationWithHostValidation",
+              "duration" : 0.012
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningLeafKeyPassesEvaluationWithoutHostValidation",
+              "duration" : 0.0080000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate",
+              "duration" : 0.0089999999999999993
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithIncorrectIntermediateCertificate",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithMissingIntermediateCertificate",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningRootKeyPassesEvaluationWithHostValidation",
+              "duration" : 0.014
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningRootKeyPassesEvaluationWithoutHostValidation",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningRootKeyWithoutCertificateChainValidationFailsEvaluationWithMissingIntermediateCertificate",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ServerTrustPolicyPinPublicKeysTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPinningRootKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate",
+              "duration" : 0.010999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ServerTrustPolicyPinPublicKeysTestCase"
+        },
+        {
+          "endDate" : 1547853850.7449999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853847.155,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "SessionDelegateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAppropriateNotificationsAreCalledWithRequestForDataRequest",
+              "duration" : 0.73499999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionDelegateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDidCompleteNotificationIsCalledWithRequestForDownloadRequests",
+              "duration" : 0.63100000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionDelegateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatRequestWillPerformHTTPRedirectionByDefault",
+              "duration" : 0.84999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionDelegateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatRequestWillPerformRedirectionMultipleTimesByDefault",
+              "duration" : 1.367
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "SessionDelegateTestCase"
+        },
+        {
+          "endDate" : 1547853852.0380001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853850.7460001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "SessionManagerConfigurationHeadersTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDefaultConfigurationHeadersAreSentWithRequest",
+              "duration" : 0.60899999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionManagerConfigurationHeadersTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatEphemeralConfigurationHeadersAreSentWithRequest",
+              "duration" : 0.67800000000000005
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "SessionManagerConfigurationHeadersTestCase"
+        },
+        {
+          "endDate" : 1547853858.4790001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853852.039,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testDefaultAcceptEncodingSupportsAppropriateEncodingsOnAppropriateSystems",
+              "duration" : 0.72199999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testDefaultUserAgentHeader",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testInitializerWithDefaultArguments",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testInitializerWithSpecifiedArguments",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testReleasingManagerWithPendingCanceledRequestDeinitializesSuccessfully",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testReleasingManagerWithPendingRequestDeinitializesSuccessfully",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testSetStartRequestsImmediatelyToFalseAndCancelledCallsResponseHandlers",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testSetStartRequestsImmediatelyToFalseAndCancelThenResumeRequestDoesntCreateTaskAndStaysCancelled",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testSetStartRequestsImmediatelyToFalseAndResumeRequest",
+              "duration" : 0.63600000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testSetStartRequestsImmediatelyToFalseAndResumeThenCancelRequestHasCorrectOutput",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDataRequestWithInvalidURLStringThrowsResponseHandlerError",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatDownloadRequestWithInvalidURLStringThrowsResponseHandlerError",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatRequestAdapterErrorThrowsResponseHandlerError",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatRequestAdapterErrorThrowsResponseHandlerErrorWhenRequestIsRetried",
+              "duration" : 0.89600000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionInitializerSucceedsWithDefaultArguments",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionInitializerSucceedsWithSpecifiedArguments",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionManagerCallsAdapterWhenRequestIsRetried",
+              "duration" : 0.997
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionManagerCallsRequestAdapterWhenCreatingDataRequest",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionManagerCallsRequestAdapterWhenCreatingDownloadRequest",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithData",
+              "duration" : 0.0070000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithFile",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithInputStream",
+              "duration" : 0.0060000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionManagerCallsRequestRetrierWhenDownloadInitiallyEncountersAdaptError",
+              "duration" : 0.629
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionManagerCallsRequestRetrierWhenRequestEncountersError",
+              "duration" : 1.097
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionManagerCallsRequestRetrierWhenRequestInitiallyEncountersAdaptError",
+              "duration" : 0.68600000000000005
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSessionManagerCallsRequestRetrierWhenUploadInitiallyEncountersAdaptError",
+              "duration" : 0.629
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUploadDataRequestWithInvalidURLStringThrowsResponseHandlerError",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUploadFileRequestWithInvalidURLStringThrowsResponseHandlerError",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "SessionTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUploadStreamRequestWithInvalidURLStringThrowsResponseHandlerError",
+              "duration" : 0.0050000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "SessionTestCase"
+        },
+        {
+          "endDate" : 1547853858.4879999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853858.4820001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "SortedKeysJSONParameterEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testTestJSONEncoderSortedKeysHasSortedKeys",
+              "duration" : 0.0040000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "SortedKeysJSONParameterEncoderTests"
+        },
+        {
+          "endDate" : 1547853859.0339999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853858.49,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "StatusCodeValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithAcceptableStatusCodeResponseSucceeds",
+              "duration" : 0.17999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "StatusCodeValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithNoAcceptableStatusCodesFails",
+              "duration" : 0.17999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "StatusCodeValidationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatValidationForRequestWithUnacceptableStatusCodeResponseFails",
+              "duration" : 0.17899999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "StatusCodeValidationTestCase"
+        },
+        {
+          "endDate" : 1547853865.7279999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853859.036,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestFailsWhenPinningAllCertificatesWithCertificateChainValidation",
+              "duration" : 0.57999999999999996
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestFailsWhenPinningLeafCertificateWithCertificateChainValidation",
+              "duration" : 0.32300000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestFailsWhenPinningLeafPublicKeyWithCertificateChainValidation",
+              "duration" : 0.318
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestFailsWithDefaultServerTrustPolicy",
+              "duration" : 0.32200000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestFailsWithNoServerTrustPolicy",
+              "duration" : 0.32900000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestFailsWithRevokedServerTrustPolicy",
+              "duration" : 0.31900000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestSucceedsWhenDisablingEvaluation",
+              "duration" : 0.63100000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestSucceedsWhenPinningIntermediateCACertificateWithoutCertificateChainOrHostValidation",
+              "duration" : 0.627
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestSucceedsWhenPinningIntermediateCAPublicKeyWithoutCertificateChainOrHostValidation",
+              "duration" : 0.626
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestSucceedsWhenPinningLeafCertificateWithoutCertificateChainOrHostValidation",
+              "duration" : 0.68600000000000005
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestSucceedsWhenPinningLeafPublicKeyWithoutCertificateChainOrHostValidation",
+              "duration" : 0.626
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestSucceedsWhenPinningRootCACertificateWithoutCertificateChainValidation",
+              "duration" : 0.33500000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatExpiredCertificateRequestSucceedsWhenPinningRootCAPublicKeyWithoutCertificateChainValidation",
+              "duration" : 0.32500000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TLSEvaluationExpiredLeafCertificateTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatRevokedCertificateRequestFailsWithRevokedServerTrustPolicy",
+              "duration" : 0.622
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TLSEvaluationExpiredLeafCertificateTestCase"
+        },
+        {
+          "endDate" : 1547853865.9130001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853865.73,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeDictionary",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeDouble",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeFloat",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeInt16",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeInt32",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeInt64",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeInt8",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeUInt",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeUInt16",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeUInt32",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeUInt64",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderCanEncodeUInt8",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderThrowsErrorWhenAttemptingToEncodeNilInKeyedContainer",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testEncoderThrowsErrorWhenAttemptingToEncodeNilInUnkeyedContainer",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testStringWithThousandsOfChineseCharactersIsPercentEscaped",
+              "duration" : 0.010999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatAmpersandsInKeysAndValuesArePercentEscaped",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatARootArrayCannotBeEncoded",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatARootValueCannotBeEncoded",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatArraysCanBeEncodedWithoutBrackets",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatBoolsCanBeLiteralEncoded",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatEncodableClassWithNoInheritanceCanBeEncoded",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatEncodableStructCanBeEncoded",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatEncodableSubclassCanBeEncoded",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatEscapedCharactersCanBeCustomized",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatIllegalASCIICharactersArePercentEscaped",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManuallyEncodableStructCanBeEncoded",
+              "duration" : 0.0050000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatManuallyEncodableSubclassCanBeEncoded",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatNestedDictionariesHaveBracketedKeys",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatNonLatinCharactersArePercentEscaped",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatOptionalValuesCannotBeEncoded",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPercentsInKeysAndValuesArePercentEscaped",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatPlusesInKeysAndValuesArePercentEscaped",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatQuestionMarksInKeysAndValuesAreNotPercentEscaped",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatReseredCharactersArePercentEscaped",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSlashesInKeysAndValuesAreNotPercentEscaped",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSpacesCanBeEncodedAsPluses",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatSpacesInKeysAndValuesArePercentEscaped",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUnreservedCharactersAreNotPercentEscaped",
+              "duration" : 0.002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "URLEncodedFormEncoderTests"
+        },
+        {
+          "endDate" : 1547853865.9319999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853865.915,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormParameterEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatEncoderCanBeCustomized",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormParameterEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatQueryIsBodyEncodedAndProperContentTypeIsSetForPOSTRequest",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormParameterEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatQueryIsBodyEncodedButContentTypeIsNotSetWhenRequestAlreadyHasContentType",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLEncodedFormParameterEncoderTests",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatQueryIsInURLWhenDestinationIsURLAndMethodIsPOST",
+              "duration" : 0.002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "URLEncodedFormParameterEncoderTests"
+        },
+        {
+          "endDate" : 1547853866.1029999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853865.9330001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatIllegalASCIICharactersArePercentEscaped",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatReservedCharactersArePercentEscapedMinusQuestionMarkAndForwardSlash",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatReservedCharactersQuestionMarkAndForwardSlashAreNotPercentEscaped",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUnreservedLowercaseCharactersAreNotPercentEscaped",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUnreservedNumericCharactersAreNotPercentEscaped",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUnreservedUppercaseCharactersAreNotPercentEscaped",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatURLEncodedInURLParameterEncodingEncodesPOSTParametersInURL",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatURLParameterEncodingEncodesGETParametersInURL",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatURLParameterEncodingEncodesPOSTParametersInHTTPBody",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeEmptyDictionaryParameter",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeNilParameters",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeOneStringKeyStringValueParameter",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeOneStringKeyStringValueParameterAppendedToQuery",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringForRequestWithPrecomposedQuery",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyArrayValueParameter",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyArrayValueParameterWithoutBrackets",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyBoolValueParameter",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyDictionaryValueParameter",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyDoubleValueParameter",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyIntegerValueParameter",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyNestedDictionaryArrayValueParameter",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyNestedDictionaryArrayValueParameterWithoutBrackets",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyNestedDictionaryValueParameter",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyNonLatinStringValueParameter",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyNSNumberBoolValueParameter",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyNSNumberIntegerValueParameter",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringKeyPercentEncodedStringValueParameter",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringWithAmpersandKeyStringWithAmpersandValueParameter",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringWithPlusKeyStringWithPlusValueParameter",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringWithPlusKeyStringWithPlusValueParameterForRequestWithPrecomposedQuery",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringWithQuestionMarkKeyStringWithQuestionMarkValueParameter",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringWithSlashKeyStringWithQuestionMarkValueParameter",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringWithSpaceKeyStringWithSpaceValueParameter",
+              "duration" : 0.0030000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeStringWithThousandsOfChineseCharacters",
+              "duration" : 0.0080000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterEncodeTwoStringKeyStringValueParameters",
+              "duration" : 0.0040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "URLParameterEncodingTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testURLParameterLiteralBoolEncodingWorksAndDoesNotAffectNumbers",
+              "duration" : 0.0040000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "URLParameterEncodingTestCase"
+        },
+        {
+          "endDate" : 1547853866.744,
+          "children" : [
+
+          ],
+          "startDate" : 1547853866.1059999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "URLProtocolTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatURLProtocolReceivesRequestHeadersAndSessionConfigurationHeaders",
+              "duration" : 0.63600000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "URLProtocolTestCase"
+        },
+        {
+          "endDate" : 1547853867.1099999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853866.7460001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "UploadDataInitializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testUploadClassMethodWithMethodURLAndData",
+              "duration" : 0.18099999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "UploadDataInitializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testUploadClassMethodWithMethodURLHeadersAndData",
+              "duration" : 0.17999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "UploadDataInitializationTestCase"
+        },
+        {
+          "endDate" : 1547853867.52,
+          "children" : [
+
+          ],
+          "startDate" : 1547853867.112,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "UploadDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testUploadDataRequest",
+              "duration" : 0.183
+            },
+            {
+              "outcome" : "success",
+              "className" : "UploadDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testUploadDataRequestWithProgress",
+              "duration" : 0.222
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "UploadDataTestCase"
+        },
+        {
+          "endDate" : 1547853868.006,
+          "children" : [
+
+          ],
+          "startDate" : 1547853867.5220001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "UploadFileInitializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testUploadClassMethodWithMethodURLAndFile",
+              "duration" : 0.23699999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "UploadFileInitializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testUploadClassMethodWithMethodURLHeadersAndFile",
+              "duration" : 0.24199999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "UploadFileInitializationTestCase"
+        },
+        {
+          "endDate" : 1547853870.0309999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853868.007,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "UploadMultipartFormDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUploadingMultipartFormDataAboveMemoryThresholdSetsContentTypeHeader",
+              "duration" : 0.19600000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "UploadMultipartFormDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUploadingMultipartFormDataAboveMemoryThresholdStreamsFromDisk",
+              "duration" : 0.183
+            },
+            {
+              "outcome" : "success",
+              "className" : "UploadMultipartFormDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUploadingMultipartFormDataBelowMemoryThresholdSetsContentTypeHeader",
+              "duration" : 0.183
+            },
+            {
+              "outcome" : "success",
+              "className" : "UploadMultipartFormDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUploadingMultipartFormDataBelowMemoryThresholdStreamsFromMemory",
+              "duration" : 0.224
+            },
+            {
+              "outcome" : "success",
+              "className" : "UploadMultipartFormDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUploadingMultipartFormDataSetsContentTypeHeader",
+              "duration" : 0.28599999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "UploadMultipartFormDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUploadingMultipartFormDataSucceedsWithDefaultParameters",
+              "duration" : 0.28000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "UploadMultipartFormDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUploadingMultipartFormDataWhileStreamingFromDiskMonitorsProgress",
+              "duration" : 0.32000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "UploadMultipartFormDataTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testThatUploadingMultipartFormDataWhileStreamingFromMemoryMonitorsProgress",
+              "duration" : 0.34000000000000002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "UploadMultipartFormDataTestCase"
+        },
+        {
+          "endDate" : 1547853870.6889999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853870.033,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "UploadStreamInitializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testUploadClassMethodWithMethodURLAndStream",
+              "duration" : 0.34599999999999997
+            },
+            {
+              "outcome" : "success",
+              "className" : "UploadStreamInitializationTestCase",
+              "moduleName" : "Alamofire_iOS_Tests",
+              "testName" : "testUploadClassMethodWithMethodURLHeadersAndStream",
+              "duration" : 0.307
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "UploadStreamInitializationTestCase"
+        }
+      ],
+      "startDate" : 1547853800.7650001,
+      "cases" : [
+
+      ],
+      "unexpected" : 0,
+      "outcome" : "success",
+      "name" : "Alamofire iOS Tests.xctest"
+    }
+  ],
+  "startDate" : 1547853800.763,
+  "cases" : [
+
+  ],
+  "unexpected" : 0,
+  "outcome" : "success",
+  "name" : "All tests"
+}

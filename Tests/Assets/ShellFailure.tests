@@ -1,0 +1,26 @@
+Test Suite 'All tests' started at 2019-01-19 19:57:24.888
+Test Suite 'ShellPackageTests.xctest' started at 2019-01-19 19:57:24.888
+Test Suite 'ShellTests' started at 2019-01-19 19:57:24.888
+Test Case '-[ShellTests.ShellTests testAsyncRun]' started.
+Test Case '-[ShellTests.ShellTests testAsyncRun]' passed (2.143 seconds).
+Test Case '-[ShellTests.ShellTests testEnvironment]' started.
+/Users/tib/Shell/Tests/ShellTests/ShellTests.swift:33: error: -[ShellTests.ShellTests testEnvironment] : XCTAssertEqual failed: ("Custom bad env variable") is not equal to ("Custom env variable") - Invalid output `Custom bad env variable`, expected `Custom env variable`.
+Test Case '-[ShellTests.ShellTests testEnvironment]' failed (0.067 seconds).
+Test Case '-[ShellTests.ShellTests testError]' started.
+Test Case '-[ShellTests.ShellTests testError]' passed (0.064 seconds).
+Test Case '-[ShellTests.ShellTests testErrorHandler]' started.
+Test Case '-[ShellTests.ShellTests testErrorHandler]' passed (0.064 seconds).
+Test Case '-[ShellTests.ShellTests testOutput]' started.
+/Users/tib/Shell/Tests/ShellTests/ShellTests.swift:33: error: -[ShellTests.ShellTests testOutput] : XCTAssertEqual failed: ("Hello world!") is not equal to ("Hello outside world!") - Invalid output `Hello world!`, expected `Hello outside world!`.
+Test Case '-[ShellTests.ShellTests testOutput]' failed (0.064 seconds).
+Test Case '-[ShellTests.ShellTests testOutputHandler]' started.
+Test Case '-[ShellTests.ShellTests testOutputHandler]' passed (0.064 seconds).
+Test Case '-[ShellTests.ShellTests testThrow]' started.
+<unknown>:0: error: -[ShellTests.ShellTests testThrow] : failed: caught error: The operation couldn’t be completed. (Shell.ShellError error 0.)
+Test Case '-[ShellTests.ShellTests testThrow]' failed (0.066 seconds).
+Test Suite 'ShellTests' failed at 2019-01-19 19:57:27.420.
+     Executed 7 tests, with 3 failures (1 unexpected) in 2.531 (2.532) seconds
+Test Suite 'ShellPackageTests.xctest' failed at 2019-01-19 19:57:27.420.
+     Executed 7 tests, with 3 failures (1 unexpected) in 2.531 (2.532) seconds
+Test Suite 'All tests' failed at 2019-01-19 19:57:27.420.
+     Executed 7 tests, with 3 failures (1 unexpected) in 2.531 (2.532) seconds

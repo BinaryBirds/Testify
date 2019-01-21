@@ -1,0 +1,166 @@
+Test Suite 'All tests' started at 2019-01-19 13:42:47.355
+Test Suite 'PromiseTests.xctest' started at 2019-01-19 13:42:47.356
+Test Suite 'ExecutionContextTests' started at 2019-01-19 13:42:47.356
+Test Case '-[PromiseTests.ExecutionContextTests testConcurrency]' started.
+Test Case '-[PromiseTests.ExecutionContextTests testConcurrency]' passed (15.354 seconds).
+Test Case '-[PromiseTests.ExecutionContextTests testInvalidatableQueueSupportsNonMainQueues]' started.
+Test Case '-[PromiseTests.ExecutionContextTests testInvalidatableQueueSupportsNonMainQueues]' passed (0.002 seconds).
+Test Case '-[PromiseTests.ExecutionContextTests testInvalidatedInvalidatableQueue]' started.
+Test Case '-[PromiseTests.ExecutionContextTests testInvalidatedInvalidatableQueue]' passed (0.102 seconds).
+Test Case '-[PromiseTests.ExecutionContextTests testNonInvalidatedInvalidatableQueue]' started.
+Test Case '-[PromiseTests.ExecutionContextTests testNonInvalidatedInvalidatableQueue]' passed (0.007 seconds).
+Test Case '-[PromiseTests.ExecutionContextTests testTapContinuesToFireInvalidatableQueue]' started.
+Test Case '-[PromiseTests.ExecutionContextTests testTapContinuesToFireInvalidatableQueue]' passed (0.001 seconds).
+Test Case '-[PromiseTests.ExecutionContextTests testThreads]' started.
+Test Case '-[PromiseTests.ExecutionContextTests testThreads]' passed (3.075 seconds).
+Test Suite 'ExecutionContextTests' passed at 2019-01-19 13:43:05.900.
+     Executed 6 tests, with 0 failures (0 unexpected) in 18.540 (18.545) seconds
+Test Suite 'PromiseAllTests' started at 2019-01-19 13:43:05.901
+Test Case '-[PromiseTests.PromiseAllTests testAll]' started.
+Test Case '-[PromiseTests.PromiseAllTests testAll]' passed (0.108 seconds).
+Test Case '-[PromiseTests.PromiseAllTests testAllWithEmptyArray]' started.
+Test Case '-[PromiseTests.PromiseAllTests testAllWithEmptyArray]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseAllTests testAllWithPreFulfilledValues]' started.
+Test Case '-[PromiseTests.PromiseAllTests testAllWithPreFulfilledValues]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseAllTests testAllWithRejectionHappeningFirst]' started.
+Test Case '-[PromiseTests.PromiseAllTests testAllWithRejectionHappeningFirst]' passed (0.058 seconds).
+Test Case '-[PromiseTests.PromiseAllTests testAllWithRejectionHappeningLast]' started.
+Test Case '-[PromiseTests.PromiseAllTests testAllWithRejectionHappeningLast]' passed (0.103 seconds).
+Test Suite 'PromiseAllTests' passed at 2019-01-19 13:43:06.175.
+     Executed 5 tests, with 0 failures (0 unexpected) in 0.271 (0.274) seconds
+Test Suite 'PromiseAlwaysTests' started at 2019-01-19 13:43:06.175
+Test Case '-[PromiseTests.PromiseAlwaysTests testAlways]' started.
+Test Case '-[PromiseTests.PromiseAlwaysTests testAlways]' passed (0.507 seconds).
+Test Case '-[PromiseTests.PromiseAlwaysTests testAlwaysInstantFulfill]' started.
+Test Case '-[PromiseTests.PromiseAlwaysTests testAlwaysInstantFulfill]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseAlwaysTests testAlwaysInstantReject]' started.
+Test Case '-[PromiseTests.PromiseAlwaysTests testAlwaysInstantReject]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseAlwaysTests testAlwaysRejects]' started.
+Test Case '-[PromiseTests.PromiseAlwaysTests testAlwaysRejects]' passed (0.515 seconds).
+Test Suite 'PromiseAlwaysTests' passed at 2019-01-19 13:43:07.201.
+     Executed 4 tests, with 0 failures (0 unexpected) in 1.023 (1.026) seconds
+Test Suite 'PromiseDelayTests' started at 2019-01-19 13:43:07.202
+Test Case '-[PromiseTests.PromiseDelayTests testDelay]' started.
+Test Case '-[PromiseTests.PromiseDelayTests testDelay]' passed (0.202 seconds).
+Test Case '-[PromiseTests.PromiseDelayTests testTimeoutFunctionFails]' started.
+Test Case '-[PromiseTests.PromiseDelayTests testTimeoutFunctionFails]' passed (0.519 seconds).
+Test Case '-[PromiseTests.PromiseDelayTests testTimeoutFunctionSucceeds]' started.
+Test Case '-[PromiseTests.PromiseDelayTests testTimeoutFunctionSucceeds]' passed (0.012 seconds).
+Test Case '-[PromiseTests.PromiseDelayTests testTimeoutPromise]' started.
+Test Case '-[PromiseTests.PromiseDelayTests testTimeoutPromise]' passed (0.203 seconds).
+Test Suite 'PromiseDelayTests' passed at 2019-01-19 13:43:08.141.
+     Executed 4 tests, with 0 failures (0 unexpected) in 0.936 (0.939) seconds
+Test Suite 'PromiseEnsureTests' started at 2019-01-19 13:43:08.142
+Test Case '-[PromiseTests.PromiseEnsureTests testEnsureOnlyCalledOnSucceess]' started.
+Test Case '-[PromiseTests.PromiseEnsureTests testEnsureOnlyCalledOnSucceess]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseEnsureTests testEnsureRejects]' started.
+Test Case '-[PromiseTests.PromiseEnsureTests testEnsureRejects]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseEnsureTests testEnsureSucceeds]' started.
+Test Case '-[PromiseTests.PromiseEnsureTests testEnsureSucceeds]' passed (0.001 seconds).
+Test Suite 'PromiseEnsureTests' passed at 2019-01-19 13:43:08.147.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.003 (0.005) seconds
+Test Suite 'PromiseKickoffTests' started at 2019-01-19 13:43:08.147
+Test Case '-[PromiseTests.PromiseKickoffTests testFailingKickoff]' started.
+Test Case '-[PromiseTests.PromiseKickoffTests testFailingKickoff]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseKickoffTests testKickoff]' started.
+Test Case '-[PromiseTests.PromiseKickoffTests testKickoff]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseKickoffTests testPromiseKickoff]' started.
+Test Case '-[PromiseTests.PromiseKickoffTests testPromiseKickoff]' passed (0.102 seconds).
+Test Suite 'PromiseKickoffTests' passed at 2019-01-19 13:43:08.252.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.103 (0.105) seconds
+Test Suite 'PromiseRaceTests' started at 2019-01-19 13:43:08.253
+Test Case '-[PromiseTests.PromiseRaceTests testInstantReject]' started.
+Test Case '-[PromiseTests.PromiseRaceTests testInstantReject]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseRaceTests testInstantResolve]' started.
+Test Case '-[PromiseTests.PromiseRaceTests testInstantResolve]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseRaceTests testRace]' started.
+Test Case '-[PromiseTests.PromiseRaceTests testRace]' passed (0.056 seconds).
+Test Case '-[PromiseTests.PromiseRaceTests testRaceFailure]' started.
+Test Case '-[PromiseTests.PromiseRaceTests testRaceFailure]' passed (0.053 seconds).
+Test Suite 'PromiseRaceTests' passed at 2019-01-19 13:43:08.367.
+     Executed 4 tests, with 0 failures (0 unexpected) in 0.111 (0.114) seconds
+Test Suite 'PromiseRecoverTests' started at 2019-01-19 13:43:08.367
+Test Case '-[PromiseTests.PromiseRecoverTests testIgnoreRecover]' started.
+Test Case '-[PromiseTests.PromiseRecoverTests testIgnoreRecover]' passed (0.107 seconds).
+Test Case '-[PromiseTests.PromiseRecoverTests testIgnoreRecoverInstant]' started.
+Test Case '-[PromiseTests.PromiseRecoverTests testIgnoreRecoverInstant]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseRecoverTests testRecover]' started.
+Test Case '-[PromiseTests.PromiseRecoverTests testRecover]' passed (0.105 seconds).
+Test Case '-[PromiseTests.PromiseRecoverTests testRecoverInstant]' started.
+Test Case '-[PromiseTests.PromiseRecoverTests testRecoverInstant]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseRecoverTests testRecoverWithThrowingFunction]' started.
+Test Case '-[PromiseTests.PromiseRecoverTests testRecoverWithThrowingFunction]' passed (0.106 seconds).
+Test Case '-[PromiseTests.PromiseRecoverTests testRecoverWithThrowingFunctionError]' started.
+Test Case '-[PromiseTests.PromiseRecoverTests testRecoverWithThrowingFunctionError]' passed (0.103 seconds).
+Test Suite 'PromiseRecoverTests' passed at 2019-01-19 13:43:08.795.
+     Executed 6 tests, with 0 failures (0 unexpected) in 0.423 (0.428) seconds
+Test Suite 'PromiseRetryTests' started at 2019-01-19 13:43:08.796
+Test Case '-[PromiseTests.PromiseRetryTests testRetry]' started.
+Test Case '-[PromiseTests.PromiseRetryTests testRetry]' passed (0.002 seconds).
+Test Case '-[PromiseTests.PromiseRetryTests testRetryWithInstantSuccess]' started.
+Test Case '-[PromiseTests.PromiseRetryTests testRetryWithInstantSuccess]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseRetryTests testRetryWithNeverSuccess]' started.
+Test Case '-[PromiseTests.PromiseRetryTests testRetryWithNeverSuccess]' passed (0.002 seconds).
+Test Suite 'PromiseRetryTests' passed at 2019-01-19 13:43:08.802.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.004 (0.006) seconds
+Test Suite 'PromiseTests' started at 2019-01-19 13:43:08.803
+Test Case '-[PromiseTests.PromiseTests testAsync]' started.
+Test Case '-[PromiseTests.PromiseTests testAsync]' passed (0.056 seconds).
+Test Case '-[PromiseTests.PromiseTests testAsyncRejection]' started.
+Test Case '-[PromiseTests.PromiseTests testAsyncRejection]' passed (0.052 seconds).
+Test Case '-[PromiseTests.PromiseTests testAsyncThrowing]' started.
+Test Case '-[PromiseTests.PromiseTests testAsyncThrowing]' passed (0.002 seconds).
+Test Case '-[PromiseTests.PromiseTests testDoubleReject]' started.
+Test Case '-[PromiseTests.PromiseTests testDoubleReject]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseTests testDoubleResolve]' started.
+Test Case '-[PromiseTests.PromiseTests testDoubleResolve]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseTests testFlatMap]' started.
+Test Case '-[PromiseTests.PromiseTests testFlatMap]' passed (0.108 seconds).
+Test Case '-[PromiseTests.PromiseTests testFulfilled]' started.
+Test Case '-[PromiseTests.PromiseTests testFulfilled]' passed (0.053 seconds).
+Test Case '-[PromiseTests.PromiseTests testMap]' started.
+Test Case '-[PromiseTests.PromiseTests testMap]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseTests testPending]' started.
+Test Case '-[PromiseTests.PromiseTests testPending]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseTests testRejected]' started.
+Test Case '-[PromiseTests.PromiseTests testRejected]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseTests testRejectedAfterFulfilled]' started.
+Test Case '-[PromiseTests.PromiseTests testRejectedAfterFulfilled]' passed (0.051 seconds).
+Test Case '-[PromiseTests.PromiseTests testRejectThenResolve]' started.
+Test Case '-[PromiseTests.PromiseTests testRejectThenResolve]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseTests testResolveThenReject]' started.
+Test Case '-[PromiseTests.PromiseTests testResolveThenReject]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseTests testThen]' started.
+Test Case '-[PromiseTests.PromiseTests testThen]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseTests testThenWhenPending]' started.
+Test Case '-[PromiseTests.PromiseTests testThenWhenPending]' passed (0.054 seconds).
+Test Case '-[PromiseTests.PromiseTests testTrailingClosuresCompile]' started.
+Test Case '-[PromiseTests.PromiseTests testTrailingClosuresCompile]' passed (0.107 seconds).
+Test Case '-[PromiseTests.PromiseTests testZalgoContained]' started.
+/Users/tib/Downloads/Promise-master/PromiseTests/PromiseTests.swift:232: error: -[PromiseTests.PromiseTests testZalgoContained] : XCTAssertTrue failed -
+Test Case '-[PromiseTests.PromiseTests testZalgoContained]' failed (0.012 seconds).
+Test Suite 'PromiseTests' failed at 2019-01-19 13:43:09.313.
+     Executed 17 tests, with 1 failure (0 unexpected) in 0.501 (0.511) seconds
+Test Suite 'PromiseThrowsTests' started at 2019-01-19 13:43:09.314
+Test Case '-[PromiseTests.PromiseThrowsTests testThrowsInFlatmapping]' started.
+Test Case '-[PromiseTests.PromiseThrowsTests testThrowsInFlatmapping]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseThrowsTests testThrowsInFlatmappingWithError]' started.
+Test Case '-[PromiseTests.PromiseThrowsTests testThrowsInFlatmappingWithError]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseThrowsTests testThrowsInMapping]' started.
+Test Case '-[PromiseTests.PromiseThrowsTests testThrowsInMapping]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseThrowsTests testThrowsInMappingWithError]' started.
+Test Case '-[PromiseTests.PromiseThrowsTests testThrowsInMappingWithError]' passed (0.001 seconds).
+Test Suite 'PromiseThrowsTests' passed at 2019-01-19 13:43:09.320.
+     Executed 4 tests, with 0 failures (0 unexpected) in 0.004 (0.006) seconds
+Test Suite 'PromiseZipTests' started at 2019-01-19 13:43:09.321
+Test Case '-[PromiseTests.PromiseZipTests testMultipleParameters]' started.
+Test Case '-[PromiseTests.PromiseZipTests testMultipleParameters]' passed (0.001 seconds).
+Test Case '-[PromiseTests.PromiseZipTests testZipping2]' started.
+Test Case '-[PromiseTests.PromiseZipTests testZipping2]' passed (0.006 seconds).
+Test Suite 'PromiseZipTests' passed at 2019-01-19 13:43:09.329.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.007 (0.008) seconds
+Test Suite 'PromiseTests.xctest' failed at 2019-01-19 13:43:09.330.
+     Executed 61 tests, with 1 failure (0 unexpected) in 21.928 (21.974) seconds
+Test Suite 'All tests' failed at 2019-01-19 13:43:09.331.
+     Executed 61 tests, with 1 failure (0 unexpected) in 21.928 (21.976) seconds
+Program ended with exit code: 1

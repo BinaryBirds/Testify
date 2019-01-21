@@ -1,0 +1,1123 @@
+Test Suite 'All tests' started at 2019-01-19 00:23:20.763
+Test Suite 'Alamofire iOS Tests.xctest' started at 2019-01-19 00:23:20.765
+Test Suite 'AutomaticValidationTestCase' started at 2019-01-19 00:23:20.767
+Test Case '-[Alamofire_iOS_Tests.AutomaticValidationTestCase testThatValidationForRequestWithAcceptableComplexContentTypeResponseSucceeds]' started.
+Test Case '-[Alamofire_iOS_Tests.AutomaticValidationTestCase testThatValidationForRequestWithAcceptableComplexContentTypeResponseSucceeds]' passed (0.786 seconds).
+Test Case '-[Alamofire_iOS_Tests.AutomaticValidationTestCase testThatValidationForRequestWithAcceptableStatusCodeAndContentTypeResponseSucceeds]' started.
+Test Case '-[Alamofire_iOS_Tests.AutomaticValidationTestCase testThatValidationForRequestWithAcceptableStatusCodeAndContentTypeResponseSucceeds]' passed (0.178 seconds).
+Test Case '-[Alamofire_iOS_Tests.AutomaticValidationTestCase testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceeds]' started.
+Test Case '-[Alamofire_iOS_Tests.AutomaticValidationTestCase testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceeds]' passed (0.179 seconds).
+Test Case '-[Alamofire_iOS_Tests.AutomaticValidationTestCase testThatValidationForRequestWithUnacceptableContentTypeResponseFails]' started.
+Test Case '-[Alamofire_iOS_Tests.AutomaticValidationTestCase testThatValidationForRequestWithUnacceptableContentTypeResponseFails]' passed (0.180 seconds).
+Test Case '-[Alamofire_iOS_Tests.AutomaticValidationTestCase testThatValidationForRequestWithUnacceptableStatusCodeResponseFails]' started.
+Test Case '-[Alamofire_iOS_Tests.AutomaticValidationTestCase testThatValidationForRequestWithUnacceptableStatusCodeResponseFails]' passed (0.179 seconds).
+Test Suite 'AutomaticValidationTestCase' passed at 2019-01-19 00:23:22.276.
+     Executed 5 tests, with 0 failures (0 unexpected) in 1.502 (1.509) seconds
+Test Suite 'BasicAuthenticationTestCase' started at 2019-01-19 00:23:22.277
+Test Case '-[Alamofire_iOS_Tests.BasicAuthenticationTestCase testHiddenHTTPBasicAuthentication]' started.
+Test Case '-[Alamofire_iOS_Tests.BasicAuthenticationTestCase testHiddenHTTPBasicAuthentication]' passed (0.348 seconds).
+Test Case '-[Alamofire_iOS_Tests.BasicAuthenticationTestCase testHTTPBasicAuthenticationWithInvalidCredentials]' started.
+Test Case '-[Alamofire_iOS_Tests.BasicAuthenticationTestCase testHTTPBasicAuthenticationWithInvalidCredentials]' passed (1.066 seconds).
+Test Case '-[Alamofire_iOS_Tests.BasicAuthenticationTestCase testHTTPBasicAuthenticationWithValidCredentials]' started.
+Test Case '-[Alamofire_iOS_Tests.BasicAuthenticationTestCase testHTTPBasicAuthenticationWithValidCredentials]' passed (0.954 seconds).
+Test Suite 'BasicAuthenticationTestCase' passed at 2019-01-19 00:23:24.651.
+     Executed 3 tests, with 0 failures (0 unexpected) in 2.369 (2.373) seconds
+Test Suite 'CacheTestCase' started at 2019-01-19 00:23:24.652
+Test Case '-[Alamofire_iOS_Tests.CacheTestCase testDefaultCachePolicy]' started.
+Test Case '-[Alamofire_iOS_Tests.CacheTestCase testDefaultCachePolicy]' passed (3.235 seconds).
+Test Case '-[Alamofire_iOS_Tests.CacheTestCase testIgnoreLocalCacheDataPolicy]' started.
+Test Case '-[Alamofire_iOS_Tests.CacheTestCase testIgnoreLocalCacheDataPolicy]' passed (3.221 seconds).
+Test Case '-[Alamofire_iOS_Tests.CacheTestCase testURLCacheContainsCachedResponsesForAllRequests]' started.
+Test Case '-[Alamofire_iOS_Tests.CacheTestCase testURLCacheContainsCachedResponsesForAllRequests]' passed (2.298 seconds).
+Test Case '-[Alamofire_iOS_Tests.CacheTestCase testUseLocalCacheDataAndDontLoadFromNetworkPolicy]' started.
+Test Case '-[Alamofire_iOS_Tests.CacheTestCase testUseLocalCacheDataAndDontLoadFromNetworkPolicy]' passed (2.364 seconds).
+Test Case '-[Alamofire_iOS_Tests.CacheTestCase testUseLocalCacheDataIfExistsOtherwiseLoadFromNetworkPolicy]' started.
+Test Case '-[Alamofire_iOS_Tests.CacheTestCase testUseLocalCacheDataIfExistsOtherwiseLoadFromNetworkPolicy]' passed (2.384 seconds).
+Test Suite 'CacheTestCase' passed at 2019-01-19 00:23:38.164.
+     Executed 5 tests, with 0 failures (0 unexpected) in 13.503 (13.512) seconds
+Test Suite 'ContentTypeValidationTestCase' started at 2019-01-19 00:23:38.166
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithAcceptableContentTypeResponseSucceeds]' started.
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithAcceptableContentTypeResponseSucceeds]' passed (0.184 seconds).
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceeds]' started.
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceeds]' passed (0.182 seconds).
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceedsWhenResponseIsNil]' started.
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceedsWhenResponseIsNil]' passed (0.679 seconds).
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithNoAcceptableContentTypeResponseFails]' started.
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithNoAcceptableContentTypeResponseFails]' passed (0.183 seconds).
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithNoAcceptableContentTypeResponseSucceedsWhenNoDataIsReturned]' started.
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithNoAcceptableContentTypeResponseSucceedsWhenNoDataIsReturned]' passed (0.185 seconds).
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithUnacceptableContentTypeResponseFails]' started.
+Test Case '-[Alamofire_iOS_Tests.ContentTypeValidationTestCase testThatValidationForRequestWithUnacceptableContentTypeResponseFails]' passed (0.192 seconds).
+Test Suite 'ContentTypeValidationTestCase' passed at 2019-01-19 00:23:39.781.
+     Executed 6 tests, with 0 failures (0 unexpected) in 1.606 (1.615) seconds
+Test Suite 'CustomResponseSerializerTestCases' started at 2019-01-19 00:23:39.782
+Test Case '-[Alamofire_iOS_Tests.CustomResponseSerializerTestCases testThatCustomResponseSerializersCanBeWrittenWithoutCompilerIssues]' started.
+Test Case '-[Alamofire_iOS_Tests.CustomResponseSerializerTestCases testThatCustomResponseSerializersCanBeWrittenWithoutCompilerIssues]' passed (0.187 seconds).
+Test Suite 'CustomResponseSerializerTestCases' passed at 2019-01-19 00:23:39.971.
+     Executed 1 test, with 0 failures (0 unexpected) in 0.187 (0.189) seconds
+Test Suite 'CustomValidationTestCase' started at 2019-01-19 00:23:39.972
+Test Case '-[Alamofire_iOS_Tests.CustomValidationTestCase testThatCustomValidationCanThrowCustomError]' started.
+Test Case '-[Alamofire_iOS_Tests.CustomValidationTestCase testThatCustomValidationCanThrowCustomError]' passed (0.193 seconds).
+Test Case '-[Alamofire_iOS_Tests.CustomValidationTestCase testThatCustomValidationClosureHasAccessToServerResponseData]' started.
+Test Case '-[Alamofire_iOS_Tests.CustomValidationTestCase testThatCustomValidationClosureHasAccessToServerResponseData]' passed (0.179 seconds).
+Test Case '-[Alamofire_iOS_Tests.CustomValidationTestCase testThatValidationExtensionCanThrowCustomError]' started.
+Test Case '-[Alamofire_iOS_Tests.CustomValidationTestCase testThatValidationExtensionCanThrowCustomError]' passed (0.177 seconds).
+Test Case '-[Alamofire_iOS_Tests.CustomValidationTestCase testThatValidationExtensionHasAccessToServerResponseData]' started.
+Test Case '-[Alamofire_iOS_Tests.CustomValidationTestCase testThatValidationExtensionHasAccessToServerResponseData]' passed (0.181 seconds).
+Test Suite 'CustomValidationTestCase' passed at 2019-01-19 00:23:40.708.
+     Executed 4 tests, with 0 failures (0 unexpected) in 0.729 (0.736) seconds
+Test Suite 'DataResponseSerializationTestCase' started at 2019-01-19 00:23:40.710
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatDataResponseSerializerFailsWhenDataIsNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatDataResponseSerializerFailsWhenDataIsNil]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatDataResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatDataResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatDataResponseSerializerFailsWhenErrorIsNotNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatDataResponseSerializerFailsWhenErrorIsNotNil]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatDataResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatDataResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatDataResponseSerializerSucceedsWhenDataIsNotNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatDataResponseSerializerSucceedsWhenDataIsNotNil]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsEmpty]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsEmpty]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsInvalidJSON]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsInvalidJSON]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsNil]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenErrorIsNotNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenErrorIsNotNil]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerSucceedsWhenDataIsValidJSON]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatJSONResponseSerializerSucceedsWhenDataIsValidJSON]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWhenDataIsEmpty]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWhenDataIsEmpty]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWhenDataIsNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWhenDataIsNil]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWhenErrorIsNotNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWhenErrorIsNotNil]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ProvidedEncoding]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ProvidedEncoding]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ResponseEncoding]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ResponseEncoding]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataAndNoProvidedEncoding]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataAndNoProvidedEncoding]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataAndUTF8ProvidedEncoding]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataAndUTF8ProvidedEncoding]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataUsingResponseTextEncodingName]' started.
+Test Case '-[Alamofire_iOS_Tests.DataResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataUsingResponseTextEncodingName]' passed (0.003 seconds).
+Test Suite 'DataResponseSerializationTestCase' passed at 2019-01-19 00:23:40.797.
+     Executed 22 tests, with 0 failures (0 unexpected) in 0.059 (0.087) seconds
+Test Suite 'DecodableResponseSerializerTests' started at 2019-01-19 00:23:40.800
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerFailsWhenDataIsEmpty]' started.
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerFailsWhenDataIsEmpty]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerFailsWhenDataIsInvalidRepresentation]' started.
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerFailsWhenDataIsInvalidRepresentation]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerFailsWhenDataIsNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerFailsWhenDataIsNil]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerFailsWhenErrorIsNotNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerFailsWhenErrorIsNotNil]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerSucceedsWhenDataIsValidJSON]' started.
+Test Case '-[Alamofire_iOS_Tests.DecodableResponseSerializerTests testThatDecodableResponseSerializerSucceedsWhenDataIsValidJSON]' passed (0.003 seconds).
+Test Suite 'DecodableResponseSerializerTests' passed at 2019-01-19 00:23:40.831.
+     Executed 7 tests, with 0 failures (0 unexpected) in 0.020 (0.031) seconds
+Test Suite 'DownloadInitializationTestCase' started at 2019-01-19 00:23:40.833
+Test Case '-[Alamofire_iOS_Tests.DownloadInitializationTestCase testDownloadClassMethodWithMethodURLAndDestination]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadInitializationTestCase testDownloadClassMethodWithMethodURLAndDestination]' passed (0.169 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadInitializationTestCase testDownloadClassMethodWithMethodURLHeadersAndDestination]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadInitializationTestCase testDownloadClassMethodWithMethodURLHeadersAndDestination]' passed (0.166 seconds).
+Test Suite 'DownloadInitializationTestCase' passed at 2019-01-19 00:23:41.173.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.336 (0.340) seconds
+Test Suite 'DownloadResponseFlatMapErrorTestCase' started at 2019-01-19 00:23:41.175
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapErrorTestCase testThatFlatMapErrorCatchesTransformationError]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapErrorTestCase testThatFlatMapErrorCatchesTransformationError]' passed (2.919 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapErrorTestCase testThatFlatMapErrorPreservesSuccessValue]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapErrorTestCase testThatFlatMapErrorPreservesSuccessValue]' passed (0.176 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapErrorTestCase testThatFlatMapErrorTransformsError]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapErrorTestCase testThatFlatMapErrorTransformsError]' passed (0.010 seconds).
+Test Suite 'DownloadResponseFlatMapErrorTestCase' passed at 2019-01-19 00:23:44.284.
+     Executed 3 tests, with 0 failures (0 unexpected) in 3.104 (3.109) seconds
+Test Suite 'DownloadResponseFlatMapTestCase' started at 2019-01-19 00:23:44.286
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapTestCase testThatFlatMapCatchesTransformationError]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapTestCase testThatFlatMapCatchesTransformationError]' passed (0.189 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapTestCase testThatFlatMapPreservesFailureError]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapTestCase testThatFlatMapPreservesFailureError]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapTestCase testThatFlatMapTransformsSuccessValue]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseFlatMapTestCase testThatFlatMapTransformsSuccessValue]' passed (0.173 seconds).
+Test Suite 'DownloadResponseFlatMapTestCase' passed at 2019-01-19 00:23:44.660.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.370 (0.375) seconds
+Test Suite 'DownloadResponseMapErrorTestCase' started at 2019-01-19 00:23:44.662
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseMapErrorTestCase testThatMapErrorPreservesSuccessValue]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseMapErrorTestCase testThatMapErrorPreservesSuccessValue]' passed (0.172 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseMapErrorTestCase testThatMapErrorTransformsFailureValue]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseMapErrorTestCase testThatMapErrorTransformsFailureValue]' passed (0.008 seconds).
+Test Suite 'DownloadResponseMapErrorTestCase' passed at 2019-01-19 00:23:44.846.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.181 (0.184) seconds
+Test Suite 'DownloadResponseMapTestCase' started at 2019-01-19 00:23:44.847
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseMapTestCase testThatMapPreservesFailureError]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseMapTestCase testThatMapPreservesFailureError]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseMapTestCase testThatMapTransformsSuccessValue]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseMapTestCase testThatMapTransformsSuccessValue]' passed (0.174 seconds).
+Test Suite 'DownloadResponseMapTestCase' passed at 2019-01-19 00:23:45.034.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.183 (0.187) seconds
+Test Suite 'DownloadResponseSerializationTestCase' started at 2019-01-19 00:23:45.035
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerFailsWhenErrorIsNotNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerFailsWhenErrorIsNotNil]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerFailsWhenFileDataIsEmpty]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerFailsWhenFileDataIsEmpty]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerFailsWhenFileURLIsInvalid]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerFailsWhenFileURLIsInvalid]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerFailsWhenFileURLIsNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerFailsWhenFileURLIsNil]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerFailsWhenFileURLIsNilWithNonEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerFailsWhenFileURLIsNilWithNonEmptyResponseStatusCode]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerSucceedsWhenFileDataIsNotNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatDataResponseSerializerSucceedsWhenFileDataIsNotNil]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsInvalidJSON]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsInvalidJSON]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenErrorIsNotNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenErrorIsNotNil]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenFileDataIsEmpty]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenFileDataIsEmpty]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenFileURLIsInvalid]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenFileURLIsInvalid]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenFileURLIsNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerFailsWhenFileURLIsNil]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerSucceedsWhenDataIsValidJSON]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatJSONResponseSerializerSucceedsWhenDataIsValidJSON]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWhenErrorIsNotNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWhenErrorIsNotNil]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWhenFileDataIsEmpty]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWhenFileDataIsEmpty]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWhenFileURLIsInvalid]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWhenFileURLIsInvalid]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWhenFileURLIsNil]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWhenFileURLIsNil]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ProvidedEncoding]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ProvidedEncoding]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ResponseEncoding]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ResponseEncoding]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataAndNoProvidedEncoding]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataAndNoProvidedEncoding]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataAndUTF8ProvidedEncoding]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataAndUTF8ProvidedEncoding]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataUsingResponseTextEncodingName]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseSerializationTestCase testThatStringResponseSerializerSucceedsWithUTF8DataUsingResponseTextEncodingName]' passed (0.004 seconds).
+Test Suite 'DownloadResponseSerializationTestCase' passed at 2019-01-19 00:23:45.150.
+     Executed 26 tests, with 0 failures (0 unexpected) in 0.075 (0.115) seconds
+Test Suite 'DownloadResponseTestCase' started at 2019-01-19 00:23:45.153
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testCancelledDownloadRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testCancelledDownloadRequest]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testDownloadRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testDownloadRequest]' passed (0.329 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testDownloadRequestWithHeaders]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testDownloadRequestWithHeaders]' passed (0.169 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testDownloadRequestWithParameters]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testDownloadRequestWithParameters]' passed (0.175 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testDownloadRequestWithProgress]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testDownloadRequestWithProgress]' passed (0.696 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testThatDownloadingFileAndMovingToDestinationThatIsOccupiedThrowsError]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testThatDownloadingFileAndMovingToDestinationThatIsOccupiedThrowsError]' passed (0.202 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testThatDownloadingFileAndMovingToDirectoryThatDoesNotExistThrowsError]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testThatDownloadingFileAndMovingToDirectoryThatDoesNotExistThrowsError]' passed (0.184 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testThatDownloadOptionsCanCreateIntermediateDirectoriesPriorToMovingFile]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testThatDownloadOptionsCanCreateIntermediateDirectoriesPriorToMovingFile]' passed (0.192 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testThatDownloadOptionsCanRemovePreviousFilePriorToMovingFile]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResponseTestCase testThatDownloadOptionsCanRemovePreviousFilePriorToMovingFile]' passed (0.186 seconds).
+Test Suite 'DownloadResponseTestCase' passed at 2019-01-19 00:23:47.305.
+     Executed 9 tests, with 0 failures (0 unexpected) in 2.139 (2.152) seconds
+Test Suite 'DownloadResumeDataTestCase' started at 2019-01-19 00:23:47.307
+Test Case '-[Alamofire_iOS_Tests.DownloadResumeDataTestCase testThatCancelledDownloadCanBeResumedWithResumeData]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResumeDataTestCase testThatCancelledDownloadCanBeResumedWithResumeData]' passed (4.014 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResumeDataTestCase testThatCancelledDownloadResponseDataMatchesResumeData]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResumeDataTestCase testThatCancelledDownloadResponseDataMatchesResumeData]' passed (0.546 seconds).
+Test Case '-[Alamofire_iOS_Tests.DownloadResumeDataTestCase testThatCancelledDownloadResumeDataIsAvailableWithJSONResponseSerializer]' started.
+Test Case '-[Alamofire_iOS_Tests.DownloadResumeDataTestCase testThatCancelledDownloadResumeDataIsAvailableWithJSONResponseSerializer]' passed (0.519 seconds).
+Test Suite 'DownloadResumeDataTestCase' passed at 2019-01-19 00:23:52.390.
+     Executed 3 tests, with 0 failures (0 unexpected) in 5.079 (5.084) seconds
+Test Suite 'HTTPDigestAuthenticationTestCase' started at 2019-01-19 00:23:52.392
+Test Case '-[Alamofire_iOS_Tests.HTTPDigestAuthenticationTestCase testHTTPDigestAuthenticationWithInvalidCredentials]' started.
+Test Case '-[Alamofire_iOS_Tests.HTTPDigestAuthenticationTestCase testHTTPDigestAuthenticationWithInvalidCredentials]' passed (1.057 seconds).
+Test Case '-[Alamofire_iOS_Tests.HTTPDigestAuthenticationTestCase testHTTPDigestAuthenticationWithValidCredentials]' started.
+Test Case '-[Alamofire_iOS_Tests.HTTPDigestAuthenticationTestCase testHTTPDigestAuthenticationWithValidCredentials]' passed (0.858 seconds).
+Test Suite 'HTTPDigestAuthenticationTestCase' passed at 2019-01-19 00:23:54.311.
+     Executed 2 tests, with 0 failures (0 unexpected) in 1.915 (1.919) seconds
+Test Suite 'HTTPHeadersTests' started at 2019-01-19 00:23:54.313
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersAreStoreUniquelyByCaseInsensitiveName]' started.
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersAreStoreUniquelyByCaseInsensitiveName]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersCanBeProperlySortedByName]' started.
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersCanBeProperlySortedByName]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersCanInsensitivelyGetAndSetThroughSubscript]' started.
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersCanInsensitivelyGetAndSetThroughSubscript]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersHaveUnsortedDescription]' started.
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersHaveUnsortedDescription]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersPreserveLastFormAndValueOfAName]' started.
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersPreserveLastFormAndValueOfAName]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersPreserveOrderOfInsertion]' started.
+Test Case '-[Alamofire_iOS_Tests.HTTPHeadersTests testHeadersPreserveOrderOfInsertion]' passed (0.002 seconds).
+Test Suite 'HTTPHeadersTests' passed at 2019-01-19 00:23:54.333.
+     Executed 6 tests, with 0 failures (0 unexpected) in 0.012 (0.020) seconds
+Test Suite 'JSONParameterEncoderTests' started at 2019-01-19 00:23:54.334
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncoderTests testThatDataIsProperlyEncodedAndProperContentTypeIsSet]' started.
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncoderTests testThatDataIsProperlyEncodedAndProperContentTypeIsSet]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncoderTests testThatDataIsProperlyEncodedButContentTypeIsNotSetIfRequestAlreadyHasAContentType]' started.
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncoderTests testThatDataIsProperlyEncodedButContentTypeIsNotSetIfRequestAlreadyHasAContentType]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncoderTests testThatJSONEncoderCanBeCustomized]' started.
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncoderTests testThatJSONEncoderCanBeCustomized]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncoderTests testThatJSONEncoderDefaultWorks]' started.
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncoderTests testThatJSONEncoderDefaultWorks]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncoderTests testThatJSONEncoderPrettyPrintedPrintsPretty]' started.
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncoderTests testThatJSONEncoderPrettyPrintedPrintsPretty]' passed (0.002 seconds).
+Test Suite 'JSONParameterEncoderTests' passed at 2019-01-19 00:23:54.354.
+     Executed 5 tests, with 0 failures (0 unexpected) in 0.013 (0.020) seconds
+Test Suite 'JSONParameterEncodingTestCase' started at 2019-01-19 00:23:54.356
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncodingTestCase testJSONParameterEncodeArray]' started.
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncodingTestCase testJSONParameterEncodeArray]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncodingTestCase testJSONParameterEncodeComplexParameters]' started.
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncodingTestCase testJSONParameterEncodeComplexParameters]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncodingTestCase testJSONParameterEncodeNilParameters]' started.
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncodingTestCase testJSONParameterEncodeNilParameters]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncodingTestCase testJSONParameterEncodeParametersRetainsCustomContentType]' started.
+Test Case '-[Alamofire_iOS_Tests.JSONParameterEncodingTestCase testJSONParameterEncodeParametersRetainsCustomContentType]' passed (0.002 seconds).
+Test Suite 'JSONParameterEncodingTestCase' passed at 2019-01-19 00:23:54.371.
+     Executed 4 tests, with 0 failures (0 unexpected) in 0.009 (0.015) seconds
+Test Suite 'MultipartFormDataEncodingTestCase' started at 2019-01-19 00:23:54.372
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingDataBodyPart]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingDataBodyPart]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingFileBodyPart]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingFileBodyPart]' passed (0.021 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingMultipleBodyPartsWithVaryingTypes]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingMultipleBodyPartsWithVaryingTypes]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingMultipleDataBodyParts]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingMultipleDataBodyParts]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingMultipleFileBodyParts]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingMultipleFileBodyParts]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingMultipleStreamBodyParts]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingMultipleStreamBodyParts]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingStreamBodyPart]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataEncodingTestCase testEncodingStreamBodyPart]' passed (0.004 seconds).
+Test Suite 'MultipartFormDataEncodingTestCase' passed at 2019-01-19 00:23:54.433.
+     Executed 7 tests, with 0 failures (0 unexpected) in 0.049 (0.061) seconds
+Test Suite 'MultipartFormDataFailureTestCase' started at 2019-01-19 00:23:54.435
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatAppendingFileBodyPartThatIsDirectoryReturnsError]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatAppendingFileBodyPartThatIsDirectoryReturnsError]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatAppendingFileBodyPartThatIsNotFileURLReturnsError]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatAppendingFileBodyPartThatIsNotFileURLReturnsError]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatAppendingFileBodyPartThatIsNotReachableReturnsError]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatAppendingFileBodyPartThatIsNotReachableReturnsError]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatAppendingFileBodyPartWithInvalidLastPathComponentReturnsError]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatAppendingFileBodyPartWithInvalidLastPathComponentReturnsError]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatWritingEncodedDataToBadURLFails]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatWritingEncodedDataToBadURLFails]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatWritingEncodedDataToExistingFileURLFails]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataFailureTestCase testThatWritingEncodedDataToExistingFileURLFails]' passed (0.005 seconds).
+Test Suite 'MultipartFormDataFailureTestCase' passed at 2019-01-19 00:23:54.464.
+     Executed 6 tests, with 0 failures (0 unexpected) in 0.021 (0.030) seconds
+Test Suite 'MultipartFormDataPropertiesTestCase' started at 2019-01-19 00:23:54.466
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataPropertiesTestCase testThatContentLengthMatchesTotalBodyPartSize]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataPropertiesTestCase testThatContentLengthMatchesTotalBodyPartSize]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataPropertiesTestCase testThatContentTypeContainsBoundary]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataPropertiesTestCase testThatContentTypeContainsBoundary]' passed (0.003 seconds).
+Test Suite 'MultipartFormDataPropertiesTestCase' passed at 2019-01-19 00:23:54.475.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.005 (0.009) seconds
+Test Suite 'MultipartFormDataWriteEncodedDataToDiskTestCase' started at 2019-01-19 00:23:54.476
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingEncodedDataBodyPartToDisk]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingEncodedDataBodyPartToDisk]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingEncodedFileBodyPartToDisk]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingEncodedFileBodyPartToDisk]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingEncodedStreamBodyPartToDisk]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingEncodedStreamBodyPartToDisk]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingMultipleEncodedBodyPartsWithVaryingTypesToDisk]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingMultipleEncodedBodyPartsWithVaryingTypesToDisk]' passed (0.008 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingMultipleEncodedDataBodyPartsToDisk]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingMultipleEncodedDataBodyPartsToDisk]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingMultipleEncodedFileBodyPartsToDisk]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingMultipleEncodedFileBodyPartsToDisk]' passed (0.011 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingMultipleEncodedStreamBodyPartsToDisk]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipartFormDataWriteEncodedDataToDiskTestCase testWritingMultipleEncodedStreamBodyPartsToDisk]' passed (0.005 seconds).
+Test Suite 'MultipartFormDataWriteEncodedDataToDiskTestCase' passed at 2019-01-19 00:23:54.526.
+     Executed 7 tests, with 0 failures (0 unexpected) in 0.041 (0.051) seconds
+Test Suite 'MultipleValidationTestCase' started at 2019-01-19 00:23:54.528
+Test Case '-[Alamofire_iOS_Tests.MultipleValidationTestCase testThatValidationForRequestWithAcceptableStatusCodeAndContentTypeResponseSucceeds]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipleValidationTestCase testThatValidationForRequestWithAcceptableStatusCodeAndContentTypeResponseSucceeds]' passed (0.178 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipleValidationTestCase testThatValidationForRequestWithUnacceptableStatusCodeAndContentTypeResponseFailsWithContentTypeError]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipleValidationTestCase testThatValidationForRequestWithUnacceptableStatusCodeAndContentTypeResponseFailsWithContentTypeError]' passed (0.181 seconds).
+Test Case '-[Alamofire_iOS_Tests.MultipleValidationTestCase testThatValidationForRequestWithUnacceptableStatusCodeAndContentTypeResponseFailsWithStatusCodeError]' started.
+Test Case '-[Alamofire_iOS_Tests.MultipleValidationTestCase testThatValidationForRequestWithUnacceptableStatusCodeAndContentTypeResponseFailsWithStatusCodeError]' passed (0.184 seconds).
+Test Suite 'MultipleValidationTestCase' passed at 2019-01-19 00:23:55.077.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.543 (0.548) seconds
+Test Suite 'NetworkReachabilityManagerTestCase' started at 2019-01-19 00:23:55.079
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatAddressManagerCanBeDeinitialized]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatAddressManagerCanBeDeinitialized]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatAddressManagerIsNotifiedWhenStartListeningIsCalled]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatAddressManagerIsNotifiedWhenStartListeningIsCalled]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatAddressManagerStartsWithReachableStatus]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatAddressManagerStartsWithReachableStatus]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatHostManagerCanBeDeinitialized]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatHostManagerCanBeDeinitialized]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatHostManagerIsNotifiedWhenStartListeningIsCalled]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatHostManagerIsNotifiedWhenStartListeningIsCalled]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatHostManagerIsReachableOnWiFi]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatHostManagerIsReachableOnWiFi]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatHostManagerStartsWithReachableStatus]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatHostManagerStartsWithReachableStatus]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerCanBeInitializedFromAddress]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerCanBeInitializedFromAddress]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerCanBeInitializedFromHost]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerCanBeInitializedFromHost]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsNotReachableOnWWANStatusWhenIsWWANAndConnectionIsRequired]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsNotReachableOnWWANStatusWhenIsWWANAndConnectionIsRequired]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsNotReachableStatusWhenConnectionIsRequired]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsNotReachableStatusWhenConnectionIsRequired]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsNotReachableStatusWhenInterventionIsRequired]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsNotReachableStatusWhenInterventionIsRequired]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsNotReachableStatusWhenReachableFlagIsAbsent]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsNotReachableStatusWhenReachableFlagIsAbsent]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsNotRequired]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsNotRequired]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsOnDemand]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsOnDemand]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsOnTraffic]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsOnTraffic]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsReachableOnWWANStatusWhenIsWWAN]' started.
+Test Case '-[Alamofire_iOS_Tests.NetworkReachabilityManagerTestCase testThatManagerReturnsReachableOnWWANStatusWhenIsWWAN]' passed (0.003 seconds).
+Test Suite 'NetworkReachabilityManagerTestCase' passed at 2019-01-19 00:23:55.159.
+     Executed 17 tests, with 0 failures (0 unexpected) in 0.053 (0.080) seconds
+Test Suite 'RequestDebugDescriptionTestCase' started at 2019-01-19 00:23:55.161
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testGETRequestDebugDescription]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testGETRequestDebugDescription]' passed (0.646 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testGETRequestWithDuplicateHeadersDebugDescription]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testGETRequestWithDuplicateHeadersDebugDescription]' passed (0.658 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testGETRequestWithJSONHeaderDebugDescription]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testGETRequestWithJSONHeaderDebugDescription]' passed (0.652 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testMultipartFormDataRequestWithDuplicateHeadersDebugDescription]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testMultipartFormDataRequestWithDuplicateHeadersDebugDescription]' passed (0.599 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testPOSTRequestDebugDescription]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testPOSTRequestDebugDescription]' passed (0.605 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testPOSTRequestWithCookieDebugDescription]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testPOSTRequestWithCookieDebugDescription]' passed (0.682 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testPOSTRequestWithCookiesDisabledDebugDescription]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testPOSTRequestWithCookiesDisabledDebugDescription]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testPOSTRequestWithJSONParametersDebugDescription]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testPOSTRequestWithJSONParametersDebugDescription]' passed (0.666 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testThatRequestWithInvalidURLDebugDescription]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestDebugDescriptionTestCase testThatRequestWithInvalidURLDebugDescription]' passed (0.012 seconds).
+Test Suite 'RequestDebugDescriptionTestCase' passed at 2019-01-19 00:23:59.701.
+     Executed 9 tests, with 0 failures (0 unexpected) in 4.525 (4.540) seconds
+Test Suite 'RequestDescriptionTestCase' started at 2019-01-19 00:23:59.703
+Test Case '-[Alamofire_iOS_Tests.RequestDescriptionTestCase testRequestDescription]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestDescriptionTestCase testRequestDescription]' passed (0.733 seconds).
+Test Suite 'RequestDescriptionTestCase' passed at 2019-01-19 00:24:00.439.
+     Executed 1 test, with 0 failures (0 unexpected) in 0.733 (0.736) seconds
+Test Suite 'RequestResponseTestCase' started at 2019-01-19 00:24:00.441
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testPOSTRequestWithBase64EncodedImages]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testPOSTRequestWithBase64EncodedImages]' passed (1.134 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testPOSTRequestWithUnicodeParameters]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testPOSTRequestWithUnicodeParameters]' passed (0.188 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testRequestResponse]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testRequestResponse]' passed (0.191 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testRequestResponseWithProgress]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testRequestResponseWithProgress]' passed (0.578 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testThatRequestsCanPassEncodableParametersAsAURLQuery]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testThatRequestsCanPassEncodableParametersAsAURLQuery]' passed (0.184 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testThatRequestsCanPassEncodableParametersAsJSONBodyData]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testThatRequestsCanPassEncodableParametersAsJSONBodyData]' passed (0.184 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testThatRequestsCanPassEncodableParametersAsURLEncodedBodyData]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testThatRequestsCanPassEncodableParametersAsURLEncodedBodyData]' passed (0.188 seconds).
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testThatResponseSerializationWorksWithSerializationQueue]' started.
+Test Case '-[Alamofire_iOS_Tests.RequestResponseTestCase testThatResponseSerializationWorksWithSerializationQueue]' passed (0.613 seconds).
+Test Suite 'RequestResponseTestCase' passed at 2019-01-19 00:24:03.714.
+     Executed 8 tests, with 0 failures (0 unexpected) in 3.259 (3.273) seconds
+Test Suite 'ResponseDataTestCase' started at 2019-01-19 00:24:03.717
+Test Case '-[Alamofire_iOS_Tests.ResponseDataTestCase testThatResponseDataReturnsFailureResultWithOptionalDataAndError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseDataTestCase testThatResponseDataReturnsFailureResultWithOptionalDataAndError]' passed (0.011 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseDataTestCase testThatResponseDataReturnsSuccessResultWithValidData]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseDataTestCase testThatResponseDataReturnsSuccessResultWithValidData]' passed (0.180 seconds).
+Test Suite 'ResponseDataTestCase' passed at 2019-01-19 00:24:03.911.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.190 (0.194) seconds
+Test Suite 'ResponseFlatMapErrorTestCase' started at 2019-01-19 00:24:03.912
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapErrorTestCase testThatFlatMapErrorCatchesTransformationError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapErrorTestCase testThatFlatMapErrorCatchesTransformationError]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapErrorTestCase testThatFlatMapErrorPreservesSuccessValue]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapErrorTestCase testThatFlatMapErrorPreservesSuccessValue]' passed (0.182 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapErrorTestCase testThatFlatMapErrorTransformsError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapErrorTestCase testThatFlatMapErrorTransformsError]' passed (0.010 seconds).
+Test Suite 'ResponseFlatMapErrorTestCase' passed at 2019-01-19 00:24:04.119.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.201 (0.207) seconds
+Test Suite 'ResponseFlatMapTestCase' started at 2019-01-19 00:24:04.120
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapTestCase testThatFlatMapCatchesTransformationError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapTestCase testThatFlatMapCatchesTransformationError]' passed (0.182 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapTestCase testThatFlatMapPreservesFailureError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapTestCase testThatFlatMapPreservesFailureError]' passed (0.011 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapTestCase testThatFlatMapTransformsSuccessValue]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseFlatMapTestCase testThatFlatMapTransformsSuccessValue]' passed (0.187 seconds).
+Test Suite 'ResponseFlatMapTestCase' passed at 2019-01-19 00:24:04.507.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.381 (0.387) seconds
+Test Suite 'ResponseJSONDecodableTestCase' started at 2019-01-19 00:24:04.509
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONDecodableTestCase testThatResponseJSONReturnsSuccessResultWithValidJSON]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONDecodableTestCase testThatResponseJSONReturnsSuccessResultWithValidJSON]' passed (0.182 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONDecodableTestCase testThatResponseStringReturnsFailureResultWithOptionalDataAndError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONDecodableTestCase testThatResponseStringReturnsFailureResultWithOptionalDataAndError]' passed (0.010 seconds).
+Test Suite 'ResponseJSONDecodableTestCase' passed at 2019-01-19 00:24:04.705.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.192 (0.196) seconds
+Test Suite 'ResponseJSONTestCase' started at 2019-01-19 00:24:04.707
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONTestCase testThatResponseJSONReturnsSuccessResultForGETRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONTestCase testThatResponseJSONReturnsSuccessResultForGETRequest]' passed (0.186 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONTestCase testThatResponseJSONReturnsSuccessResultForPOSTRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONTestCase testThatResponseJSONReturnsSuccessResultForPOSTRequest]' passed (0.180 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONTestCase testThatResponseJSONReturnsSuccessResultWithValidJSON]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONTestCase testThatResponseJSONReturnsSuccessResultWithValidJSON]' passed (0.187 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONTestCase testThatResponseStringReturnsFailureResultWithOptionalDataAndError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseJSONTestCase testThatResponseStringReturnsFailureResultWithOptionalDataAndError]' passed (0.011 seconds).
+Test Suite 'ResponseJSONTestCase' passed at 2019-01-19 00:24:05.278.
+     Executed 4 tests, with 0 failures (0 unexpected) in 0.564 (0.571) seconds
+Test Suite 'ResponseMapErrorTestCase' started at 2019-01-19 00:24:05.280
+Test Case '-[Alamofire_iOS_Tests.ResponseMapErrorTestCase testThatMapErrorPreservesSuccessValue]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseMapErrorTestCase testThatMapErrorPreservesSuccessValue]' passed (0.183 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseMapErrorTestCase testThatMapErrorTransformsFailureValue]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseMapErrorTestCase testThatMapErrorTransformsFailureValue]' passed (0.010 seconds).
+Test Suite 'ResponseMapErrorTestCase' passed at 2019-01-19 00:24:05.477.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.193 (0.197) seconds
+Test Suite 'ResponseMapTestCase' started at 2019-01-19 00:24:05.479
+Test Case '-[Alamofire_iOS_Tests.ResponseMapTestCase testThatMapPreservesFailureError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseMapTestCase testThatMapPreservesFailureError]' passed (0.012 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseMapTestCase testThatMapTransformsSuccessValue]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseMapTestCase testThatMapTransformsSuccessValue]' passed (0.206 seconds).
+Test Suite 'ResponseMapTestCase' passed at 2019-01-19 00:24:05.701.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.218 (0.222) seconds
+Test Suite 'ResponseStringTestCase' started at 2019-01-19 00:24:05.703
+Test Case '-[Alamofire_iOS_Tests.ResponseStringTestCase testThatResponseStringReturnsFailureResultWithOptionalDataAndError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseStringTestCase testThatResponseStringReturnsFailureResultWithOptionalDataAndError]' passed (0.013 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseStringTestCase testThatResponseStringReturnsSuccessResultWithValidString]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseStringTestCase testThatResponseStringReturnsSuccessResultWithValidString]' passed (0.180 seconds).
+Test Suite 'ResponseStringTestCase' passed at 2019-01-19 00:24:05.901.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.193 (0.198) seconds
+Test Suite 'ResponseTestCase' started at 2019-01-19 00:24:05.902
+Test Case '-[Alamofire_iOS_Tests.ResponseTestCase testThatResponseReturnsFailureResultWithOptionalDataAndError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseTestCase testThatResponseReturnsFailureResultWithOptionalDataAndError]' passed (0.010 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResponseTestCase testThatResponseReturnsSuccessResultWithValidData]' started.
+Test Case '-[Alamofire_iOS_Tests.ResponseTestCase testThatResponseReturnsSuccessResultWithValidData]' passed (0.189 seconds).
+Test Suite 'ResponseTestCase' passed at 2019-01-19 00:24:06.105.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.199 (0.203) seconds
+Test Suite 'ResultTestCase' started at 2019-01-19 00:24:06.106
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testFlatMapErrorCapturesThrownError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testFlatMapErrorCapturesThrownError]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testFlatMapErrorTransformsErrorValue]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testFlatMapErrorTransformsErrorValue]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testFunctionalMethodsCanBeChained]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testFunctionalMethodsCanBeChained]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testIfFailureDoesNotExecuteWhenSuccess]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testIfFailureDoesNotExecuteWhenSuccess]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testIfFailureExecutesWhenFailure]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testIfFailureExecutesWhenFailure]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testIfSuccessDoesNotExecutesWhenFailure]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testIfSuccessDoesNotExecutesWhenFailure]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testIfSuccessExecutesWhenSuccess]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testIfSuccessExecutesWhenSuccess]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testMapErrorPreservesSuccessError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testMapErrorPreservesSuccessError]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testMapErrorTransformsErrorValue]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testMapErrorTransformsErrorValue]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatDebugDescriptionStringMatchesExpectedValueForFailureCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatDebugDescriptionStringMatchesExpectedValueForFailureCase]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatDebugDescriptionStringMatchesExpectedValueForSuccessCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatDebugDescriptionStringMatchesExpectedValueForSuccessCase]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatDescriptionStringMatchesExpectedValueForFailureCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatDescriptionStringMatchesExpectedValueForFailureCase]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatDescriptionStringMatchesExpectedValueForSuccessCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatDescriptionStringMatchesExpectedValueForSuccessCase]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatErrorPropertyReturnsErrorForFailureCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatErrorPropertyReturnsErrorForFailureCase]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatErrorPropertyReturnsNilForSuccessCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatErrorPropertyReturnsNilForSuccessCase]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatFlatMapCatchesTransformationError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatFlatMapCatchesTransformationError]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatFlatMapPreservesFailureError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatFlatMapPreservesFailureError]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatFlatMapTransformsSuccessValue]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatFlatMapTransformsSuccessValue]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatInitializerFromThrowingClosureCatchesErrorAsAFailure]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatInitializerFromThrowingClosureCatchesErrorAsAFailure]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatInitializerFromThrowingClosureStoresResultAsASuccess]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatInitializerFromThrowingClosureStoresResultAsASuccess]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatIsFailurePropertyReturnsFalseForSuccessCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatIsFailurePropertyReturnsFalseForSuccessCase]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatIsFailurePropertyReturnsTrueForFailureCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatIsFailurePropertyReturnsTrueForFailureCase]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatIsSuccessPropertyReturnsFalseForFailureCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatIsSuccessPropertyReturnsFalseForFailureCase]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatIsSuccessPropertyReturnsTrueForSuccessCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatIsSuccessPropertyReturnsTrueForSuccessCase]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatMapPreservesFailureError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatMapPreservesFailureError]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatMapTransformsSuccessValue]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatMapTransformsSuccessValue]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatUnwrapReturnsSuccessValue]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatUnwrapReturnsSuccessValue]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatUnwrapThrowsFailureError]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatUnwrapThrowsFailureError]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatValuePropertyReturnsNilForFailureCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatValuePropertyReturnsNilForFailureCase]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatValuePropertyReturnsValueForSuccessCase]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testThatValuePropertyReturnsValueForSuccessCase]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testWithErrorDoesNotExecuteWhenSuccess]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testWithErrorDoesNotExecuteWhenSuccess]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testWithErrorExecutesWhenFailure]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testWithErrorExecutesWhenFailure]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testWithValueDoesNotExecutesWhenFailure]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testWithValueDoesNotExecutesWhenFailure]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testWithValueExecutesWhenSuccess]' started.
+Test Case '-[Alamofire_iOS_Tests.ResultTestCase testWithValueExecutesWhenSuccess]' passed (0.003 seconds).
+Test Suite 'ResultTestCase' passed at 2019-01-19 00:24:06.250.
+     Executed 34 tests, with 0 failures (0 unexpected) in 0.089 (0.144) seconds
+Test Suite 'ServerTrustPolicyCertificatesInBundleTestCase' started at 2019-01-19 00:24:06.253
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyCertificatesInBundleTestCase testOnlyValidCertificatesAreDetected]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyCertificatesInBundleTestCase testOnlyValidCertificatesAreDetected]' passed (0.019 seconds).
+Test Suite 'ServerTrustPolicyCertificatesInBundleTestCase' passed at 2019-01-19 00:24:06.274.
+     Executed 1 test, with 0 failures (0 unexpected) in 0.019 (0.021) seconds
+Test Suite 'ServerTrustPolicyCompositeTestCase' started at 2019-01-19 00:24:06.275
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyCompositeTestCase testThatExpiredLeafCertificateFailsDefaultAndRevocationComposite]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyCompositeTestCase testThatExpiredLeafCertificateFailsDefaultAndRevocationComposite]' passed (0.017 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyCompositeTestCase testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyCompositeTestCase testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyCompositeTestCase testThatValidCertificateChainPassesDefaultAndRevocationCompositeChecks]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyCompositeTestCase testThatValidCertificateChainPassesDefaultAndRevocationCompositeChecks]' passed (0.015 seconds).
+Test Suite 'ServerTrustPolicyCompositeTestCase' passed at 2019-01-19 00:24:06.321.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.041 (0.046) seconds
+Test Suite 'ServerTrustPolicyDisableEvaluationTestCase' started at 2019-01-19 00:24:06.323
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyDisableEvaluationTestCase testThatCertificateChainMissingIntermediateCertificatePassesEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyDisableEvaluationTestCase testThatCertificateChainMissingIntermediateCertificatePassesEvaluation]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyDisableEvaluationTestCase testThatExpiredLeafCertificatePassesEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyDisableEvaluationTestCase testThatExpiredLeafCertificatePassesEvaluation]' passed (0.003 seconds).
+Test Suite 'ServerTrustPolicyDisableEvaluationTestCase' passed at 2019-01-19 00:24:06.332.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.005 (0.009) seconds
+Test Suite 'ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase' started at 2019-01-19 00:24:06.334
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase testThatAnchoredRootCertificatePassesBasicX509ValidationWithoutRootInTrust]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase testThatAnchoredRootCertificatePassesBasicX509ValidationWithoutRootInTrust]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase testThatAnchoredRootCertificatePassesBasicX509ValidationWithRootInTrust]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase testThatAnchoredRootCertificatePassesBasicX509ValidationWithRootInTrust]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase testThatCertificateMissingDNSNamePassesBasicX509Validation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase testThatCertificateMissingDNSNamePassesBasicX509Validation]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase testThatExpiredCertificateFailsBasicX509Validation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase testThatExpiredCertificateFailsBasicX509Validation]' passed (0.010 seconds).
+Test Suite 'ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase' passed at 2019-01-19 00:24:06.371.
+     Executed 4 tests, with 0 failures (0 unexpected) in 0.030 (0.037) seconds
+Test Suite 'ServerTrustPolicyExplorationSSLPolicyValidationTestCase' started at 2019-01-19 00:24:06.373
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatAnchoredRootCertificatePassesSSLValidationWithoutRootInTrust]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatAnchoredRootCertificatePassesSSLValidationWithoutRootInTrust]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatAnchoredRootCertificatePassesSSLValidationWithRootInTrust]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatAnchoredRootCertificatePassesSSLValidationWithRootInTrust]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatCertificateMissingDNSNameFailsSSLValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatCertificateMissingDNSNameFailsSSLValidation]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatDNSNameCertificatePassesSSLValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatDNSNameCertificatePassesSSLValidation]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatExpiredCertificateFailsSSLValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatExpiredCertificateFailsSSLValidation]' passed (0.008 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatMultipleDNSNamesCertificatePassesSSLValidationForAllEntries]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatMultipleDNSNamesCertificatePassesSSLValidationForAllEntries]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatPassingNilForHostParameterAllowsCertificateMissingDNSNameToPassSSLValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatPassingNilForHostParameterAllowsCertificateMissingDNSNameToPassSSLValidation]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatURICertificateFailsSSLValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatURICertificateFailsSSLValidation]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatWildcardCertificatePassesSSLValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyExplorationSSLPolicyValidationTestCase testThatWildcardCertificatePassesSSLValidation]' passed (0.012 seconds).
+Test Suite 'ServerTrustPolicyExplorationSSLPolicyValidationTestCase' passed at 2019-01-19 00:24:06.453.
+     Executed 9 tests, with 0 failures (0 unexpected) in 0.065 (0.079) seconds
+Test Suite 'ServerTrustPolicyPerformDefaultEvaluationTestCase' started at 2019-01-19 00:24:06.455
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatExpiredCertificateChainFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatExpiredCertificateChainFailsEvaluationWithHostValidation]' passed (0.010 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatExpiredCertificateChainFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatExpiredCertificateChainFailsEvaluationWithoutHostValidation]' passed (0.010 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatMissingDNSNameLeafCertificateFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatMissingDNSNameLeafCertificateFailsEvaluationWithHostValidation]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatMissingDNSNameLeafCertificatePassesEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatMissingDNSNameLeafCertificatePassesEvaluationWithoutHostValidation]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatMissingIntermediateCertificateInChainFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatMissingIntermediateCertificateInChainFailsEvaluationWithHostValidation]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatMissingIntermediateCertificateInChainFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatMissingIntermediateCertificateInChainFailsEvaluationWithoutHostValidation]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatNonAnchoredRootCertificateChainFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatNonAnchoredRootCertificateChainFailsEvaluationWithHostValidation]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatValidCertificateChainPassesEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatValidCertificateChainPassesEvaluationWithHostValidation]' passed (0.011 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatValidCertificateChainPassesEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatValidCertificateChainPassesEvaluationWithoutHostValidation]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatWildcardedLeafCertificateChainPassesEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformDefaultEvaluationTestCase testThatWildcardedLeafCertificateChainPassesEvaluationWithHostValidation]' passed (0.012 seconds).
+Test Suite 'ServerTrustPolicyPerformDefaultEvaluationTestCase' passed at 2019-01-19 00:24:06.569.
+     Executed 11 tests, with 0 failures (0 unexpected) in 0.094 (0.114) seconds
+Test Suite 'ServerTrustPolicyPerformRevokedEvaluationTestCase' started at 2019-01-19 00:24:06.571
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatExpiredCertificateChainFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatExpiredCertificateChainFailsEvaluationWithHostValidation]' passed (0.008 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatExpiredCertificateChainFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatExpiredCertificateChainFailsEvaluationWithoutHostValidation]' passed (0.010 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatMissingDNSNameLeafCertificateFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatMissingDNSNameLeafCertificateFailsEvaluationWithHostValidation]' passed (0.014 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatMissingDNSNameLeafCertificatePassesEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatMissingDNSNameLeafCertificatePassesEvaluationWithoutHostValidation]' passed (0.011 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatMissingIntermediateCertificateInChainFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatMissingIntermediateCertificateInChainFailsEvaluationWithHostValidation]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatMissingIntermediateCertificateInChainFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatMissingIntermediateCertificateInChainFailsEvaluationWithoutHostValidation]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatNonAnchoredRootCertificateChainFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatNonAnchoredRootCertificateChainFailsEvaluationWithHostValidation]' passed (0.008 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatValidCertificateChainPassesEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatValidCertificateChainPassesEvaluationWithHostValidation]' passed (0.018 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatValidCertificateChainPassesEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatValidCertificateChainPassesEvaluationWithoutHostValidation]' passed (0.012 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatWildcardedLeafCertificateChainPassesEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPerformRevokedEvaluationTestCase testThatWildcardedLeafCertificateChainPassesEvaluationWithHostValidation]' passed (0.015 seconds).
+Test Suite 'ServerTrustPolicyPerformRevokedEvaluationTestCase' passed at 2019-01-19 00:24:06.708.
+     Executed 11 tests, with 0 failures (0 unexpected) in 0.117 (0.137) seconds
+Test Suite 'ServerTrustPolicyPinCertificatesTestCase' started at 2019-01-19 00:24:06.710
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedIntermediateCertificatePassesEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedIntermediateCertificatePassesEvaluationWithoutHostValidation]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedIntermediateCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedIntermediateCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation]' passed (0.014 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedIntermediateCertificateWithoutCertificateChainValidationPassesEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedIntermediateCertificateWithoutCertificateChainValidationPassesEvaluation]' passed (0.010 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedLeafCertificatePassesEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedLeafCertificatePassesEvaluationWithoutHostValidation]' passed (0.011 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedLeafCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedLeafCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedLeafCertificateWithoutCertificateChainValidationPassesEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedLeafCertificateWithoutCertificateChainValidationPassesEvaluation]' passed (0.010 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedRootCertificatePassesEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedRootCertificatePassesEvaluationWithoutHostValidation]' passed (0.010 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedRootCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedRootCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation]' passed (0.012 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedRootCertificateWithoutCertificateChainValidationPassesEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinnedRootCertificateWithoutCertificateChainValidationPassesEvaluation]' passed (0.010 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningExpiredLeafCertificateFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningExpiredLeafCertificateFailsEvaluationWithHostValidation]' passed (0.010 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningExpiredLeafCertificateFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningExpiredLeafCertificateFailsEvaluationWithoutHostValidation]' passed (0.011 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateNotInCertificateChainFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateNotInCertificateChainFailsEvaluationWithHostValidation]' passed (0.011 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateNotInCertificateChainFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateNotInCertificateChainFailsEvaluationWithoutHostValidation]' passed (0.010 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateNotInCertificateChainWithoutCertificateChainValidationFailsEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateNotInCertificateChainWithoutCertificateChainValidationFailsEvaluation]' passed (0.008 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateWithExpiredLeafCertificateFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateWithExpiredLeafCertificateFailsEvaluationWithHostValidation]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateWithExpiredLeafCertificateFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateWithExpiredLeafCertificateFailsEvaluationWithoutHostValidation]' passed (0.012 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateWithExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningIntermediateCertificateWithExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningLeafCertificateNotInCertificateChainFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningLeafCertificateNotInCertificateChainFailsEvaluationWithHostValidation]' passed (0.008 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningLeafCertificateNotInCertificateChainFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningLeafCertificateNotInCertificateChainFailsEvaluationWithoutHostValidation]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningLeafCertificateNotInCertificateChainWithoutCertificateChainValidationFailsEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningLeafCertificateNotInCertificateChainWithoutCertificateChainValidationFailsEvaluation]' passed (0.013 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningMultipleCertificatesWithoutCertificateChainValidationPassesEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningMultipleCertificatesWithoutCertificateChainValidationPassesEvaluation]' passed (0.012 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningRootCertificateWithExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinCertificatesTestCase testThatPinningRootCertificateWithExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation]' passed (0.009 seconds).
+Test Suite 'ServerTrustPolicyPinCertificatesTestCase' passed at 2019-01-19 00:24:06.981.
+     Executed 23 tests, with 0 failures (0 unexpected) in 0.232 (0.272) seconds
+Test Suite 'ServerTrustPolicyPinPublicKeysTestCase' started at 2019-01-19 00:24:06.983
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningBackupKeyPassesEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningBackupKeyPassesEvaluationWithHostValidation]' passed (0.011 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningBackupKeyPassesEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningBackupKeyPassesEvaluationWithoutHostValidation]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningIntermediateKeyPassesEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningIntermediateKeyPassesEvaluationWithHostValidation]' passed (0.010 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningIntermediateKeyPassesEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningIntermediateKeyPassesEvaluationWithoutHostValidation]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningIntermediateKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningIntermediateKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate]' passed (0.008 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningKeyNotInCertificateChainFailsEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningKeyNotInCertificateChainFailsEvaluationWithHostValidation]' passed (0.013 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningKeyNotInCertificateChainFailsEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningKeyNotInCertificateChainFailsEvaluationWithoutHostValidation]' passed (0.008 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningLeafKeyPassesEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningLeafKeyPassesEvaluationWithHostValidation]' passed (0.012 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningLeafKeyPassesEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningLeafKeyPassesEvaluationWithoutHostValidation]' passed (0.008 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate]' passed (0.009 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithIncorrectIntermediateCertificate]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithIncorrectIntermediateCertificate]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithMissingIntermediateCertificate]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithMissingIntermediateCertificate]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningRootKeyPassesEvaluationWithHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningRootKeyPassesEvaluationWithHostValidation]' passed (0.014 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningRootKeyPassesEvaluationWithoutHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningRootKeyPassesEvaluationWithoutHostValidation]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningRootKeyWithoutCertificateChainValidationFailsEvaluationWithMissingIntermediateCertificate]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningRootKeyWithoutCertificateChainValidationFailsEvaluationWithMissingIntermediateCertificate]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningRootKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate]' started.
+Test Case '-[Alamofire_iOS_Tests.ServerTrustPolicyPinPublicKeysTestCase testThatPinningRootKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate]' passed (0.011 seconds).
+Test Suite 'ServerTrustPolicyPinPublicKeysTestCase' passed at 2019-01-19 00:24:07.153.
+     Executed 16 tests, with 0 failures (0 unexpected) in 0.142 (0.170) seconds
+Test Suite 'SessionDelegateTestCase' started at 2019-01-19 00:24:07.155
+Test Case '-[Alamofire_iOS_Tests.SessionDelegateTestCase testThatAppropriateNotificationsAreCalledWithRequestForDataRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionDelegateTestCase testThatAppropriateNotificationsAreCalledWithRequestForDataRequest]' passed (0.735 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionDelegateTestCase testThatDidCompleteNotificationIsCalledWithRequestForDownloadRequests]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionDelegateTestCase testThatDidCompleteNotificationIsCalledWithRequestForDownloadRequests]' passed (0.631 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionDelegateTestCase testThatRequestWillPerformHTTPRedirectionByDefault]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionDelegateTestCase testThatRequestWillPerformHTTPRedirectionByDefault]' passed (0.850 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionDelegateTestCase testThatRequestWillPerformRedirectionMultipleTimesByDefault]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionDelegateTestCase testThatRequestWillPerformRedirectionMultipleTimesByDefault]' passed (1.367 seconds).
+Test Suite 'SessionDelegateTestCase' passed at 2019-01-19 00:24:10.745.
+     Executed 4 tests, with 0 failures (0 unexpected) in 3.583 (3.590) seconds
+Test Suite 'SessionManagerConfigurationHeadersTestCase' started at 2019-01-19 00:24:10.746
+Test Case '-[Alamofire_iOS_Tests.SessionManagerConfigurationHeadersTestCase testThatDefaultConfigurationHeadersAreSentWithRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionManagerConfigurationHeadersTestCase testThatDefaultConfigurationHeadersAreSentWithRequest]' passed (0.609 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionManagerConfigurationHeadersTestCase testThatEphemeralConfigurationHeadersAreSentWithRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionManagerConfigurationHeadersTestCase testThatEphemeralConfigurationHeadersAreSentWithRequest]' passed (0.678 seconds).
+Test Suite 'SessionManagerConfigurationHeadersTestCase' passed at 2019-01-19 00:24:12.038.
+     Executed 2 tests, with 0 failures (0 unexpected) in 1.287 (1.291) seconds
+Test Suite 'SessionTestCase' started at 2019-01-19 00:24:12.039
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testDefaultAcceptEncodingSupportsAppropriateEncodingsOnAppropriateSystems]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testDefaultAcceptEncodingSupportsAppropriateEncodingsOnAppropriateSystems]' passed (0.722 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testDefaultUserAgentHeader]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testDefaultUserAgentHeader]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testInitializerWithDefaultArguments]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testInitializerWithDefaultArguments]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testInitializerWithSpecifiedArguments]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testInitializerWithSpecifiedArguments]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testReleasingManagerWithPendingCanceledRequestDeinitializesSuccessfully]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testReleasingManagerWithPendingCanceledRequestDeinitializesSuccessfully]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testReleasingManagerWithPendingRequestDeinitializesSuccessfully]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testReleasingManagerWithPendingRequestDeinitializesSuccessfully]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testSetStartRequestsImmediatelyToFalseAndCancelledCallsResponseHandlers]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testSetStartRequestsImmediatelyToFalseAndCancelledCallsResponseHandlers]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testSetStartRequestsImmediatelyToFalseAndCancelThenResumeRequestDoesntCreateTaskAndStaysCancelled]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testSetStartRequestsImmediatelyToFalseAndCancelThenResumeRequestDoesntCreateTaskAndStaysCancelled]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testSetStartRequestsImmediatelyToFalseAndResumeRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testSetStartRequestsImmediatelyToFalseAndResumeRequest]' passed (0.636 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testSetStartRequestsImmediatelyToFalseAndResumeThenCancelRequestHasCorrectOutput]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testSetStartRequestsImmediatelyToFalseAndResumeThenCancelRequestHasCorrectOutput]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatDataRequestWithInvalidURLStringThrowsResponseHandlerError]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatDataRequestWithInvalidURLStringThrowsResponseHandlerError]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatDownloadRequestWithInvalidURLStringThrowsResponseHandlerError]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatDownloadRequestWithInvalidURLStringThrowsResponseHandlerError]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatRequestAdapterErrorThrowsResponseHandlerError]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatRequestAdapterErrorThrowsResponseHandlerError]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatRequestAdapterErrorThrowsResponseHandlerErrorWhenRequestIsRetried]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatRequestAdapterErrorThrowsResponseHandlerErrorWhenRequestIsRetried]' passed (0.896 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionInitializerSucceedsWithDefaultArguments]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionInitializerSucceedsWithDefaultArguments]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionInitializerSucceedsWithSpecifiedArguments]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionInitializerSucceedsWithSpecifiedArguments]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsAdapterWhenRequestIsRetried]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsAdapterWhenRequestIsRetried]' passed (0.997 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestAdapterWhenCreatingDataRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestAdapterWhenCreatingDataRequest]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestAdapterWhenCreatingDownloadRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestAdapterWhenCreatingDownloadRequest]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithData]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithData]' passed (0.007 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithFile]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithFile]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithInputStream]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithInputStream]' passed (0.006 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestRetrierWhenDownloadInitiallyEncountersAdaptError]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestRetrierWhenDownloadInitiallyEncountersAdaptError]' passed (0.629 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestRetrierWhenRequestEncountersError]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestRetrierWhenRequestEncountersError]' passed (1.097 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestRetrierWhenRequestInitiallyEncountersAdaptError]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestRetrierWhenRequestInitiallyEncountersAdaptError]' passed (0.686 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestRetrierWhenUploadInitiallyEncountersAdaptError]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatSessionManagerCallsRequestRetrierWhenUploadInitiallyEncountersAdaptError]' passed (0.629 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatUploadDataRequestWithInvalidURLStringThrowsResponseHandlerError]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatUploadDataRequestWithInvalidURLStringThrowsResponseHandlerError]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatUploadFileRequestWithInvalidURLStringThrowsResponseHandlerError]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatUploadFileRequestWithInvalidURLStringThrowsResponseHandlerError]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatUploadStreamRequestWithInvalidURLStringThrowsResponseHandlerError]' started.
+Test Case '-[Alamofire_iOS_Tests.SessionTestCase testThatUploadStreamRequestWithInvalidURLStringThrowsResponseHandlerError]' passed (0.005 seconds).
+Test Suite 'SessionTestCase' passed at 2019-01-19 00:24:18.479.
+     Executed 29 tests, with 0 failures (0 unexpected) in 6.393 (6.440) seconds
+Test Suite 'SortedKeysJSONParameterEncoderTests' started at 2019-01-19 00:24:18.482
+Test Case '-[Alamofire_iOS_Tests.SortedKeysJSONParameterEncoderTests testTestJSONEncoderSortedKeysHasSortedKeys]' started.
+Test Case '-[Alamofire_iOS_Tests.SortedKeysJSONParameterEncoderTests testTestJSONEncoderSortedKeysHasSortedKeys]' passed (0.004 seconds).
+Test Suite 'SortedKeysJSONParameterEncoderTests' passed at 2019-01-19 00:24:18.488.
+     Executed 1 test, with 0 failures (0 unexpected) in 0.004 (0.007) seconds
+Test Suite 'StatusCodeValidationTestCase' started at 2019-01-19 00:24:18.490
+Test Case '-[Alamofire_iOS_Tests.StatusCodeValidationTestCase testThatValidationForRequestWithAcceptableStatusCodeResponseSucceeds]' started.
+Test Case '-[Alamofire_iOS_Tests.StatusCodeValidationTestCase testThatValidationForRequestWithAcceptableStatusCodeResponseSucceeds]' passed (0.180 seconds).
+Test Case '-[Alamofire_iOS_Tests.StatusCodeValidationTestCase testThatValidationForRequestWithNoAcceptableStatusCodesFails]' started.
+Test Case '-[Alamofire_iOS_Tests.StatusCodeValidationTestCase testThatValidationForRequestWithNoAcceptableStatusCodesFails]' passed (0.180 seconds).
+Test Case '-[Alamofire_iOS_Tests.StatusCodeValidationTestCase testThatValidationForRequestWithUnacceptableStatusCodeResponseFails]' started.
+Test Case '-[Alamofire_iOS_Tests.StatusCodeValidationTestCase testThatValidationForRequestWithUnacceptableStatusCodeResponseFails]' passed (0.179 seconds).
+Test Suite 'StatusCodeValidationTestCase' passed at 2019-01-19 00:24:19.034.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.539 (0.545) seconds
+Test Suite 'TLSEvaluationExpiredLeafCertificateTestCase' started at 2019-01-19 00:24:19.036
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWhenPinningAllCertificatesWithCertificateChainValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWhenPinningAllCertificatesWithCertificateChainValidation]' passed (0.580 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWhenPinningLeafCertificateWithCertificateChainValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWhenPinningLeafCertificateWithCertificateChainValidation]' passed (0.323 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWhenPinningLeafPublicKeyWithCertificateChainValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWhenPinningLeafPublicKeyWithCertificateChainValidation]' passed (0.318 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWithDefaultServerTrustPolicy]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWithDefaultServerTrustPolicy]' passed (0.322 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWithNoServerTrustPolicy]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWithNoServerTrustPolicy]' passed (0.329 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWithRevokedServerTrustPolicy]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestFailsWithRevokedServerTrustPolicy]' passed (0.319 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenDisablingEvaluation]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenDisablingEvaluation]' passed (0.631 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningIntermediateCACertificateWithoutCertificateChainOrHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningIntermediateCACertificateWithoutCertificateChainOrHostValidation]' passed (0.627 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningIntermediateCAPublicKeyWithoutCertificateChainOrHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningIntermediateCAPublicKeyWithoutCertificateChainOrHostValidation]' passed (0.626 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningLeafCertificateWithoutCertificateChainOrHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningLeafCertificateWithoutCertificateChainOrHostValidation]' passed (0.686 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningLeafPublicKeyWithoutCertificateChainOrHostValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningLeafPublicKeyWithoutCertificateChainOrHostValidation]' passed (0.626 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningRootCACertificateWithoutCertificateChainValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningRootCACertificateWithoutCertificateChainValidation]' passed (0.335 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningRootCAPublicKeyWithoutCertificateChainValidation]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatExpiredCertificateRequestSucceedsWhenPinningRootCAPublicKeyWithoutCertificateChainValidation]' passed (0.325 seconds).
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatRevokedCertificateRequestFailsWithRevokedServerTrustPolicy]' started.
+Test Case '-[Alamofire_iOS_Tests.TLSEvaluationExpiredLeafCertificateTestCase testThatRevokedCertificateRequestFailsWithRevokedServerTrustPolicy]' passed (0.622 seconds).
+Test Suite 'TLSEvaluationExpiredLeafCertificateTestCase' passed at 2019-01-19 00:24:25.728.
+     Executed 14 tests, with 0 failures (0 unexpected) in 6.669 (6.692) seconds
+Test Suite 'URLEncodedFormEncoderTests' started at 2019-01-19 00:24:25.730
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeDictionary]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeDictionary]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeDouble]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeDouble]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeFloat]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeFloat]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeInt16]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeInt16]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeInt32]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeInt32]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeInt64]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeInt64]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeInt8]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeInt8]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeUInt]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeUInt]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeUInt16]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeUInt16]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeUInt32]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeUInt32]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeUInt64]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeUInt64]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeUInt8]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderCanEncodeUInt8]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderThrowsErrorWhenAttemptingToEncodeNilInKeyedContainer]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderThrowsErrorWhenAttemptingToEncodeNilInKeyedContainer]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderThrowsErrorWhenAttemptingToEncodeNilInUnkeyedContainer]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testEncoderThrowsErrorWhenAttemptingToEncodeNilInUnkeyedContainer]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testStringWithThousandsOfChineseCharactersIsPercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testStringWithThousandsOfChineseCharactersIsPercentEscaped]' passed (0.011 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatAmpersandsInKeysAndValuesArePercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatAmpersandsInKeysAndValuesArePercentEscaped]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatARootArrayCannotBeEncoded]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatARootArrayCannotBeEncoded]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatARootValueCannotBeEncoded]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatARootValueCannotBeEncoded]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatArraysCanBeEncodedWithoutBrackets]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatArraysCanBeEncodedWithoutBrackets]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatBoolsCanBeLiteralEncoded]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatBoolsCanBeLiteralEncoded]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatEncodableClassWithNoInheritanceCanBeEncoded]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatEncodableClassWithNoInheritanceCanBeEncoded]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatEncodableStructCanBeEncoded]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatEncodableStructCanBeEncoded]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatEncodableSubclassCanBeEncoded]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatEncodableSubclassCanBeEncoded]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatEscapedCharactersCanBeCustomized]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatEscapedCharactersCanBeCustomized]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatIllegalASCIICharactersArePercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatIllegalASCIICharactersArePercentEscaped]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatManuallyEncodableStructCanBeEncoded]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatManuallyEncodableStructCanBeEncoded]' passed (0.005 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatManuallyEncodableSubclassCanBeEncoded]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatManuallyEncodableSubclassCanBeEncoded]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatNestedDictionariesHaveBracketedKeys]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatNestedDictionariesHaveBracketedKeys]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatNonLatinCharactersArePercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatNonLatinCharactersArePercentEscaped]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatOptionalValuesCannotBeEncoded]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatOptionalValuesCannotBeEncoded]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatPercentsInKeysAndValuesArePercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatPercentsInKeysAndValuesArePercentEscaped]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatPlusesInKeysAndValuesArePercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatPlusesInKeysAndValuesArePercentEscaped]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatQuestionMarksInKeysAndValuesAreNotPercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatQuestionMarksInKeysAndValuesAreNotPercentEscaped]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatReseredCharactersArePercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatReseredCharactersArePercentEscaped]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatSlashesInKeysAndValuesAreNotPercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatSlashesInKeysAndValuesAreNotPercentEscaped]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatSpacesCanBeEncodedAsPluses]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatSpacesCanBeEncodedAsPluses]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatSpacesInKeysAndValuesArePercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatSpacesInKeysAndValuesArePercentEscaped]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatUnreservedCharactersAreNotPercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormEncoderTests testThatUnreservedCharactersAreNotPercentEscaped]' passed (0.002 seconds).
+Test Suite 'URLEncodedFormEncoderTests' passed at 2019-01-19 00:24:25.913.
+     Executed 38 tests, with 0 failures (0 unexpected) in 0.125 (0.182) seconds
+Test Suite 'URLEncodedFormParameterEncoderTests' started at 2019-01-19 00:24:25.915
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormParameterEncoderTests testThatEncoderCanBeCustomized]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormParameterEncoderTests testThatEncoderCanBeCustomized]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormParameterEncoderTests testThatQueryIsBodyEncodedAndProperContentTypeIsSetForPOSTRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormParameterEncoderTests testThatQueryIsBodyEncodedAndProperContentTypeIsSetForPOSTRequest]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormParameterEncoderTests testThatQueryIsBodyEncodedButContentTypeIsNotSetWhenRequestAlreadyHasContentType]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormParameterEncoderTests testThatQueryIsBodyEncodedButContentTypeIsNotSetWhenRequestAlreadyHasContentType]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormParameterEncoderTests testThatQueryIsInURLWhenDestinationIsURLAndMethodIsPOST]' started.
+Test Case '-[Alamofire_iOS_Tests.URLEncodedFormParameterEncoderTests testThatQueryIsInURLWhenDestinationIsURLAndMethodIsPOST]' passed (0.002 seconds).
+Test Suite 'URLEncodedFormParameterEncoderTests' passed at 2019-01-19 00:24:25.932.
+     Executed 4 tests, with 0 failures (0 unexpected) in 0.011 (0.017) seconds
+Test Suite 'URLParameterEncodingTestCase' started at 2019-01-19 00:24:25.933
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatIllegalASCIICharactersArePercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatIllegalASCIICharactersArePercentEscaped]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatReservedCharactersArePercentEscapedMinusQuestionMarkAndForwardSlash]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatReservedCharactersArePercentEscapedMinusQuestionMarkAndForwardSlash]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatReservedCharactersQuestionMarkAndForwardSlashAreNotPercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatReservedCharactersQuestionMarkAndForwardSlashAreNotPercentEscaped]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatUnreservedLowercaseCharactersAreNotPercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatUnreservedLowercaseCharactersAreNotPercentEscaped]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatUnreservedNumericCharactersAreNotPercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatUnreservedNumericCharactersAreNotPercentEscaped]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatUnreservedUppercaseCharactersAreNotPercentEscaped]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatUnreservedUppercaseCharactersAreNotPercentEscaped]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatURLEncodedInURLParameterEncodingEncodesPOSTParametersInURL]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatURLEncodedInURLParameterEncodingEncodesPOSTParametersInURL]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatURLParameterEncodingEncodesGETParametersInURL]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatURLParameterEncodingEncodesGETParametersInURL]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatURLParameterEncodingEncodesPOSTParametersInHTTPBody]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testThatURLParameterEncodingEncodesPOSTParametersInHTTPBody]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeEmptyDictionaryParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeEmptyDictionaryParameter]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeNilParameters]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeNilParameters]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeOneStringKeyStringValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeOneStringKeyStringValueParameter]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeOneStringKeyStringValueParameterAppendedToQuery]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeOneStringKeyStringValueParameterAppendedToQuery]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringForRequestWithPrecomposedQuery]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringForRequestWithPrecomposedQuery]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyArrayValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyArrayValueParameter]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyArrayValueParameterWithoutBrackets]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyArrayValueParameterWithoutBrackets]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyBoolValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyBoolValueParameter]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyDictionaryValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyDictionaryValueParameter]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyDoubleValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyDoubleValueParameter]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyIntegerValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyIntegerValueParameter]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNestedDictionaryArrayValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNestedDictionaryArrayValueParameter]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNestedDictionaryArrayValueParameterWithoutBrackets]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNestedDictionaryArrayValueParameterWithoutBrackets]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNestedDictionaryValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNestedDictionaryValueParameter]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNonLatinStringValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNonLatinStringValueParameter]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNSNumberBoolValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNSNumberBoolValueParameter]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNSNumberIntegerValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyNSNumberIntegerValueParameter]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyPercentEncodedStringValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringKeyPercentEncodedStringValueParameter]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithAmpersandKeyStringWithAmpersandValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithAmpersandKeyStringWithAmpersandValueParameter]' passed (0.002 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithPlusKeyStringWithPlusValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithPlusKeyStringWithPlusValueParameter]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithPlusKeyStringWithPlusValueParameterForRequestWithPrecomposedQuery]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithPlusKeyStringWithPlusValueParameterForRequestWithPrecomposedQuery]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithQuestionMarkKeyStringWithQuestionMarkValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithQuestionMarkKeyStringWithQuestionMarkValueParameter]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithSlashKeyStringWithQuestionMarkValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithSlashKeyStringWithQuestionMarkValueParameter]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithSpaceKeyStringWithSpaceValueParameter]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithSpaceKeyStringWithSpaceValueParameter]' passed (0.003 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithThousandsOfChineseCharacters]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeStringWithThousandsOfChineseCharacters]' passed (0.008 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeTwoStringKeyStringValueParameters]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterEncodeTwoStringKeyStringValueParameters]' passed (0.004 seconds).
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterLiteralBoolEncodingWorksAndDoesNotAffectNumbers]' started.
+Test Case '-[Alamofire_iOS_Tests.URLParameterEncodingTestCase testURLParameterLiteralBoolEncodingWorksAndDoesNotAffectNumbers]' passed (0.004 seconds).
+Test Suite 'URLParameterEncodingTestCase' passed at 2019-01-19 00:24:26.103.
+     Executed 36 tests, with 0 failures (0 unexpected) in 0.113 (0.170) seconds
+Test Suite 'URLProtocolTestCase' started at 2019-01-19 00:24:26.106
+Test Case '-[Alamofire_iOS_Tests.URLProtocolTestCase testThatURLProtocolReceivesRequestHeadersAndSessionConfigurationHeaders]' started.
+Test Case '-[Alamofire_iOS_Tests.URLProtocolTestCase testThatURLProtocolReceivesRequestHeadersAndSessionConfigurationHeaders]' passed (0.636 seconds).
+Test Suite 'URLProtocolTestCase' passed at 2019-01-19 00:24:26.744.
+     Executed 1 test, with 0 failures (0 unexpected) in 0.636 (0.638) seconds
+Test Suite 'UploadDataInitializationTestCase' started at 2019-01-19 00:24:26.746
+Test Case '-[Alamofire_iOS_Tests.UploadDataInitializationTestCase testUploadClassMethodWithMethodURLAndData]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadDataInitializationTestCase testUploadClassMethodWithMethodURLAndData]' passed (0.181 seconds).
+Test Case '-[Alamofire_iOS_Tests.UploadDataInitializationTestCase testUploadClassMethodWithMethodURLHeadersAndData]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadDataInitializationTestCase testUploadClassMethodWithMethodURLHeadersAndData]' passed (0.180 seconds).
+Test Suite 'UploadDataInitializationTestCase' passed at 2019-01-19 00:24:27.110.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.361 (0.364) seconds
+Test Suite 'UploadDataTestCase' started at 2019-01-19 00:24:27.112
+Test Case '-[Alamofire_iOS_Tests.UploadDataTestCase testUploadDataRequest]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadDataTestCase testUploadDataRequest]' passed (0.183 seconds).
+Test Case '-[Alamofire_iOS_Tests.UploadDataTestCase testUploadDataRequestWithProgress]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadDataTestCase testUploadDataRequestWithProgress]' passed (0.222 seconds).
+Test Suite 'UploadDataTestCase' passed at 2019-01-19 00:24:27.520.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.405 (0.408) seconds
+Test Suite 'UploadFileInitializationTestCase' started at 2019-01-19 00:24:27.522
+Test Case '-[Alamofire_iOS_Tests.UploadFileInitializationTestCase testUploadClassMethodWithMethodURLAndFile]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadFileInitializationTestCase testUploadClassMethodWithMethodURLAndFile]' passed (0.237 seconds).
+Test Case '-[Alamofire_iOS_Tests.UploadFileInitializationTestCase testUploadClassMethodWithMethodURLHeadersAndFile]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadFileInitializationTestCase testUploadClassMethodWithMethodURLHeadersAndFile]' passed (0.242 seconds).
+Test Suite 'UploadFileInitializationTestCase' passed at 2019-01-19 00:24:28.006.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.480 (0.484) seconds
+Test Suite 'UploadMultipartFormDataTestCase' started at 2019-01-19 00:24:28.007
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataAboveMemoryThresholdSetsContentTypeHeader]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataAboveMemoryThresholdSetsContentTypeHeader]' passed (0.196 seconds).
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataAboveMemoryThresholdStreamsFromDisk]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataAboveMemoryThresholdStreamsFromDisk]' passed (0.183 seconds).
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataBelowMemoryThresholdSetsContentTypeHeader]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataBelowMemoryThresholdSetsContentTypeHeader]' passed (0.183 seconds).
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataBelowMemoryThresholdStreamsFromMemory]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataBelowMemoryThresholdStreamsFromMemory]' passed (0.224 seconds).
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataSetsContentTypeHeader]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataSetsContentTypeHeader]' passed (0.286 seconds).
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataSucceedsWithDefaultParameters]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataSucceedsWithDefaultParameters]' passed (0.280 seconds).
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataWhileStreamingFromDiskMonitorsProgress]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataWhileStreamingFromDiskMonitorsProgress]' passed (0.320 seconds).
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataWhileStreamingFromMemoryMonitorsProgress]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadMultipartFormDataTestCase testThatUploadingMultipartFormDataWhileStreamingFromMemoryMonitorsProgress]' passed (0.340 seconds).
+Test Suite 'UploadMultipartFormDataTestCase' passed at 2019-01-19 00:24:30.031.
+     Executed 8 tests, with 0 failures (0 unexpected) in 2.011 (2.024) seconds
+Test Suite 'UploadStreamInitializationTestCase' started at 2019-01-19 00:24:30.033
+Test Case '-[Alamofire_iOS_Tests.UploadStreamInitializationTestCase testUploadClassMethodWithMethodURLAndStream]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadStreamInitializationTestCase testUploadClassMethodWithMethodURLAndStream]' passed (0.346 seconds).
+Test Case '-[Alamofire_iOS_Tests.UploadStreamInitializationTestCase testUploadClassMethodWithMethodURLHeadersAndStream]' started.
+Test Case '-[Alamofire_iOS_Tests.UploadStreamInitializationTestCase testUploadClassMethodWithMethodURLHeadersAndStream]' passed (0.307 seconds).
+Test Suite 'UploadStreamInitializationTestCase' passed at 2019-01-19 00:24:30.689.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.653 (0.656) seconds
+Test Suite 'Alamofire iOS Tests.xctest' passed at 2019-01-19 00:24:30.690.
+     Executed 464 tests, with 0 failures (0 unexpected) in 69.056 (69.925) seconds
+Test Suite 'All tests' passed at 2019-01-19 00:24:30.703.
+     Executed 464 tests, with 0 failures (0 unexpected) in 69.056 (69.940) seconds

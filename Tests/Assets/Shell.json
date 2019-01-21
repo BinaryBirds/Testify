@@ -1,0 +1,78 @@
+{
+  "endDate" : 1547924039.8410001,
+  "children" : [
+    {
+      "endDate" : 1547924039.8410001,
+      "children" : [
+        {
+          "endDate" : 1547924039.8410001,
+          "children" : [
+
+          ],
+          "startDate" : 1547924037.3429999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testAsyncRun",
+              "duration" : 2.1720000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testEnvironment",
+              "duration" : 0.065000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testError",
+              "duration" : 0.065000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testErrorHandler",
+              "duration" : 0.066000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testOutput",
+              "duration" : 0.065000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testOutputHandler",
+              "duration" : 0.064000000000000001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "ShellTests"
+        }
+      ],
+      "startDate" : 1547924037.3429999,
+      "cases" : [
+
+      ],
+      "unexpected" : 0,
+      "outcome" : "success",
+      "name" : "ShellPackageTests.xctest"
+    }
+  ],
+  "startDate" : 1547924037.342,
+  "cases" : [
+
+  ],
+  "unexpected" : 0,
+  "outcome" : "success",
+  "name" : "All tests"
+}

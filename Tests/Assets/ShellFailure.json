@@ -1,0 +1,100 @@
+{
+  "endDate" : 1547924247.4200001,
+  "children" : [
+    {
+      "endDate" : 1547924247.4200001,
+      "children" : [
+        {
+          "endDate" : 1547924247.4200001,
+          "children" : [
+
+          ],
+          "startDate" : 1547924244.888,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testAsyncRun",
+              "duration" : 2.1429999999999998
+            },
+            {
+              "failureInfo" : {
+                "line" : 33,
+                "file" : "\/Users\/tib\/Shell\/Tests\/ShellTests\/ShellTests.swift",
+                "reason" : "XCTAssertEqual failed: (\"Custom bad env variable\") is not equal to (\"Custom env variable\") - Invalid output `Custom bad env variable`, expected `Custom env variable`."
+              },
+              "outcome" : "failure",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testEnvironment",
+              "duration" : 0.067000000000000004
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testError",
+              "duration" : 0.064000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testErrorHandler",
+              "duration" : 0.064000000000000001
+            },
+            {
+              "failureInfo" : {
+                "line" : 33,
+                "file" : "\/Users\/tib\/Shell\/Tests\/ShellTests\/ShellTests.swift",
+                "reason" : "XCTAssertEqual failed: (\"Hello world!\") is not equal to (\"Hello outside world!\") - Invalid output `Hello world!`, expected `Hello outside world!`."
+              },
+              "outcome" : "failure",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testOutput",
+              "duration" : 0.064000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testOutputHandler",
+              "duration" : 0.064000000000000001
+            },
+            {
+              "failureInfo" : {
+                "line" : 0,
+                "file" : "<unknown>",
+                "reason" : "failed: caught error: The operation couldn’t be completed. (Shell.ShellError error 0.)"
+              },
+              "outcome" : "failure",
+              "className" : "ShellTests",
+              "moduleName" : "ShellTests",
+              "testName" : "testThrow",
+              "duration" : 0.066000000000000003
+            }
+          ],
+          "unexpected" : 1,
+          "outcome" : "failure",
+          "name" : "ShellTests"
+        }
+      ],
+      "startDate" : 1547924244.888,
+      "cases" : [
+
+      ],
+      "unexpected" : 1,
+      "outcome" : "failure",
+      "name" : "ShellPackageTests.xctest"
+    }
+  ],
+  "startDate" : 1547924244.888,
+  "cases" : [
+
+  ],
+  "unexpected" : 1,
+  "outcome" : "failure",
+  "name" : "All tests"
+}

@@ -1,0 +1,21 @@
+Test Suite 'All tests' started at 2019-01-19 19:53:57.342
+Test Suite 'ShellPackageTests.xctest' started at 2019-01-19 19:53:57.343
+Test Suite 'ShellTests' started at 2019-01-19 19:53:57.343
+Test Case '-[ShellTests.ShellTests testAsyncRun]' started.
+Test Case '-[ShellTests.ShellTests testAsyncRun]' passed (2.172 seconds).
+Test Case '-[ShellTests.ShellTests testEnvironment]' started.
+Test Case '-[ShellTests.ShellTests testEnvironment]' passed (0.065 seconds).
+Test Case '-[ShellTests.ShellTests testError]' started.
+Test Case '-[ShellTests.ShellTests testError]' passed (0.065 seconds).
+Test Case '-[ShellTests.ShellTests testErrorHandler]' started.
+Test Case '-[ShellTests.ShellTests testErrorHandler]' passed (0.066 seconds).
+Test Case '-[ShellTests.ShellTests testOutput]' started.
+Test Case '-[ShellTests.ShellTests testOutput]' passed (0.065 seconds).
+Test Case '-[ShellTests.ShellTests testOutputHandler]' started.
+Test Case '-[ShellTests.ShellTests testOutputHandler]' passed (0.064 seconds).
+Test Suite 'ShellTests' passed at 2019-01-19 19:53:59.841.
+     Executed 6 tests, with 0 failures (0 unexpected) in 2.498 (2.498) seconds
+Test Suite 'ShellPackageTests.xctest' passed at 2019-01-19 19:53:59.841.
+     Executed 6 tests, with 0 failures (0 unexpected) in 2.498 (2.498) seconds
+Test Suite 'All tests' passed at 2019-01-19 19:53:59.841.
+     Executed 6 tests, with 0 failures (0 unexpected) in 2.498 (2.499) seconds

@@ -1,0 +1,2009 @@
+{
+  "endDate" : 1547853075.309,
+  "children" : [
+    {
+      "endDate" : 1547853075.3080001,
+      "children" : [
+        {
+          "endDate" : 1547852973.2520001,
+          "children" : [
+
+          ],
+          "startDate" : 1547852973.1559999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "MiscellaneousTests",
+              "moduleName" : "KituraTests",
+              "testName" : "testHeaders",
+              "duration" : 0.095000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "MiscellaneousTests",
+              "moduleName" : "KituraTests",
+              "testName" : "testHeadersHelpers",
+              "duration" : 0
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "MiscellaneousTests"
+        },
+        {
+          "endDate" : 1547852973.378,
+          "children" : [
+
+          ],
+          "startDate" : 1547852973.2520001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestBridgingHTTPStatusCode",
+              "moduleName" : "KituraTests",
+              "testName" : "testSimpleResponse",
+              "duration" : 0.126
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestBridgingHTTPStatusCode"
+        },
+        {
+          "endDate" : 1547852973.431,
+          "children" : [
+
+          ],
+          "startDate" : 1547852973.3789999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestBridgingRequestError",
+              "moduleName" : "KituraTests",
+              "testName" : "testRequestError",
+              "duration" : 0.052999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestBridgingRequestError"
+        },
+        {
+          "endDate" : 1547853009.793,
+          "children" : [
+
+          ],
+          "startDate" : 1547852973.431,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testBasicDelete",
+              "duration" : 0.158
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testBasicDeleteSingle",
+              "duration" : 0.155
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testBasicGetArray",
+              "duration" : 0.153
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testBasicGetIdentifiersArray",
+              "duration" : 0.20799999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testBasicGetSingle",
+              "duration" : 0.16
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testBasicGetSingleton",
+              "duration" : 0.158
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testBasicPatch",
+              "duration" : 6.1950000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testBasicPost",
+              "duration" : 0.36399999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testBasicPostIdentifier",
+              "duration" : 0.16300000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testBasicPut",
+              "duration" : 6.194
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableDeleteQueryParameters",
+              "duration" : 0.29099999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableGetArrayQueryParameters",
+              "duration" : 0.28499999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableGetSingleQueryParameters",
+              "duration" : 0.29199999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodablePostSuccessStatuses",
+              "duration" : 0.158
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableRoutesWithBodyParsingFail",
+              "duration" : 4.194
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testErrorOverridesBody",
+              "duration" : 8.4879999999999995
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testIdentifierNotExpected",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testIdentifierNotSupplied",
+              "duration" : 0.052999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testInvalidIdentifierSupplied",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testJoinPath",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testNoDataCustomStatus",
+              "duration" : 2.1240000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testNoDataDefaultStatus",
+              "duration" : 2.1219999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testPartialIdentifierSupplied",
+              "duration" : 0.053999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testRouteParameters",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCodableRouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testRouteWithTrailingSlash",
+              "duration" : 4.2380000000000004
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestCodableRouter"
+        },
+        {
+          "endDate" : 1547853009.7939999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853009.793,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestContentType",
+              "moduleName" : "KituraTests",
+              "testName" : "testFilename",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestContentType",
+              "moduleName" : "KituraTests",
+              "testName" : "testInitialize",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestContentType",
+              "moduleName" : "KituraTests",
+              "testName" : "testIsContentType",
+              "duration" : 0
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestContentType"
+        },
+        {
+          "endDate" : 1547853010.155,
+          "children" : [
+
+          ],
+          "startDate" : 1547853009.7939999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestCookies",
+              "moduleName" : "KituraTests",
+              "testName" : "testCookieFromServer",
+              "duration" : 0.111
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCookies",
+              "moduleName" : "KituraTests",
+              "testName" : "testCookieToServerWithSemiColonSeparator",
+              "duration" : 0.052999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCookies",
+              "moduleName" : "KituraTests",
+              "testName" : "testCookieToServerWithSemiColonSpaceSeparator",
+              "duration" : 0.053999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCookies",
+              "moduleName" : "KituraTests",
+              "testName" : "testCookieToServerWithSemiColonWhitespacesSeparator",
+              "duration" : 0.049000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCookies",
+              "moduleName" : "KituraTests",
+              "testName" : "testNoCookies",
+              "duration" : 0.092999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestCookies"
+        },
+        {
+          "endDate" : 1547853010.6199999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853010.155,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestCustomCoders",
+              "moduleName" : "KituraTests",
+              "testName" : "testCustomCoder",
+              "duration" : 0.108
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCustomCoders",
+              "moduleName" : "KituraTests",
+              "testName" : "testCustomQueryEncoder",
+              "duration" : 0.253
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestCustomCoders",
+              "moduleName" : "KituraTests",
+              "testName" : "testRawCustomCoder",
+              "duration" : 0.105
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestCustomCoders"
+        },
+        {
+          "endDate" : 1547853010.622,
+          "children" : [
+
+          ],
+          "startDate" : 1547853010.6199999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestDecodingErrorExtension",
+              "moduleName" : "KituraTests",
+              "testName" : "testMalformedJson",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestDecodingErrorExtension",
+              "moduleName" : "KituraTests",
+              "testName" : "testMissingRequiredKey",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestDecodingErrorExtension",
+              "moduleName" : "KituraTests",
+              "testName" : "testMissingValue",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestDecodingErrorExtension",
+              "moduleName" : "KituraTests",
+              "testName" : "testWrongType",
+              "duration" : 0
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestDecodingErrorExtension"
+        },
+        {
+          "endDate" : 1547853010.7750001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853010.622,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestErrors",
+              "moduleName" : "KituraTests",
+              "testName" : "testInvalidEndpoint",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestErrors",
+              "moduleName" : "KituraTests",
+              "testName" : "testInvalidHeader",
+              "duration" : 0.049000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestErrors",
+              "moduleName" : "KituraTests",
+              "testName" : "testInvalidMethod",
+              "duration" : 0.053999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestErrors"
+        },
+        {
+          "endDate" : 1547853010.777,
+          "children" : [
+
+          ],
+          "startDate" : 1547853010.7750001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestMediaType",
+              "moduleName" : "KituraTests",
+              "testName" : "testAllTextMediaTypeBuilder",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMediaType",
+              "moduleName" : "KituraTests",
+              "testName" : "testAllTextSlashMediaTypeBuilder",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMediaType",
+              "moduleName" : "KituraTests",
+              "testName" : "testHTMLMediaTypeBuilder",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMediaType",
+              "moduleName" : "KituraTests",
+              "testName" : "testIncorrectTopLevelType",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMediaType",
+              "moduleName" : "KituraTests",
+              "testName" : "testInvalidMediaType",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMediaType",
+              "moduleName" : "KituraTests",
+              "testName" : "testMediaCaseInsensitive",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMediaType",
+              "moduleName" : "KituraTests",
+              "testName" : "testPartsAllTextMediaTypeBuilder",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMediaType",
+              "moduleName" : "KituraTests",
+              "testName" : "testPartsHTMLMediaTypeBuilder",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMediaType",
+              "moduleName" : "KituraTests",
+              "testName" : "testPartsMediaCaseInsensitive",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMediaType",
+              "moduleName" : "KituraTests",
+              "testName" : "testValidMediaType",
+              "duration" : 0
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestMediaType"
+        },
+        {
+          "endDate" : 1547853011.3710001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853010.777,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestMultiplicity",
+              "moduleName" : "KituraTests",
+              "testName" : "testCombined",
+              "duration" : 0.14799999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMultiplicity",
+              "moduleName" : "KituraTests",
+              "testName" : "testPlus",
+              "duration" : 0.151
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMultiplicity",
+              "moduleName" : "KituraTests",
+              "testName" : "testQuestion",
+              "duration" : 0.14599999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestMultiplicity",
+              "moduleName" : "KituraTests",
+              "testName" : "testStar",
+              "duration" : 0.14899999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestMultiplicity"
+        },
+        {
+          "endDate" : 1547853011.3829999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853011.3710001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderDataExtensions",
+              "moduleName" : "KituraTests",
+              "testName" : "testPartialDataRead",
+              "duration" : 0.0080000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderDataExtensions",
+              "moduleName" : "KituraTests",
+              "testName" : "testPartialDataReadEntireFile",
+              "duration" : 0.002
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderDataExtensions",
+              "moduleName" : "KituraTests",
+              "testName" : "testPartialDataReadWithErrorFileNotFound",
+              "duration" : 0.002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestRangeHeaderDataExtensions"
+        },
+        {
+          "endDate" : 1547853011.388,
+          "children" : [
+
+          ],
+          "startDate" : 1547853011.3829999,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testIsBytesRangeHeader",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testParseString",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testReturnNilOnInvalidNonDigitsRanges",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testReturnNilOnInvalidRanges",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testReturnNilOnMalformedHeader",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldCapEndAtSize",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldCombineOverlappingRanges",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldCombineOverlappingRangesAndRetainOriginalOrder",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldParseNonBytesRange",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldParseNormalString",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldParseStringAskingForLastByte",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldParseStringWithBytesEqualZeroZero",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldParseStringWithMultipleRanges",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldParseStringWithOnlyEnd",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldParseStringWithOnlyStart",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldParseStringWithSomeInvalidRanges",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRangeHeaderParser",
+              "moduleName" : "KituraTests",
+              "testName" : "testShouldParseWithStartBytesEqualtToZero",
+              "duration" : 0
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestRangeHeaderParser"
+        },
+        {
+          "endDate" : 1547853012,
+          "children" : [
+
+          ],
+          "startDate" : 1547853011.388,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestRequests",
+              "moduleName" : "KituraTests",
+              "testName" : "testCustomMiddlewareURLParameter",
+              "duration" : 0.050999999999999997
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRequests",
+              "moduleName" : "KituraTests",
+              "testName" : "testCustomMiddlewareURLParameterWithQueryParam",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRequests",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleParametersMultipleHandlers",
+              "duration" : 0.098000000000000004
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRequests",
+              "moduleName" : "KituraTests",
+              "testName" : "testOneParameterMultipleHandlers",
+              "duration" : 0.052999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRequests",
+              "moduleName" : "KituraTests",
+              "testName" : "testParameterExit",
+              "duration" : 0.097000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRequests",
+              "moduleName" : "KituraTests",
+              "testName" : "testParameters",
+              "duration" : 0.097000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRequests",
+              "moduleName" : "KituraTests",
+              "testName" : "testQueryParameters",
+              "duration" : 0.111
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRequests",
+              "moduleName" : "KituraTests",
+              "testName" : "testRouteParameters",
+              "duration" : 0.052999999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestRequests"
+        },
+        {
+          "endDate" : 1547853019.2190001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853012,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testAcceptEncodingTypes",
+              "duration" : 0.10000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testAcceptTypes",
+              "duration" : 0.105
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testChangeStatusCodeOnInvokedSend",
+              "duration" : 0.10000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testEmptyHandler",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testErrorHandler",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testFormat",
+              "duration" : 0.14999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testHeaderModifiers",
+              "duration" : 0.058000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testJsonp",
+              "duration" : 0.25
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testLargeGet",
+              "duration" : 0.088999999999999996
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testLargePost",
+              "duration" : 2.1459999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testLifecycle",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testLink",
+              "duration" : 0.104
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipartFormParsing",
+              "duration" : 0.20699999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testOptionalStringNilResponse",
+              "duration" : 0.052999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testOptionalStringResponse",
+              "duration" : 0.055
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testParameters",
+              "duration" : 0.048000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testParametersPercent20InPath",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testParametersPercent20InQuery",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testParametersPercentageEncoding",
+              "duration" : 0.045999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testParametersPlusInPath",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testParametersPlusInQuery",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testPostJSONRequest",
+              "duration" : 0.053999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testPostRequest",
+              "duration" : 0.053999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testPostRequestTheHardWay",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testPostRequestUrlEncoded",
+              "duration" : 0.157
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testPostRequestWithDoubleBodyParser",
+              "duration" : 0.048000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testRawDataPost",
+              "duration" : 2.0609999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testRedirect",
+              "duration" : 0.094
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testResponseNoEndOrNext",
+              "duration" : 0.052999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testRouteFunc",
+              "duration" : 0.107
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testSend",
+              "duration" : 0.37
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testSendAfterEnd",
+              "duration" : 0.050999999999999997
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testSimpleResponse",
+              "duration" : 0.049000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testSubdomains",
+              "duration" : 0.155
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestResponse",
+              "moduleName" : "KituraTests",
+              "testName" : "testUserInfo",
+              "duration" : 0.050000000000000003
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestResponse"
+        },
+        {
+          "endDate" : 1547853022.0050001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853019.2190001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestRouteRegex",
+              "moduleName" : "KituraTests",
+              "testName" : "testBuildRegexFromPattern",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRouteRegex",
+              "moduleName" : "KituraTests",
+              "testName" : "testCustomMatchesWithModifiers",
+              "duration" : 1.1020000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRouteRegex",
+              "moduleName" : "KituraTests",
+              "testName" : "testRouteWithPercentEncoding",
+              "duration" : 0.050999999999999997
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRouteRegex",
+              "moduleName" : "KituraTests",
+              "testName" : "testSimpleCustomMatches",
+              "duration" : 0.19900000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRouteRegex",
+              "moduleName" : "KituraTests",
+              "testName" : "testSimpleMatches",
+              "duration" : 0.254
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRouteRegex",
+              "moduleName" : "KituraTests",
+              "testName" : "testSimpleModifiers",
+              "duration" : 0.78600000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRouteRegex",
+              "moduleName" : "KituraTests",
+              "testName" : "testSimplePaths",
+              "duration" : 0.39300000000000002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestRouteRegex"
+        },
+        {
+          "endDate" : 1547853022.0079999,
+          "children" : [
+
+          ],
+          "startDate" : 1547853022.0050001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestRouterHTTPVerbsGenerated",
+              "moduleName" : "KituraTests",
+              "testName" : "testFirstTypeVerbsAdded",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRouterHTTPVerbsGenerated",
+              "moduleName" : "KituraTests",
+              "testName" : "testFourthTypeVerbsAdded",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRouterHTTPVerbsGenerated",
+              "moduleName" : "KituraTests",
+              "testName" : "testSecondTypeVerbsAdded",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestRouterHTTPVerbsGenerated",
+              "moduleName" : "KituraTests",
+              "testName" : "testThirdTypeVerbsAdded",
+              "duration" : 0.001
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestRouterHTTPVerbsGenerated"
+        },
+        {
+          "endDate" : 1547853042.4000001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853022.0090001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testServerFail",
+              "duration" : 0.040000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testServerRestart",
+              "duration" : 0.17499999999999999
+            },
+            {
+              "failureInfo" : {
+                "line" : 116,
+                "file" : "\/Users\/tib\/Downloads\/Kitura-master\/Tests\/KituraTests\/TestServer.swift",
+                "reason" : "failed - Error code: -9992(0x-2708), Address already in use\/Users\/tib\/Downloads\/Kitura-master\/Tests\/KituraTests\/TestServer.swift:144: error: -[KituraTests.TestServer testServerRun] : Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: \"FastCGIServer started()\".\/Users\/tib\/Downloads\/Kitura-master\/Tests\/KituraTests\/TestServer.swift:146: error: -[KituraTests.TestServer testServerRun] : XCTAssertNil failed: \"Error Domain=com.apple.XCTestErrorDomain Code=0 \"(null)\"\""
+              },
+              "outcome" : "failure",
+              "className" : "TestServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testServerRun",
+              "duration" : 10.169
+            },
+            {
+              "failureInfo" : {
+                "line" : 116,
+                "file" : "\/Users\/tib\/Downloads\/Kitura-master\/Tests\/KituraTests\/TestServer.swift",
+                "reason" : "failed - Error code: -9992(0x-2708), Address already in use\/Users\/tib\/Downloads\/Kitura-master\/Tests\/KituraTests\/TestServer.swift:131: error: -[KituraTests.TestServer testServerStartStop] : Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: \"FastCGIServer started()\", \"FastCGIServer stopped()\".\/Users\/tib\/Downloads\/Kitura-master\/Tests\/KituraTests\/TestServer.swift:132: error: -[KituraTests.TestServer testServerStartStop] : XCTAssertNil failed: \"Error Domain=com.apple.XCTestErrorDomain Code=0 \"(null)\"\""
+              },
+              "outcome" : "failure",
+              "className" : "TestServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testServerStartStop",
+              "duration" : 10.007999999999999
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "failure",
+          "name" : "TestServer"
+        },
+        {
+          "endDate" : 1547853042.401,
+          "children" : [
+
+          ],
+          "startDate" : 1547853042.401,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestStack",
+              "moduleName" : "KituraTests",
+              "testName" : "testEmpty",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStack",
+              "moduleName" : "KituraTests",
+              "testName" : "testPushPop",
+              "duration" : 0
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestStack"
+        },
+        {
+          "endDate" : 1547853044.743,
+          "children" : [
+
+          ],
+          "startDate" : 1547853042.402,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testAbsolutePathFunction",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testAbsoluteRootPath",
+              "duration" : 0
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testDataIsNotCorrupted",
+              "duration" : 0.19500000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testFileServer",
+              "duration" : 0.496
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testGetDefaultResponse",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testGetKituraResource",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testGetMissingKituraResource",
+              "duration" : 0.056000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testGetTraversedFile",
+              "duration" : 0.047
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testGetTraversedFileKituraResource",
+              "duration" : 0.047
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testGetWithSpecialCharacters",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testGetWithSpecialCharactersEncoded",
+              "duration" : 0.050999999999999997
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testGetWithWhiteSpaces",
+              "duration" : 0.050999999999999997
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testParameterizedSubRouterSubFolderStaticFileServer",
+              "duration" : 0.088999999999999996
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testParameterizedSubRouterSubFolderStaticFileServerRedirect",
+              "duration" : 0.11799999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testRangeRequestIsIgnoredOnNonGetMethod",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testRangeRequestIsIgnoredOnOptionOff",
+              "duration" : 0.052999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testRangeRequests",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testRangeRequestsWithLargeLastBytePos",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testRangeRequestsWithMultipleRanges",
+              "duration" : 0.056000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testRangeRequestWithIfRangeHeaderAsLastModified",
+              "duration" : 0.099000000000000005
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testRangeRequestWithIfRangeHeaderAsOldLastModified",
+              "duration" : 0.050000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testRangeRequestWithIfRangeHeaderWithETag",
+              "duration" : 0.11700000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testRangeRequestWithIfRangeHeaderWithOldETag",
+              "duration" : 0.055
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testRangeRequestWithNotSatisfiableRange",
+              "duration" : 0.057000000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testRangeRequestWithSintacticallyInvalidRange",
+              "duration" : 0.067000000000000004
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testSubRouterStaticFileServer",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testSubRouterStaticFileServerRedirect",
+              "duration" : 0.085000000000000006
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testSubRouterSubFolderStaticFileServer",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testSubRouterSubFolderStaticFileServerRedirect",
+              "duration" : 0.088999999999999996
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestStaticFileServer",
+              "moduleName" : "KituraTests",
+              "testName" : "testWelcomePageCanBeDisabled",
+              "duration" : 0.049000000000000002
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestStaticFileServer"
+        },
+        {
+          "endDate" : 1547853045.2460001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853044.743,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestSubrouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testExternSub",
+              "duration" : 0.10000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSubrouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testMergeParams",
+              "duration" : 0.155
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSubrouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddleware",
+              "duration" : 0.050999999999999997
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSubrouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testSimpleSub",
+              "duration" : 0.097000000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSubrouter",
+              "moduleName" : "KituraTests",
+              "testName" : "testSubSubs",
+              "duration" : 0.099000000000000005
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestSubrouter"
+        },
+        {
+          "endDate" : 1547853046.2360001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853045.2460001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestSwaggerGeneration",
+              "moduleName" : "KituraTests",
+              "testName" : "testArrayReturnTypes",
+              "duration" : 0.10100000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSwaggerGeneration",
+              "moduleName" : "KituraTests",
+              "testName" : "testBasePath",
+              "duration" : 0.095000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSwaggerGeneration",
+              "moduleName" : "KituraTests",
+              "testName" : "testInfo",
+              "duration" : 0.095000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSwaggerGeneration",
+              "moduleName" : "KituraTests",
+              "testName" : "testInputTypesModelled",
+              "duration" : 0.17199999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSwaggerGeneration",
+              "moduleName" : "KituraTests",
+              "testName" : "testNestedTypesModelled",
+              "duration" : 0.10000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSwaggerGeneration",
+              "moduleName" : "KituraTests",
+              "testName" : "testSwaggerContent",
+              "duration" : 0.10000000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSwaggerGeneration",
+              "moduleName" : "KituraTests",
+              "testName" : "testSwaggerDefinitions",
+              "duration" : 0.10199999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSwaggerGeneration",
+              "moduleName" : "KituraTests",
+              "testName" : "testSwaggerQueryParams",
+              "duration" : 0.104
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestSwaggerGeneration",
+              "moduleName" : "KituraTests",
+              "testName" : "testSwaggerVersion",
+              "duration" : 0.121
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestSwaggerGeneration"
+        },
+        {
+          "endDate" : 1547853046.6140001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853046.2360001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testAddWithFileExtensions",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testAddWithFileExtensionsWithoutTheDefaultOne",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableAddWithFileExtensions",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableAddWithFileExtensionsWithoutTheDefaultOne",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableRender",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableRenderWithExtensionAndWithoutDefaultTemplateEngine",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableRenderWithExtensionAndWithoutDefaultTemplateEngineAfterSettingViewsPath",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableRenderWithOptionsWithServer",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableRenderWithServer",
+              "duration" : 0.050999999999999997
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableRenderWithServerAndSubRouter",
+              "duration" : 0.052999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testCodableRenderWithTuple",
+              "duration" : 0.050999999999999997
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testEmptyTemplateName",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testEmptyTemplateNameCodable",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testMissingExtension",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testMissingExtensionCodable",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testNoDefaultEngine",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testNoDefaultEngineCodable",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testRender",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testRenderWithExtensionAndWithoutDefaultTemplateEngine",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testRenderWithExtensionAndWithoutDefaultTemplateEngineAfterSettingViewsPath",
+              "duration" : 0.001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testRenderWithOptionsWithServer",
+              "duration" : 0.051999999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testRenderWithServer",
+              "duration" : 0.053999999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTemplateEngine",
+              "moduleName" : "KituraTests",
+              "testName" : "testRenderWithServerAndSubRouter",
+              "duration" : 0.050999999999999997
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestTemplateEngine"
+        },
+        {
+          "endDate" : 1547853075.3080001,
+          "children" : [
+
+          ],
+          "startDate" : 1547853046.6140001,
+          "cases" : [
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testCustomCoder",
+              "duration" : 4.2400000000000002
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testCustomCoderGet",
+              "duration" : 0.29399999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMiddlewareLogging",
+              "duration" : 0.058999999999999997
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewareDelete",
+              "duration" : 0.16300000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewareDeleteIdentifier",
+              "duration" : 0.16400000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewareDeleteOptionalParameters",
+              "duration" : 0.115
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewareDeleteParameters",
+              "duration" : 0.159
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewareGetArray",
+              "duration" : 0.153
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewareGetArrayOptionalParameters",
+              "duration" : 0.16300000000000001
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewareGetArrayParameters",
+              "duration" : 0.158
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewareGetIdentifier",
+              "duration" : 0.156
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewareGetIdentifierCodableArray",
+              "duration" : 0.153
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewareGetSingleton",
+              "duration" : 0.155
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewareGetSingletonParameters",
+              "duration" : 0.161
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewarePatch",
+              "duration" : 6.1870000000000003
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewarePost",
+              "duration" : 0.159
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewarePostIdentifier",
+              "duration" : 0.156
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testMultipleMiddlewarePut",
+              "duration" : 6.181
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewareDelete",
+              "duration" : 0.113
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewareDeleteIdentifier",
+              "duration" : 0.10199999999999999
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewareDeleteOptionalParameters",
+              "duration" : 0.113
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewareDeleteParameters",
+              "duration" : 0.112
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewareGetArray",
+              "duration" : 0.104
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewareGetArrayOptionalParameters",
+              "duration" : 0.154
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewareGetArrayParameters",
+              "duration" : 0.112
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewareGetIdentifier",
+              "duration" : 0.104
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewareGetIdentifierCodableArray",
+              "duration" : 0.106
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewareGetSingleton",
+              "duration" : 0.104
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewareGetSingletonParameters",
+              "duration" : 0.115
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewarePatch",
+              "duration" : 4.1269999999999998
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewarePost",
+              "duration" : 0.11
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewarePostIdentifier",
+              "duration" : 0.108
+            },
+            {
+              "outcome" : "success",
+              "className" : "TestTypeSafeMiddleware",
+              "moduleName" : "KituraTests",
+              "testName" : "testSingleMiddlewarePut",
+              "duration" : 4.133
+            }
+          ],
+          "unexpected" : 0,
+          "outcome" : "success",
+          "name" : "TestTypeSafeMiddleware"
+        }
+      ],
+      "startDate" : 1547852973.1559999,
+      "cases" : [
+
+      ],
+      "unexpected" : 0,
+      "outcome" : "failure",
+      "name" : "KituraPackageTests.xctest"
+    }
+  ],
+  "startDate" : 1547852973.1559999,
+  "cases" : [
+
+  ],
+  "unexpected" : 0,
+  "outcome" : "failure",
+  "name" : "All tests"
+}

@@ -1,0 +1,13 @@
+Test Suite 'Selected tests' started at 2019-01-19 13:45:36.976
+Test Suite 'PromiseTests.xctest' started at 2019-01-19 13:45:36.977
+Test Suite 'PromiseTests' started at 2019-01-19 13:45:36.977
+Test Case '-[PromiseTests.PromiseTests testUnexpected]' started.
+<unknown>:0: error: -[PromiseTests.PromiseTests testUnexpected] : failed: caught error: The operation couldn’t be completed. (PromiseTests.WrenchError error 1.)
+Test Case '-[PromiseTests.PromiseTests testUnexpected]' failed (0.021 seconds).
+Test Suite 'PromiseTests' failed at 2019-01-19 13:45:36.999.
+     Executed 1 test, with 1 failure (1 unexpected) in 0.021 (0.021) seconds
+Test Suite 'PromiseTests.xctest' failed at 2019-01-19 13:45:37.000.
+     Executed 1 test, with 1 failure (2 unexpected) in 0.021 (0.022) seconds
+Test Suite 'Selected tests' failed at 2019-01-19 13:45:37.000.
+     Executed 1 test, with 1 failure (1 unexpected) in 0.021 (0.024) seconds
+Program ended with exit code: 1
