@@ -1,17 +1,20 @@
 # Testify (✅)
 
-Testify converts XCTest output into a proper structure (JSON), or it'll miserably fail. 😉 
-
-## Usage
+Testify converts XCTest output into a proper structure (JSON), or it'll miserably fail. 😉
 
 
-```swift
-import Testify
+## Install Testify cli
 
-let suite = TestSuite.parse("test-output-string")
+You can use the cli to convert test results into JSON on the fly.
+
+```
+git clone https://github.com/BinaryBirds/Testify.git
+make install
+which testify
+swift test 2>&1 | testify
 ```
 
-## Install
+## Usage
 
 Just use the [Swift Package Manager](https://theswiftdev.com/2017/11/09/swift-package-manager-tutorial/) as usual:
 
@@ -21,6 +24,12 @@ Just use the [Swift Package Manager](https://theswiftdev.com/2017/11/09/swift-pa
 
 ⚠️ Don't forget to add "Testify" to your target as a dependency!
 
+
+```swift
+import Testify
+
+let suite = TestSuite.parse("test-output-string")
+```
 
 
 ## License

@@ -9,7 +9,7 @@ import Foundation
 
 public extension TestSuite {
     
-    public static func parse(_ output: String) -> TestSuite {
+    static func parse(_ output: String) -> TestSuite {
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss.SSS"
