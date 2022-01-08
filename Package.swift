@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -8,16 +8,8 @@ let package = Package(
         .executable(name: "testify-cli", targets: ["testify-cli"])
     ],
     targets: [
-        .target(
-            name: "testify-cli",
-            dependencies: ["Testify"],
-            path: "./Sources/cli"),
-        .target(
-            name: "Testify",
-            dependencies: [],
-            path: "./Sources/lib"),
-        .testTarget(
-            name: "TestifyTests",
-            dependencies: ["Testify"]),
+        .executableTarget(name: "testify-cli", dependencies: ["Testify"], path: "./Sources/cli"),
+        .target(name: "Testify", dependencies: [], path: "./Sources/lib"),
+        .testTarget(name: "TestifyTests", dependencies: ["Testify"]),
     ]
 )

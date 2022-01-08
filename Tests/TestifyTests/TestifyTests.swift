@@ -3,10 +3,6 @@ import XCTest
 
 final class TestifyTests: XCTestCase {
 
-    static var allTests = [
-        ("testTests", testTests),
-    ]
-
     func testTests() throws {
 
         let testFiles = [
