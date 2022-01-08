@@ -30,8 +30,3 @@ import Testify
 
 let suite = TestSuite.parse("test-output-string")
 ```
-
-
-## License
-
-[WTFPL](LICENSE) - Do what the fuck you want to.
