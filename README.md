@@ -7,14 +7,17 @@ Testify converts XCTest output into a proper structure (JSON), or it'll miserabl
 
 You can use the cli to convert test results into JSON on the fly.
 
+You can use the cli to convert test results into JSON on the fly.
+
 ```
-git clone https://github.com/BinaryBirds/Testify.git
+git clone https://github.com/BinaryBirds/Testify.git && cd Testify
 make install
 which testify
-swift test 2>&1 | testify
 ```
 
 ## Usage
+
+In your projetct folder run `swift test 2>&1 | testify` or
 
 Just use the [Swift Package Manager](https://theswiftdev.com/2017/11/09/swift-package-manager-tutorial/) as usual:
 
