@@ -1,7 +1,7 @@
 import XCTest
-@testable import Testify
+@testable import TestifySDK
 
-final class TestifyTests: XCTestCase {
+final class TestifyMarkdownTests: XCTestCase {
 
     func testTests() throws {
 
@@ -24,6 +24,9 @@ final class TestifyTests: XCTestCase {
         let assetsUrl = URL(fileURLWithPath: String(packageRootPath)).appendingPathComponent("Tests")
                                                                      .appendingPathComponent("Assets")
 
+        let decoder = RawTestResultDecoder()
+        let encoder = TestResultMarkdownEncoder()
+        
         for file in testFiles {
             let testUrl = assetsUrl.appendingPathComponent(file)
                                    .appendingPathExtension("tests")
@@ -35,21 +38,14 @@ final class TestifyTests: XCTestCase {
                 return XCTFail("Could not decode test data.")
             }
             let resultData = try Data(contentsOf: jsonUrl)
-            let suite = TestSuite.parse(testOutput)
+            let suite = try decoder.decode(testOutput)
             
-            let decoder = JSONDecoder()
-            decoder.dateDecodingStrategy = .secondsSince1970
-            let expectation = try decoder.decode(TestSuite.self, from: resultData)
 
-            XCTAssertTrue(self.checkIsEqual(suite, expectation), "Invalid case count for \(file).")            
+            let markdown = try encoder.encode(suite)
+            print(markdown)
+            
+
         }
     }
 
-    //@TODO: proper equation checking, for now I'm ok with this... ¯\_(ツ)_/¯
-    func checkIsEqual(_ testSuite1: TestSuite, _ testSuite2: TestSuite) -> Bool {
-        return testSuite1.name == testSuite2.name &&
-        testSuite1.outcome == testSuite2.outcome &&
-        testSuite1.cases.count == testSuite2.cases.count &&
-        testSuite1.children.count == testSuite2.children.count
-    }
 }

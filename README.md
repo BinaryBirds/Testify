@@ -1,13 +1,11 @@
-# Testify (✅)
+# Testify
 
 Testify converts XCTest output into a proper structure (JSON), or it'll miserably fail. 😉
 
 
-## Install Testify cli
+## Install command line utility
 
-You can use the cli to convert test results into JSON on the fly.
-
-You can use the cli to convert test results into JSON on the fly.
+You can use the command line utility to convert test results into JSON on the fly.
 
 ```
 git clone https://github.com/BinaryBirds/Testify.git && cd Testify

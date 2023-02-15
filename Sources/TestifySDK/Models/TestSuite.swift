@@ -8,22 +8,23 @@
 import Foundation
 
 public struct TestSuite: Codable {
-    
-    public var name: String
-    public var startDate: Date
+    public let name: String
+    public let startDate: Date
     public var endDate: Date
-    public var unexpected: Int
-    public var outcome: TestOutcome
+    public var unexpected: UInt
+    public var outcome: Outcome
     public var cases: [TestCase]
     public var children: [TestSuite]
-
-    public init(name: String,
-                startDate: Date,
-                endDate: Date,
-                unexpected: Int,
-                outcome: TestOutcome,
-                cases: [TestCase] = [],
-                children: [TestSuite] = []) {
+    
+    public init(
+        name: String,
+        startDate: Date,
+        endDate: Date,
+        unexpected: UInt,
+        outcome: Outcome,
+        cases: [TestCase] = [],
+        children: [TestSuite] = []
+    ) {
         self.name = name
         self.startDate = startDate
         self.endDate = endDate
