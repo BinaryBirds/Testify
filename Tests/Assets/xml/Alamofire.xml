@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites id="All tests" name="All tests" tests="464" failures="0" time="69.051">
+<testsuite name="AutomaticValidationTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:20 +0000" hostname="JunitEncoder" time="1.502">
+<testcase name="testThatValidationForRequestWithAcceptableComplexContentTypeResponseSucceeds" classname="AutomaticValidationTestCase" time="0.786"/>
+<testcase name="testThatValidationForRequestWithAcceptableStatusCodeAndContentTypeResponseSucceeds" classname="AutomaticValidationTestCase" time="0.178"/>
+<testcase name="testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceeds" classname="AutomaticValidationTestCase" time="0.179"/>
+<testcase name="testThatValidationForRequestWithUnacceptableContentTypeResponseFails" classname="AutomaticValidationTestCase" time="0.18"/>
+<testcase name="testThatValidationForRequestWithUnacceptableStatusCodeResponseFails" classname="AutomaticValidationTestCase" time="0.179"/>
+</testsuite>
+<testsuite name="BasicAuthenticationTestCase" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:22 +0000" hostname="JunitEncoder" time="2.3680000000000003">
+<testcase name="testHiddenHTTPBasicAuthentication" classname="BasicAuthenticationTestCase" time="0.348"/>
+<testcase name="testHTTPBasicAuthenticationWithInvalidCredentials" classname="BasicAuthenticationTestCase" time="1.066"/>
+<testcase name="testHTTPBasicAuthenticationWithValidCredentials" classname="BasicAuthenticationTestCase" time="0.954"/>
+</testsuite>
+<testsuite name="CacheTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:24 +0000" hostname="JunitEncoder" time="13.501999999999999">
+<testcase name="testDefaultCachePolicy" classname="CacheTestCase" time="3.235"/>
+<testcase name="testIgnoreLocalCacheDataPolicy" classname="CacheTestCase" time="3.221"/>
+<testcase name="testURLCacheContainsCachedResponsesForAllRequests" classname="CacheTestCase" time="2.298"/>
+<testcase name="testUseLocalCacheDataAndDontLoadFromNetworkPolicy" classname="CacheTestCase" time="2.364"/>
+<testcase name="testUseLocalCacheDataIfExistsOtherwiseLoadFromNetworkPolicy" classname="CacheTestCase" time="2.384"/>
+</testsuite>
+<testsuite name="ContentTypeValidationTestCase" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:38 +0000" hostname="JunitEncoder" time="1.605">
+<testcase name="testThatValidationForRequestWithAcceptableContentTypeResponseSucceeds" classname="ContentTypeValidationTestCase" time="0.184"/>
+<testcase name="testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceeds" classname="ContentTypeValidationTestCase" time="0.182"/>
+<testcase name="testThatValidationForRequestWithAcceptableWildcardContentTypeResponseSucceedsWhenResponseIsNil" classname="ContentTypeValidationTestCase" time="0.679"/>
+<testcase name="testThatValidationForRequestWithNoAcceptableContentTypeResponseFails" classname="ContentTypeValidationTestCase" time="0.183"/>
+<testcase name="testThatValidationForRequestWithNoAcceptableContentTypeResponseSucceedsWhenNoDataIsReturned" classname="ContentTypeValidationTestCase" time="0.185"/>
+<testcase name="testThatValidationForRequestWithUnacceptableContentTypeResponseFails" classname="ContentTypeValidationTestCase" time="0.192"/>
+</testsuite>
+<testsuite name="CustomResponseSerializerTestCases" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:39 +0000" hostname="JunitEncoder" time="0.187">
+<testcase name="testThatCustomResponseSerializersCanBeWrittenWithoutCompilerIssues" classname="CustomResponseSerializerTestCases" time="0.187"/>
+</testsuite>
+<testsuite name="CustomValidationTestCase" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:39 +0000" hostname="JunitEncoder" time="0.73">
+<testcase name="testThatCustomValidationCanThrowCustomError" classname="CustomValidationTestCase" time="0.193"/>
+<testcase name="testThatCustomValidationClosureHasAccessToServerResponseData" classname="CustomValidationTestCase" time="0.179"/>
+<testcase name="testThatValidationExtensionCanThrowCustomError" classname="CustomValidationTestCase" time="0.177"/>
+<testcase name="testThatValidationExtensionHasAccessToServerResponseData" classname="CustomValidationTestCase" time="0.181"/>
+</testsuite>
+<testsuite name="DataResponseSerializationTestCase" tests="22" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:40 +0000" hostname="JunitEncoder" time="0.059000000000000025">
+<testcase name="testThatDataResponseSerializerFailsWhenDataIsNil" classname="DataResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatDataResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatDataResponseSerializerFailsWhenErrorIsNotNil" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatDataResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatDataResponseSerializerSucceedsWhenDataIsNotNil" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatJSONResponseSerializerFailsWhenDataIsEmpty" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatJSONResponseSerializerFailsWhenDataIsInvalidJSON" classname="DataResponseSerializationTestCase" time="0.004"/>
+<testcase name="testThatJSONResponseSerializerFailsWhenDataIsNil" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatJSONResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatJSONResponseSerializerFailsWhenErrorIsNotNil" classname="DataResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatJSONResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode" classname="DataResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatJSONResponseSerializerSucceedsWhenDataIsValidJSON" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerFailsWhenDataIsEmpty" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerFailsWhenDataIsNil" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode" classname="DataResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatStringResponseSerializerFailsWhenErrorIsNotNil" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ProvidedEncoding" classname="DataResponseSerializationTestCase" time="0.009"/>
+<testcase name="testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ResponseEncoding" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerSucceedsWithUTF8DataAndNoProvidedEncoding" classname="DataResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerSucceedsWithUTF8DataAndUTF8ProvidedEncoding" classname="DataResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatStringResponseSerializerSucceedsWithUTF8DataUsingResponseTextEncodingName" classname="DataResponseSerializationTestCase" time="0.003"/>
+</testsuite>
+<testsuite name="DecodableResponseSerializerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:40 +0000" hostname="JunitEncoder" time="0.019">
+<testcase name="testThatDecodableResponseSerializerFailsWhenDataIsEmpty" classname="DecodableResponseSerializerTests" time="0.003"/>
+<testcase name="testThatDecodableResponseSerializerFailsWhenDataIsInvalidRepresentation" classname="DecodableResponseSerializerTests" time="0.004"/>
+<testcase name="testThatDecodableResponseSerializerFailsWhenDataIsNil" classname="DecodableResponseSerializerTests" time="0.002"/>
+<testcase name="testThatDecodableResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode" classname="DecodableResponseSerializerTests" time="0.002"/>
+<testcase name="testThatDecodableResponseSerializerFailsWhenErrorIsNotNil" classname="DecodableResponseSerializerTests" time="0.002"/>
+<testcase name="testThatDecodableResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode" classname="DecodableResponseSerializerTests" time="0.003"/>
+<testcase name="testThatDecodableResponseSerializerSucceedsWhenDataIsValidJSON" classname="DecodableResponseSerializerTests" time="0.003"/>
+</testsuite>
+<testsuite name="DownloadInitializationTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:40 +0000" hostname="JunitEncoder" time="0.335">
+<testcase name="testDownloadClassMethodWithMethodURLAndDestination" classname="DownloadInitializationTestCase" time="0.169"/>
+<testcase name="testDownloadClassMethodWithMethodURLHeadersAndDestination" classname="DownloadInitializationTestCase" time="0.166"/>
+</testsuite>
+<testsuite name="DownloadResponseFlatMapErrorTestCase" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:41 +0000" hostname="JunitEncoder" time="3.105">
+<testcase name="testThatFlatMapErrorCatchesTransformationError" classname="DownloadResponseFlatMapErrorTestCase" time="2.919"/>
+<testcase name="testThatFlatMapErrorPreservesSuccessValue" classname="DownloadResponseFlatMapErrorTestCase" time="0.176"/>
+<testcase name="testThatFlatMapErrorTransformsError" classname="DownloadResponseFlatMapErrorTestCase" time="0.01"/>
+</testsuite>
+<testsuite name="DownloadResponseFlatMapTestCase" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:44 +0000" hostname="JunitEncoder" time="0.371">
+<testcase name="testThatFlatMapCatchesTransformationError" classname="DownloadResponseFlatMapTestCase" time="0.189"/>
+<testcase name="testThatFlatMapPreservesFailureError" classname="DownloadResponseFlatMapTestCase" time="0.009"/>
+<testcase name="testThatFlatMapTransformsSuccessValue" classname="DownloadResponseFlatMapTestCase" time="0.173"/>
+</testsuite>
+<testsuite name="DownloadResponseMapErrorTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:44 +0000" hostname="JunitEncoder" time="0.18">
+<testcase name="testThatMapErrorPreservesSuccessValue" classname="DownloadResponseMapErrorTestCase" time="0.172"/>
+<testcase name="testThatMapErrorTransformsFailureValue" classname="DownloadResponseMapErrorTestCase" time="0.008"/>
+</testsuite>
+<testsuite name="DownloadResponseMapTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:44 +0000" hostname="JunitEncoder" time="0.183">
+<testcase name="testThatMapPreservesFailureError" classname="DownloadResponseMapTestCase" time="0.009"/>
+<testcase name="testThatMapTransformsSuccessValue" classname="DownloadResponseMapTestCase" time="0.174"/>
+</testsuite>
+<testsuite name="DownloadResponseSerializationTestCase" tests="26" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:45 +0000" hostname="JunitEncoder" time="0.07300000000000002">
+<testcase name="testThatDataResponseSerializerFailsWhenErrorIsNotNil" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatDataResponseSerializerFailsWhenFileDataIsEmpty" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatDataResponseSerializerFailsWhenFileURLIsInvalid" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatDataResponseSerializerFailsWhenFileURLIsNil" classname="DownloadResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatDataResponseSerializerFailsWhenFileURLIsNilWithNonEmptyResponseStatusCode" classname="DownloadResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatDataResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode" classname="DownloadResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatDataResponseSerializerSucceedsWhenFileDataIsNotNil" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatJSONResponseSerializerFailsWhenDataIsInvalidJSON" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatJSONResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode" classname="DownloadResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatJSONResponseSerializerFailsWhenErrorIsNotNil" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatJSONResponseSerializerFailsWhenFileDataIsEmpty" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatJSONResponseSerializerFailsWhenFileURLIsInvalid" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatJSONResponseSerializerFailsWhenFileURLIsNil" classname="DownloadResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatJSONResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatJSONResponseSerializerSucceedsWhenDataIsValidJSON" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatStringResponseSerializerFailsWhenDataIsNilWithNonEmptyResponseStatusCode" classname="DownloadResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerFailsWhenErrorIsNotNil" classname="DownloadResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerFailsWhenFileDataIsEmpty" classname="DownloadResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerFailsWhenFileURLIsInvalid" classname="DownloadResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerFailsWhenFileURLIsNil" classname="DownloadResponseSerializationTestCase" time="0.002"/>
+<testcase name="testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ProvidedEncoding" classname="DownloadResponseSerializationTestCase" time="0.005"/>
+<testcase name="testThatStringResponseSerializerFailsWithUTF32DataAndUTF8ResponseEncoding" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatStringResponseSerializerSucceedsWhenDataIsNilWithEmptyResponseStatusCode" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatStringResponseSerializerSucceedsWithUTF8DataAndNoProvidedEncoding" classname="DownloadResponseSerializationTestCase" time="0.003"/>
+<testcase name="testThatStringResponseSerializerSucceedsWithUTF8DataAndUTF8ProvidedEncoding" classname="DownloadResponseSerializationTestCase" time="0.005"/>
+<testcase name="testThatStringResponseSerializerSucceedsWithUTF8DataUsingResponseTextEncodingName" classname="DownloadResponseSerializationTestCase" time="0.004"/>
+</testsuite>
+<testsuite name="DownloadResponseTestCase" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:45 +0000" hostname="JunitEncoder" time="2.138">
+<testcase name="testCancelledDownloadRequest" classname="DownloadResponseTestCase" time="0.005"/>
+<testcase name="testDownloadRequest" classname="DownloadResponseTestCase" time="0.329"/>
+<testcase name="testDownloadRequestWithHeaders" classname="DownloadResponseTestCase" time="0.169"/>
+<testcase name="testDownloadRequestWithParameters" classname="DownloadResponseTestCase" time="0.175"/>
+<testcase name="testDownloadRequestWithProgress" classname="DownloadResponseTestCase" time="0.696"/>
+<testcase name="testThatDownloadingFileAndMovingToDestinationThatIsOccupiedThrowsError" classname="DownloadResponseTestCase" time="0.202"/>
+<testcase name="testThatDownloadingFileAndMovingToDirectoryThatDoesNotExistThrowsError" classname="DownloadResponseTestCase" time="0.184"/>
+<testcase name="testThatDownloadOptionsCanCreateIntermediateDirectoriesPriorToMovingFile" classname="DownloadResponseTestCase" time="0.192"/>
+<testcase name="testThatDownloadOptionsCanRemovePreviousFilePriorToMovingFile" classname="DownloadResponseTestCase" time="0.186"/>
+</testsuite>
+<testsuite name="DownloadResumeDataTestCase" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:47 +0000" hostname="JunitEncoder" time="5.079000000000001">
+<testcase name="testThatCancelledDownloadCanBeResumedWithResumeData" classname="DownloadResumeDataTestCase" time="4.014"/>
+<testcase name="testThatCancelledDownloadResponseDataMatchesResumeData" classname="DownloadResumeDataTestCase" time="0.546"/>
+<testcase name="testThatCancelledDownloadResumeDataIsAvailableWithJSONResponseSerializer" classname="DownloadResumeDataTestCase" time="0.519"/>
+</testsuite>
+<testsuite name="HTTPDigestAuthenticationTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:52 +0000" hostname="JunitEncoder" time="1.915">
+<testcase name="testHTTPDigestAuthenticationWithInvalidCredentials" classname="HTTPDigestAuthenticationTestCase" time="1.057"/>
+<testcase name="testHTTPDigestAuthenticationWithValidCredentials" classname="HTTPDigestAuthenticationTestCase" time="0.858"/>
+</testsuite>
+<testsuite name="HTTPHeadersTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:54 +0000" hostname="JunitEncoder" time="0.013000000000000001">
+<testcase name="testHeadersAreStoreUniquelyByCaseInsensitiveName" classname="HTTPHeadersTests" time="0.003"/>
+<testcase name="testHeadersCanBeProperlySortedByName" classname="HTTPHeadersTests" time="0.002"/>
+<testcase name="testHeadersCanInsensitivelyGetAndSetThroughSubscript" classname="HTTPHeadersTests" time="0.002"/>
+<testcase name="testHeadersHaveUnsortedDescription" classname="HTTPHeadersTests" time="0.002"/>
+<testcase name="testHeadersPreserveLastFormAndValueOfAName" classname="HTTPHeadersTests" time="0.002"/>
+<testcase name="testHeadersPreserveOrderOfInsertion" classname="HTTPHeadersTests" time="0.002"/>
+</testsuite>
+<testsuite name="JSONParameterEncoderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:54 +0000" hostname="JunitEncoder" time="0.013">
+<testcase name="testThatDataIsProperlyEncodedAndProperContentTypeIsSet" classname="JSONParameterEncoderTests" time="0.003"/>
+<testcase name="testThatDataIsProperlyEncodedButContentTypeIsNotSetIfRequestAlreadyHasAContentType" classname="JSONParameterEncoderTests" time="0.002"/>
+<testcase name="testThatJSONEncoderCanBeCustomized" classname="JSONParameterEncoderTests" time="0.002"/>
+<testcase name="testThatJSONEncoderDefaultWorks" classname="JSONParameterEncoderTests" time="0.004"/>
+<testcase name="testThatJSONEncoderPrettyPrintedPrintsPretty" classname="JSONParameterEncoderTests" time="0.002"/>
+</testsuite>
+<testsuite name="JSONParameterEncodingTestCase" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:54 +0000" hostname="JunitEncoder" time="0.01">
+<testcase name="testJSONParameterEncodeArray" classname="JSONParameterEncodingTestCase" time="0.003"/>
+<testcase name="testJSONParameterEncodeComplexParameters" classname="JSONParameterEncodingTestCase" time="0.003"/>
+<testcase name="testJSONParameterEncodeNilParameters" classname="JSONParameterEncodingTestCase" time="0.002"/>
+<testcase name="testJSONParameterEncodeParametersRetainsCustomContentType" classname="JSONParameterEncodingTestCase" time="0.002"/>
+</testsuite>
+<testsuite name="MultipartFormDataEncodingTestCase" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:54 +0000" hostname="JunitEncoder" time="0.049">
+<testcase name="testEncodingDataBodyPart" classname="MultipartFormDataEncodingTestCase" time="0.003"/>
+<testcase name="testEncodingFileBodyPart" classname="MultipartFormDataEncodingTestCase" time="0.021"/>
+<testcase name="testEncodingMultipleBodyPartsWithVaryingTypes" classname="MultipartFormDataEncodingTestCase" time="0.006"/>
+<testcase name="testEncodingMultipleDataBodyParts" classname="MultipartFormDataEncodingTestCase" time="0.003"/>
+<testcase name="testEncodingMultipleFileBodyParts" classname="MultipartFormDataEncodingTestCase" time="0.007"/>
+<testcase name="testEncodingMultipleStreamBodyParts" classname="MultipartFormDataEncodingTestCase" time="0.005"/>
+<testcase name="testEncodingStreamBodyPart" classname="MultipartFormDataEncodingTestCase" time="0.004"/>
+</testsuite>
+<testsuite name="MultipartFormDataFailureTestCase" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:54 +0000" hostname="JunitEncoder" time="0.021">
+<testcase name="testThatAppendingFileBodyPartThatIsDirectoryReturnsError" classname="MultipartFormDataFailureTestCase" time="0.003"/>
+<testcase name="testThatAppendingFileBodyPartThatIsNotFileURLReturnsError" classname="MultipartFormDataFailureTestCase" time="0.003"/>
+<testcase name="testThatAppendingFileBodyPartThatIsNotReachableReturnsError" classname="MultipartFormDataFailureTestCase" time="0.004"/>
+<testcase name="testThatAppendingFileBodyPartWithInvalidLastPathComponentReturnsError" classname="MultipartFormDataFailureTestCase" time="0.003"/>
+<testcase name="testThatWritingEncodedDataToBadURLFails" classname="MultipartFormDataFailureTestCase" time="0.003"/>
+<testcase name="testThatWritingEncodedDataToExistingFileURLFails" classname="MultipartFormDataFailureTestCase" time="0.005"/>
+</testsuite>
+<testsuite name="MultipartFormDataPropertiesTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:54 +0000" hostname="JunitEncoder" time="0.006">
+<testcase name="testThatContentLengthMatchesTotalBodyPartSize" classname="MultipartFormDataPropertiesTestCase" time="0.003"/>
+<testcase name="testThatContentTypeContainsBoundary" classname="MultipartFormDataPropertiesTestCase" time="0.003"/>
+</testsuite>
+<testsuite name="MultipartFormDataWriteEncodedDataToDiskTestCase" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:54 +0000" hostname="JunitEncoder" time="0.041999999999999996">
+<testcase name="testWritingEncodedDataBodyPartToDisk" classname="MultipartFormDataWriteEncodedDataToDiskTestCase" time="0.004"/>
+<testcase name="testWritingEncodedFileBodyPartToDisk" classname="MultipartFormDataWriteEncodedDataToDiskTestCase" time="0.006"/>
+<testcase name="testWritingEncodedStreamBodyPartToDisk" classname="MultipartFormDataWriteEncodedDataToDiskTestCase" time="0.005"/>
+<testcase name="testWritingMultipleEncodedBodyPartsWithVaryingTypesToDisk" classname="MultipartFormDataWriteEncodedDataToDiskTestCase" time="0.008"/>
+<testcase name="testWritingMultipleEncodedDataBodyPartsToDisk" classname="MultipartFormDataWriteEncodedDataToDiskTestCase" time="0.003"/>
+<testcase name="testWritingMultipleEncodedFileBodyPartsToDisk" classname="MultipartFormDataWriteEncodedDataToDiskTestCase" time="0.011"/>
+<testcase name="testWritingMultipleEncodedStreamBodyPartsToDisk" classname="MultipartFormDataWriteEncodedDataToDiskTestCase" time="0.005"/>
+</testsuite>
+<testsuite name="MultipleValidationTestCase" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:54 +0000" hostname="JunitEncoder" time="0.5429999999999999">
+<testcase name="testThatValidationForRequestWithAcceptableStatusCodeAndContentTypeResponseSucceeds" classname="MultipleValidationTestCase" time="0.178"/>
+<testcase name="testThatValidationForRequestWithUnacceptableStatusCodeAndContentTypeResponseFailsWithContentTypeError" classname="MultipleValidationTestCase" time="0.181"/>
+<testcase name="testThatValidationForRequestWithUnacceptableStatusCodeAndContentTypeResponseFailsWithStatusCodeError" classname="MultipleValidationTestCase" time="0.184"/>
+</testsuite>
+<testsuite name="NetworkReachabilityManagerTestCase" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:55 +0000" hostname="JunitEncoder" time="0.05200000000000002">
+<testcase name="testThatAddressManagerCanBeDeinitialized" classname="NetworkReachabilityManagerTestCase" time="0.003"/>
+<testcase name="testThatAddressManagerIsNotifiedWhenStartListeningIsCalled" classname="NetworkReachabilityManagerTestCase" time="0.004"/>
+<testcase name="testThatAddressManagerStartsWithReachableStatus" classname="NetworkReachabilityManagerTestCase" time="0.003"/>
+<testcase name="testThatHostManagerCanBeDeinitialized" classname="NetworkReachabilityManagerTestCase" time="0.002"/>
+<testcase name="testThatHostManagerIsNotifiedWhenStartListeningIsCalled" classname="NetworkReachabilityManagerTestCase" time="0.004"/>
+<testcase name="testThatHostManagerIsReachableOnWiFi" classname="NetworkReachabilityManagerTestCase" time="0.004"/>
+<testcase name="testThatHostManagerStartsWithReachableStatus" classname="NetworkReachabilityManagerTestCase" time="0.004"/>
+<testcase name="testThatManagerCanBeInitializedFromAddress" classname="NetworkReachabilityManagerTestCase" time="0.003"/>
+<testcase name="testThatManagerCanBeInitializedFromHost" classname="NetworkReachabilityManagerTestCase" time="0.003"/>
+<testcase name="testThatManagerReturnsNotReachableOnWWANStatusWhenIsWWANAndConnectionIsRequired" classname="NetworkReachabilityManagerTestCase" time="0.003"/>
+<testcase name="testThatManagerReturnsNotReachableStatusWhenConnectionIsRequired" classname="NetworkReachabilityManagerTestCase" time="0.003"/>
+<testcase name="testThatManagerReturnsNotReachableStatusWhenInterventionIsRequired" classname="NetworkReachabilityManagerTestCase" time="0.003"/>
+<testcase name="testThatManagerReturnsNotReachableStatusWhenReachableFlagIsAbsent" classname="NetworkReachabilityManagerTestCase" time="0.003"/>
+<testcase name="testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsNotRequired" classname="NetworkReachabilityManagerTestCase" time="0.003"/>
+<testcase name="testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsOnDemand" classname="NetworkReachabilityManagerTestCase" time="0.002"/>
+<testcase name="testThatManagerReturnsReachableOnWiFiStatusWhenConnectionIsOnTraffic" classname="NetworkReachabilityManagerTestCase" time="0.002"/>
+<testcase name="testThatManagerReturnsReachableOnWWANStatusWhenIsWWAN" classname="NetworkReachabilityManagerTestCase" time="0.003"/>
+</testsuite>
+<testsuite name="RequestDebugDescriptionTestCase" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:55 +0000" hostname="JunitEncoder" time="4.523999999999999">
+<testcase name="testGETRequestDebugDescription" classname="RequestDebugDescriptionTestCase" time="0.646"/>
+<testcase name="testGETRequestWithDuplicateHeadersDebugDescription" classname="RequestDebugDescriptionTestCase" time="0.658"/>
+<testcase name="testGETRequestWithJSONHeaderDebugDescription" classname="RequestDebugDescriptionTestCase" time="0.652"/>
+<testcase name="testMultipartFormDataRequestWithDuplicateHeadersDebugDescription" classname="RequestDebugDescriptionTestCase" time="0.599"/>
+<testcase name="testPOSTRequestDebugDescription" classname="RequestDebugDescriptionTestCase" time="0.605"/>
+<testcase name="testPOSTRequestWithCookieDebugDescription" classname="RequestDebugDescriptionTestCase" time="0.682"/>
+<testcase name="testPOSTRequestWithCookiesDisabledDebugDescription" classname="RequestDebugDescriptionTestCase" time="0.004"/>
+<testcase name="testPOSTRequestWithJSONParametersDebugDescription" classname="RequestDebugDescriptionTestCase" time="0.666"/>
+<testcase name="testThatRequestWithInvalidURLDebugDescription" classname="RequestDebugDescriptionTestCase" time="0.012"/>
+</testsuite>
+<testsuite name="RequestDescriptionTestCase" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:23:59 +0000" hostname="JunitEncoder" time="0.733">
+<testcase name="testRequestDescription" classname="RequestDescriptionTestCase" time="0.733"/>
+</testsuite>
+<testsuite name="RequestResponseTestCase" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:00 +0000" hostname="JunitEncoder" time="3.2600000000000002">
+<testcase name="testPOSTRequestWithBase64EncodedImages" classname="RequestResponseTestCase" time="1.134"/>
+<testcase name="testPOSTRequestWithUnicodeParameters" classname="RequestResponseTestCase" time="0.188"/>
+<testcase name="testRequestResponse" classname="RequestResponseTestCase" time="0.191"/>
+<testcase name="testRequestResponseWithProgress" classname="RequestResponseTestCase" time="0.578"/>
+<testcase name="testThatRequestsCanPassEncodableParametersAsAURLQuery" classname="RequestResponseTestCase" time="0.184"/>
+<testcase name="testThatRequestsCanPassEncodableParametersAsJSONBodyData" classname="RequestResponseTestCase" time="0.184"/>
+<testcase name="testThatRequestsCanPassEncodableParametersAsURLEncodedBodyData" classname="RequestResponseTestCase" time="0.188"/>
+<testcase name="testThatResponseSerializationWorksWithSerializationQueue" classname="RequestResponseTestCase" time="0.613"/>
+</testsuite>
+<testsuite name="ResponseDataTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:03 +0000" hostname="JunitEncoder" time="0.191">
+<testcase name="testThatResponseDataReturnsFailureResultWithOptionalDataAndError" classname="ResponseDataTestCase" time="0.011"/>
+<testcase name="testThatResponseDataReturnsSuccessResultWithValidData" classname="ResponseDataTestCase" time="0.18"/>
+</testsuite>
+<testsuite name="ResponseFlatMapErrorTestCase" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:03 +0000" hostname="JunitEncoder" time="0.201">
+<testcase name="testThatFlatMapErrorCatchesTransformationError" classname="ResponseFlatMapErrorTestCase" time="0.009"/>
+<testcase name="testThatFlatMapErrorPreservesSuccessValue" classname="ResponseFlatMapErrorTestCase" time="0.182"/>
+<testcase name="testThatFlatMapErrorTransformsError" classname="ResponseFlatMapErrorTestCase" time="0.01"/>
+</testsuite>
+<testsuite name="ResponseFlatMapTestCase" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:04 +0000" hostname="JunitEncoder" time="0.38">
+<testcase name="testThatFlatMapCatchesTransformationError" classname="ResponseFlatMapTestCase" time="0.182"/>
+<testcase name="testThatFlatMapPreservesFailureError" classname="ResponseFlatMapTestCase" time="0.011"/>
+<testcase name="testThatFlatMapTransformsSuccessValue" classname="ResponseFlatMapTestCase" time="0.187"/>
+</testsuite>
+<testsuite name="ResponseJSONDecodableTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:04 +0000" hostname="JunitEncoder" time="0.192">
+<testcase name="testThatResponseJSONReturnsSuccessResultWithValidJSON" classname="ResponseJSONDecodableTestCase" time="0.182"/>
+<testcase name="testThatResponseStringReturnsFailureResultWithOptionalDataAndError" classname="ResponseJSONDecodableTestCase" time="0.01"/>
+</testsuite>
+<testsuite name="ResponseJSONTestCase" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:04 +0000" hostname="JunitEncoder" time="0.564">
+<testcase name="testThatResponseJSONReturnsSuccessResultForGETRequest" classname="ResponseJSONTestCase" time="0.186"/>
+<testcase name="testThatResponseJSONReturnsSuccessResultForPOSTRequest" classname="ResponseJSONTestCase" time="0.18"/>
+<testcase name="testThatResponseJSONReturnsSuccessResultWithValidJSON" classname="ResponseJSONTestCase" time="0.187"/>
+<testcase name="testThatResponseStringReturnsFailureResultWithOptionalDataAndError" classname="ResponseJSONTestCase" time="0.011"/>
+</testsuite>
+<testsuite name="ResponseMapErrorTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:05 +0000" hostname="JunitEncoder" time="0.193">
+<testcase name="testThatMapErrorPreservesSuccessValue" classname="ResponseMapErrorTestCase" time="0.183"/>
+<testcase name="testThatMapErrorTransformsFailureValue" classname="ResponseMapErrorTestCase" time="0.01"/>
+</testsuite>
+<testsuite name="ResponseMapTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:05 +0000" hostname="JunitEncoder" time="0.218">
+<testcase name="testThatMapPreservesFailureError" classname="ResponseMapTestCase" time="0.012"/>
+<testcase name="testThatMapTransformsSuccessValue" classname="ResponseMapTestCase" time="0.206"/>
+</testsuite>
+<testsuite name="ResponseStringTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:05 +0000" hostname="JunitEncoder" time="0.193">
+<testcase name="testThatResponseStringReturnsFailureResultWithOptionalDataAndError" classname="ResponseStringTestCase" time="0.013"/>
+<testcase name="testThatResponseStringReturnsSuccessResultWithValidString" classname="ResponseStringTestCase" time="0.18"/>
+</testsuite>
+<testsuite name="ResponseTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:05 +0000" hostname="JunitEncoder" time="0.199">
+<testcase name="testThatResponseReturnsFailureResultWithOptionalDataAndError" classname="ResponseTestCase" time="0.01"/>
+<testcase name="testThatResponseReturnsSuccessResultWithValidData" classname="ResponseTestCase" time="0.189"/>
+</testsuite>
+<testsuite name="ResultTestCase" tests="34" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:06 +0000" hostname="JunitEncoder" time="0.08800000000000005">
+<testcase name="testFlatMapErrorCapturesThrownError" classname="ResultTestCase" time="0.002"/>
+<testcase name="testFlatMapErrorTransformsErrorValue" classname="ResultTestCase" time="0.002"/>
+<testcase name="testFunctionalMethodsCanBeChained" classname="ResultTestCase" time="0.002"/>
+<testcase name="testIfFailureDoesNotExecuteWhenSuccess" classname="ResultTestCase" time="0.003"/>
+<testcase name="testIfFailureExecutesWhenFailure" classname="ResultTestCase" time="0.003"/>
+<testcase name="testIfSuccessDoesNotExecutesWhenFailure" classname="ResultTestCase" time="0.003"/>
+<testcase name="testIfSuccessExecutesWhenSuccess" classname="ResultTestCase" time="0.003"/>
+<testcase name="testMapErrorPreservesSuccessError" classname="ResultTestCase" time="0.003"/>
+<testcase name="testMapErrorTransformsErrorValue" classname="ResultTestCase" time="0.003"/>
+<testcase name="testThatDebugDescriptionStringMatchesExpectedValueForFailureCase" classname="ResultTestCase" time="0.003"/>
+<testcase name="testThatDebugDescriptionStringMatchesExpectedValueForSuccessCase" classname="ResultTestCase" time="0.002"/>
+<testcase name="testThatDescriptionStringMatchesExpectedValueForFailureCase" classname="ResultTestCase" time="0.003"/>
+<testcase name="testThatDescriptionStringMatchesExpectedValueForSuccessCase" classname="ResultTestCase" time="0.002"/>
+<testcase name="testThatErrorPropertyReturnsErrorForFailureCase" classname="ResultTestCase" time="0.003"/>
+<testcase name="testThatErrorPropertyReturnsNilForSuccessCase" classname="ResultTestCase" time="0.003"/>
+<testcase name="testThatFlatMapCatchesTransformationError" classname="ResultTestCase" time="0.002"/>
+<testcase name="testThatFlatMapPreservesFailureError" classname="ResultTestCase" time="0.002"/>
+<testcase name="testThatFlatMapTransformsSuccessValue" classname="ResultTestCase" time="0.002"/>
+<testcase name="testThatInitializerFromThrowingClosureCatchesErrorAsAFailure" classname="ResultTestCase" time="0.003"/>
+<testcase name="testThatInitializerFromThrowingClosureStoresResultAsASuccess" classname="ResultTestCase" time="0.003"/>
+<testcase name="testThatIsFailurePropertyReturnsFalseForSuccessCase" classname="ResultTestCase" time="0.002"/>
+<testcase name="testThatIsFailurePropertyReturnsTrueForFailureCase" classname="ResultTestCase" time="0.003"/>
+<testcase name="testThatIsSuccessPropertyReturnsFalseForFailureCase" classname="ResultTestCase" time="0.003"/>
+<testcase name="testThatIsSuccessPropertyReturnsTrueForSuccessCase" classname="ResultTestCase" time="0.002"/>
+<testcase name="testThatMapPreservesFailureError" classname="ResultTestCase" time="0.002"/>
+<testcase name="testThatMapTransformsSuccessValue" classname="ResultTestCase" time="0.002"/>
+<testcase name="testThatUnwrapReturnsSuccessValue" classname="ResultTestCase" time="0.003"/>
+<testcase name="testThatUnwrapThrowsFailureError" classname="ResultTestCase" time="0.003"/>
+<testcase name="testThatValuePropertyReturnsNilForFailureCase" classname="ResultTestCase" time="0.002"/>
+<testcase name="testThatValuePropertyReturnsValueForSuccessCase" classname="ResultTestCase" time="0.003"/>
+<testcase name="testWithErrorDoesNotExecuteWhenSuccess" classname="ResultTestCase" time="0.003"/>
+<testcase name="testWithErrorExecutesWhenFailure" classname="ResultTestCase" time="0.003"/>
+<testcase name="testWithValueDoesNotExecutesWhenFailure" classname="ResultTestCase" time="0.002"/>
+<testcase name="testWithValueExecutesWhenSuccess" classname="ResultTestCase" time="0.003"/>
+</testsuite>
+<testsuite name="ServerTrustPolicyCertificatesInBundleTestCase" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:06 +0000" hostname="JunitEncoder" time="0.019">
+<testcase name="testOnlyValidCertificatesAreDetected" classname="ServerTrustPolicyCertificatesInBundleTestCase" time="0.019"/>
+</testsuite>
+<testsuite name="ServerTrustPolicyCompositeTestCase" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:06 +0000" hostname="JunitEncoder" time="0.041">
+<testcase name="testThatExpiredLeafCertificateFailsDefaultAndRevocationComposite" classname="ServerTrustPolicyCompositeTestCase" time="0.017"/>
+<testcase name="testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyCompositeTestCase" time="0.009"/>
+<testcase name="testThatValidCertificateChainPassesDefaultAndRevocationCompositeChecks" classname="ServerTrustPolicyCompositeTestCase" time="0.015"/>
+</testsuite>
+<testsuite name="ServerTrustPolicyDisableEvaluationTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:06 +0000" hostname="JunitEncoder" time="0.005">
+<testcase name="testThatCertificateChainMissingIntermediateCertificatePassesEvaluation" classname="ServerTrustPolicyDisableEvaluationTestCase" time="0.002"/>
+<testcase name="testThatExpiredLeafCertificatePassesEvaluation" classname="ServerTrustPolicyDisableEvaluationTestCase" time="0.003"/>
+</testsuite>
+<testsuite name="ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:06 +0000" hostname="JunitEncoder" time="0.03">
+<testcase name="testThatAnchoredRootCertificatePassesBasicX509ValidationWithoutRootInTrust" classname="ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase" time="0.009"/>
+<testcase name="testThatAnchoredRootCertificatePassesBasicX509ValidationWithRootInTrust" classname="ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase" time="0.005"/>
+<testcase name="testThatCertificateMissingDNSNamePassesBasicX509Validation" classname="ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase" time="0.006"/>
+<testcase name="testThatExpiredCertificateFailsBasicX509Validation" classname="ServerTrustPolicyExplorationBasicX509PolicyValidationTestCase" time="0.01"/>
+</testsuite>
+<testsuite name="ServerTrustPolicyExplorationSSLPolicyValidationTestCase" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:06 +0000" hostname="JunitEncoder" time="0.066">
+<testcase name="testThatAnchoredRootCertificatePassesSSLValidationWithoutRootInTrust" classname="ServerTrustPolicyExplorationSSLPolicyValidationTestCase" time="0.007"/>
+<testcase name="testThatAnchoredRootCertificatePassesSSLValidationWithRootInTrust" classname="ServerTrustPolicyExplorationSSLPolicyValidationTestCase" time="0.007"/>
+<testcase name="testThatCertificateMissingDNSNameFailsSSLValidation" classname="ServerTrustPolicyExplorationSSLPolicyValidationTestCase" time="0.007"/>
+<testcase name="testThatDNSNameCertificatePassesSSLValidation" classname="ServerTrustPolicyExplorationSSLPolicyValidationTestCase" time="0.006"/>
+<testcase name="testThatExpiredCertificateFailsSSLValidation" classname="ServerTrustPolicyExplorationSSLPolicyValidationTestCase" time="0.008"/>
+<testcase name="testThatMultipleDNSNamesCertificatePassesSSLValidationForAllEntries" classname="ServerTrustPolicyExplorationSSLPolicyValidationTestCase" time="0.007"/>
+<testcase name="testThatPassingNilForHostParameterAllowsCertificateMissingDNSNameToPassSSLValidation" classname="ServerTrustPolicyExplorationSSLPolicyValidationTestCase" time="0.005"/>
+<testcase name="testThatURICertificateFailsSSLValidation" classname="ServerTrustPolicyExplorationSSLPolicyValidationTestCase" time="0.007"/>
+<testcase name="testThatWildcardCertificatePassesSSLValidation" classname="ServerTrustPolicyExplorationSSLPolicyValidationTestCase" time="0.012"/>
+</testsuite>
+<testsuite name="ServerTrustPolicyPerformDefaultEvaluationTestCase" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:06 +0000" hostname="JunitEncoder" time="0.094">
+<testcase name="testThatExpiredCertificateChainFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPerformDefaultEvaluationTestCase" time="0.01"/>
+<testcase name="testThatExpiredCertificateChainFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyPerformDefaultEvaluationTestCase" time="0.01"/>
+<testcase name="testThatMissingDNSNameLeafCertificateFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPerformDefaultEvaluationTestCase" time="0.009"/>
+<testcase name="testThatMissingDNSNameLeafCertificatePassesEvaluationWithoutHostValidation" classname="ServerTrustPolicyPerformDefaultEvaluationTestCase" time="0.007"/>
+<testcase name="testThatMissingIntermediateCertificateInChainFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPerformDefaultEvaluationTestCase" time="0.006"/>
+<testcase name="testThatMissingIntermediateCertificateInChainFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyPerformDefaultEvaluationTestCase" time="0.004"/>
+<testcase name="testThatNonAnchoredRootCertificateChainFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPerformDefaultEvaluationTestCase" time="0.009"/>
+<testcase name="testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyPerformDefaultEvaluationTestCase" time="0.009"/>
+<testcase name="testThatValidCertificateChainPassesEvaluationWithHostValidation" classname="ServerTrustPolicyPerformDefaultEvaluationTestCase" time="0.011"/>
+<testcase name="testThatValidCertificateChainPassesEvaluationWithoutHostValidation" classname="ServerTrustPolicyPerformDefaultEvaluationTestCase" time="0.007"/>
+<testcase name="testThatWildcardedLeafCertificateChainPassesEvaluationWithHostValidation" classname="ServerTrustPolicyPerformDefaultEvaluationTestCase" time="0.012"/>
+</testsuite>
+<testsuite name="ServerTrustPolicyPerformRevokedEvaluationTestCase" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:06 +0000" hostname="JunitEncoder" time="0.11699999999999999">
+<testcase name="testThatExpiredCertificateChainFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPerformRevokedEvaluationTestCase" time="0.008"/>
+<testcase name="testThatExpiredCertificateChainFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyPerformRevokedEvaluationTestCase" time="0.01"/>
+<testcase name="testThatMissingDNSNameLeafCertificateFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPerformRevokedEvaluationTestCase" time="0.014"/>
+<testcase name="testThatMissingDNSNameLeafCertificatePassesEvaluationWithoutHostValidation" classname="ServerTrustPolicyPerformRevokedEvaluationTestCase" time="0.011"/>
+<testcase name="testThatMissingIntermediateCertificateInChainFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPerformRevokedEvaluationTestCase" time="0.006"/>
+<testcase name="testThatMissingIntermediateCertificateInChainFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyPerformRevokedEvaluationTestCase" time="0.006"/>
+<testcase name="testThatNonAnchoredRootCertificateChainFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPerformRevokedEvaluationTestCase" time="0.008"/>
+<testcase name="testThatNonAnchoredRootCertificateChainFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyPerformRevokedEvaluationTestCase" time="0.009"/>
+<testcase name="testThatValidCertificateChainPassesEvaluationWithHostValidation" classname="ServerTrustPolicyPerformRevokedEvaluationTestCase" time="0.018"/>
+<testcase name="testThatValidCertificateChainPassesEvaluationWithoutHostValidation" classname="ServerTrustPolicyPerformRevokedEvaluationTestCase" time="0.012"/>
+<testcase name="testThatWildcardedLeafCertificateChainPassesEvaluationWithHostValidation" classname="ServerTrustPolicyPerformRevokedEvaluationTestCase" time="0.015"/>
+</testsuite>
+<testsuite name="ServerTrustPolicyPinCertificatesTestCase" tests="23" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:06 +0000" hostname="JunitEncoder" time="0.23100000000000007">
+<testcase name="testThatPinnedIntermediateCertificatePassesEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.009"/>
+<testcase name="testThatPinnedIntermediateCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.014"/>
+<testcase name="testThatPinnedIntermediateCertificateWithoutCertificateChainValidationPassesEvaluation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.01"/>
+<testcase name="testThatPinnedLeafCertificatePassesEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.011"/>
+<testcase name="testThatPinnedLeafCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.007"/>
+<testcase name="testThatPinnedLeafCertificateWithoutCertificateChainValidationPassesEvaluation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.01"/>
+<testcase name="testThatPinnedRootCertificatePassesEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.01"/>
+<testcase name="testThatPinnedRootCertificatePassesEvaluationWithSelfSignedSupportAndHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.012"/>
+<testcase name="testThatPinnedRootCertificateWithoutCertificateChainValidationPassesEvaluation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.01"/>
+<testcase name="testThatPinningExpiredLeafCertificateFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.01"/>
+<testcase name="testThatPinningExpiredLeafCertificateFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.011"/>
+<testcase name="testThatPinningExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.009"/>
+<testcase name="testThatPinningIntermediateCertificateNotInCertificateChainFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.011"/>
+<testcase name="testThatPinningIntermediateCertificateNotInCertificateChainFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.01"/>
+<testcase name="testThatPinningIntermediateCertificateNotInCertificateChainWithoutCertificateChainValidationFailsEvaluation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.008"/>
+<testcase name="testThatPinningIntermediateCertificateWithExpiredLeafCertificateFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.007"/>
+<testcase name="testThatPinningIntermediateCertificateWithExpiredLeafCertificateFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.012"/>
+<testcase name="testThatPinningIntermediateCertificateWithExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.009"/>
+<testcase name="testThatPinningLeafCertificateNotInCertificateChainFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.008"/>
+<testcase name="testThatPinningLeafCertificateNotInCertificateChainFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.009"/>
+<testcase name="testThatPinningLeafCertificateNotInCertificateChainWithoutCertificateChainValidationFailsEvaluation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.013"/>
+<testcase name="testThatPinningMultipleCertificatesWithoutCertificateChainValidationPassesEvaluation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.012"/>
+<testcase name="testThatPinningRootCertificateWithExpiredLeafCertificateWithoutCertificateChainValidationPassesEvaluation" classname="ServerTrustPolicyPinCertificatesTestCase" time="0.009"/>
+</testsuite>
+<testsuite name="ServerTrustPolicyPinPublicKeysTestCase" tests="16" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:06 +0000" hostname="JunitEncoder" time="0.14100000000000001">
+<testcase name="testThatPinningBackupKeyPassesEvaluationWithHostValidation" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.011"/>
+<testcase name="testThatPinningBackupKeyPassesEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.007"/>
+<testcase name="testThatPinningIntermediateKeyPassesEvaluationWithHostValidation" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.01"/>
+<testcase name="testThatPinningIntermediateKeyPassesEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.006"/>
+<testcase name="testThatPinningIntermediateKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.008"/>
+<testcase name="testThatPinningKeyNotInCertificateChainFailsEvaluationWithHostValidation" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.013"/>
+<testcase name="testThatPinningKeyNotInCertificateChainFailsEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.008"/>
+<testcase name="testThatPinningLeafKeyPassesEvaluationWithHostValidation" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.012"/>
+<testcase name="testThatPinningLeafKeyPassesEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.008"/>
+<testcase name="testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.009"/>
+<testcase name="testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithIncorrectIntermediateCertificate" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.004"/>
+<testcase name="testThatPinningLeafKeyWithoutCertificateChainValidationPassesEvaluationWithMissingIntermediateCertificate" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.007"/>
+<testcase name="testThatPinningRootKeyPassesEvaluationWithHostValidation" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.014"/>
+<testcase name="testThatPinningRootKeyPassesEvaluationWithoutHostValidation" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.007"/>
+<testcase name="testThatPinningRootKeyWithoutCertificateChainValidationFailsEvaluationWithMissingIntermediateCertificate" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.006"/>
+<testcase name="testThatPinningRootKeyWithoutCertificateChainValidationPassesEvaluationWithExpiredLeafCertificate" classname="ServerTrustPolicyPinPublicKeysTestCase" time="0.011"/>
+</testsuite>
+<testsuite name="SessionDelegateTestCase" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:07 +0000" hostname="JunitEncoder" time="3.583">
+<testcase name="testThatAppropriateNotificationsAreCalledWithRequestForDataRequest" classname="SessionDelegateTestCase" time="0.735"/>
+<testcase name="testThatDidCompleteNotificationIsCalledWithRequestForDownloadRequests" classname="SessionDelegateTestCase" time="0.631"/>
+<testcase name="testThatRequestWillPerformHTTPRedirectionByDefault" classname="SessionDelegateTestCase" time="0.85"/>
+<testcase name="testThatRequestWillPerformRedirectionMultipleTimesByDefault" classname="SessionDelegateTestCase" time="1.367"/>
+</testsuite>
+<testsuite name="SessionManagerConfigurationHeadersTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:10 +0000" hostname="JunitEncoder" time="1.287">
+<testcase name="testThatDefaultConfigurationHeadersAreSentWithRequest" classname="SessionManagerConfigurationHeadersTestCase" time="0.609"/>
+<testcase name="testThatEphemeralConfigurationHeadersAreSentWithRequest" classname="SessionManagerConfigurationHeadersTestCase" time="0.678"/>
+</testsuite>
+<testsuite name="SessionTestCase" tests="29" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:12 +0000" hostname="JunitEncoder" time="6.391999999999998">
+<testcase name="testDefaultAcceptEncodingSupportsAppropriateEncodingsOnAppropriateSystems" classname="SessionTestCase" time="0.722"/>
+<testcase name="testDefaultUserAgentHeader" classname="SessionTestCase" time="0.003"/>
+<testcase name="testInitializerWithDefaultArguments" classname="SessionTestCase" time="0.004"/>
+<testcase name="testInitializerWithSpecifiedArguments" classname="SessionTestCase" time="0.003"/>
+<testcase name="testReleasingManagerWithPendingCanceledRequestDeinitializesSuccessfully" classname="SessionTestCase" time="0.003"/>
+<testcase name="testReleasingManagerWithPendingRequestDeinitializesSuccessfully" classname="SessionTestCase" time="0.005"/>
+<testcase name="testSetStartRequestsImmediatelyToFalseAndCancelledCallsResponseHandlers" classname="SessionTestCase" time="0.005"/>
+<testcase name="testSetStartRequestsImmediatelyToFalseAndCancelThenResumeRequestDoesntCreateTaskAndStaysCancelled" classname="SessionTestCase" time="0.006"/>
+<testcase name="testSetStartRequestsImmediatelyToFalseAndResumeRequest" classname="SessionTestCase" time="0.636"/>
+<testcase name="testSetStartRequestsImmediatelyToFalseAndResumeThenCancelRequestHasCorrectOutput" classname="SessionTestCase" time="0.006"/>
+<testcase name="testThatDataRequestWithInvalidURLStringThrowsResponseHandlerError" classname="SessionTestCase" time="0.007"/>
+<testcase name="testThatDownloadRequestWithInvalidURLStringThrowsResponseHandlerError" classname="SessionTestCase" time="0.005"/>
+<testcase name="testThatRequestAdapterErrorThrowsResponseHandlerError" classname="SessionTestCase" time="0.004"/>
+<testcase name="testThatRequestAdapterErrorThrowsResponseHandlerErrorWhenRequestIsRetried" classname="SessionTestCase" time="0.896"/>
+<testcase name="testThatSessionInitializerSucceedsWithDefaultArguments" classname="SessionTestCase" time="0.004"/>
+<testcase name="testThatSessionInitializerSucceedsWithSpecifiedArguments" classname="SessionTestCase" time="0.003"/>
+<testcase name="testThatSessionManagerCallsAdapterWhenRequestIsRetried" classname="SessionTestCase" time="0.997"/>
+<testcase name="testThatSessionManagerCallsRequestAdapterWhenCreatingDataRequest" classname="SessionTestCase" time="0.004"/>
+<testcase name="testThatSessionManagerCallsRequestAdapterWhenCreatingDownloadRequest" classname="SessionTestCase" time="0.005"/>
+<testcase name="testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithData" classname="SessionTestCase" time="0.007"/>
+<testcase name="testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithFile" classname="SessionTestCase" time="0.006"/>
+<testcase name="testThatSessionManagerCallsRequestAdapterWhenCreatingUploadRequestWithInputStream" classname="SessionTestCase" time="0.006"/>
+<testcase name="testThatSessionManagerCallsRequestRetrierWhenDownloadInitiallyEncountersAdaptError" classname="SessionTestCase" time="0.629"/>
+<testcase name="testThatSessionManagerCallsRequestRetrierWhenRequestEncountersError" classname="SessionTestCase" time="1.097"/>
+<testcase name="testThatSessionManagerCallsRequestRetrierWhenRequestInitiallyEncountersAdaptError" classname="SessionTestCase" time="0.686"/>
+<testcase name="testThatSessionManagerCallsRequestRetrierWhenUploadInitiallyEncountersAdaptError" classname="SessionTestCase" time="0.629"/>
+<testcase name="testThatUploadDataRequestWithInvalidURLStringThrowsResponseHandlerError" classname="SessionTestCase" time="0.004"/>
+<testcase name="testThatUploadFileRequestWithInvalidURLStringThrowsResponseHandlerError" classname="SessionTestCase" time="0.005"/>
+<testcase name="testThatUploadStreamRequestWithInvalidURLStringThrowsResponseHandlerError" classname="SessionTestCase" time="0.005"/>
+</testsuite>
+<testsuite name="SortedKeysJSONParameterEncoderTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:18 +0000" hostname="JunitEncoder" time="0.004">
+<testcase name="testTestJSONEncoderSortedKeysHasSortedKeys" classname="SortedKeysJSONParameterEncoderTests" time="0.004"/>
+</testsuite>
+<testsuite name="StatusCodeValidationTestCase" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:18 +0000" hostname="JunitEncoder" time="0.5389999999999999">
+<testcase name="testThatValidationForRequestWithAcceptableStatusCodeResponseSucceeds" classname="StatusCodeValidationTestCase" time="0.18"/>
+<testcase name="testThatValidationForRequestWithNoAcceptableStatusCodesFails" classname="StatusCodeValidationTestCase" time="0.18"/>
+<testcase name="testThatValidationForRequestWithUnacceptableStatusCodeResponseFails" classname="StatusCodeValidationTestCase" time="0.179"/>
+</testsuite>
+<testsuite name="TLSEvaluationExpiredLeafCertificateTestCase" tests="14" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:19 +0000" hostname="JunitEncoder" time="6.6690000000000005">
+<testcase name="testThatExpiredCertificateRequestFailsWhenPinningAllCertificatesWithCertificateChainValidation" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.58"/>
+<testcase name="testThatExpiredCertificateRequestFailsWhenPinningLeafCertificateWithCertificateChainValidation" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.323"/>
+<testcase name="testThatExpiredCertificateRequestFailsWhenPinningLeafPublicKeyWithCertificateChainValidation" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.318"/>
+<testcase name="testThatExpiredCertificateRequestFailsWithDefaultServerTrustPolicy" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.322"/>
+<testcase name="testThatExpiredCertificateRequestFailsWithNoServerTrustPolicy" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.329"/>
+<testcase name="testThatExpiredCertificateRequestFailsWithRevokedServerTrustPolicy" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.319"/>
+<testcase name="testThatExpiredCertificateRequestSucceedsWhenDisablingEvaluation" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.631"/>
+<testcase name="testThatExpiredCertificateRequestSucceedsWhenPinningIntermediateCACertificateWithoutCertificateChainOrHostValidation" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.627"/>
+<testcase name="testThatExpiredCertificateRequestSucceedsWhenPinningIntermediateCAPublicKeyWithoutCertificateChainOrHostValidation" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.626"/>
+<testcase name="testThatExpiredCertificateRequestSucceedsWhenPinningLeafCertificateWithoutCertificateChainOrHostValidation" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.686"/>
+<testcase name="testThatExpiredCertificateRequestSucceedsWhenPinningLeafPublicKeyWithoutCertificateChainOrHostValidation" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.626"/>
+<testcase name="testThatExpiredCertificateRequestSucceedsWhenPinningRootCACertificateWithoutCertificateChainValidation" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.335"/>
+<testcase name="testThatExpiredCertificateRequestSucceedsWhenPinningRootCAPublicKeyWithoutCertificateChainValidation" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.325"/>
+<testcase name="testThatRevokedCertificateRequestFailsWithRevokedServerTrustPolicy" classname="TLSEvaluationExpiredLeafCertificateTestCase" time="0.622"/>
+</testsuite>
+<testsuite name="URLEncodedFormEncoderTests" tests="38" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:25 +0000" hostname="JunitEncoder" time="0.12600000000000006">
+<testcase name="testEncoderCanEncodeDictionary" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testEncoderCanEncodeDouble" classname="URLEncodedFormEncoderTests" time="0.004"/>
+<testcase name="testEncoderCanEncodeFloat" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testEncoderCanEncodeInt16" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testEncoderCanEncodeInt32" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testEncoderCanEncodeInt64" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testEncoderCanEncodeInt8" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testEncoderCanEncodeUInt" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testEncoderCanEncodeUInt16" classname="URLEncodedFormEncoderTests" time="0.004"/>
+<testcase name="testEncoderCanEncodeUInt32" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testEncoderCanEncodeUInt64" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testEncoderCanEncodeUInt8" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testEncoderThrowsErrorWhenAttemptingToEncodeNilInKeyedContainer" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testEncoderThrowsErrorWhenAttemptingToEncodeNilInUnkeyedContainer" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testStringWithThousandsOfChineseCharactersIsPercentEscaped" classname="URLEncodedFormEncoderTests" time="0.011"/>
+<testcase name="testThatAmpersandsInKeysAndValuesArePercentEscaped" classname="URLEncodedFormEncoderTests" time="0.004"/>
+<testcase name="testThatARootArrayCannotBeEncoded" classname="URLEncodedFormEncoderTests" time="0.004"/>
+<testcase name="testThatARootValueCannotBeEncoded" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testThatArraysCanBeEncodedWithoutBrackets" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testThatBoolsCanBeLiteralEncoded" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testThatEncodableClassWithNoInheritanceCanBeEncoded" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testThatEncodableStructCanBeEncoded" classname="URLEncodedFormEncoderTests" time="0.004"/>
+<testcase name="testThatEncodableSubclassCanBeEncoded" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testThatEscapedCharactersCanBeCustomized" classname="URLEncodedFormEncoderTests" time="0.002"/>
+<testcase name="testThatIllegalASCIICharactersArePercentEscaped" classname="URLEncodedFormEncoderTests" time="0.004"/>
+<testcase name="testThatManuallyEncodableStructCanBeEncoded" classname="URLEncodedFormEncoderTests" time="0.005"/>
+<testcase name="testThatManuallyEncodableSubclassCanBeEncoded" classname="URLEncodedFormEncoderTests" time="0.004"/>
+<testcase name="testThatNestedDictionariesHaveBracketedKeys" classname="URLEncodedFormEncoderTests" time="0.004"/>
+<testcase name="testThatNonLatinCharactersArePercentEscaped" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testThatOptionalValuesCannotBeEncoded" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testThatPercentsInKeysAndValuesArePercentEscaped" classname="URLEncodedFormEncoderTests" time="0.002"/>
+<testcase name="testThatPlusesInKeysAndValuesArePercentEscaped" classname="URLEncodedFormEncoderTests" time="0.002"/>
+<testcase name="testThatQuestionMarksInKeysAndValuesAreNotPercentEscaped" classname="URLEncodedFormEncoderTests" time="0.002"/>
+<testcase name="testThatReseredCharactersArePercentEscaped" classname="URLEncodedFormEncoderTests" time="0.002"/>
+<testcase name="testThatSlashesInKeysAndValuesAreNotPercentEscaped" classname="URLEncodedFormEncoderTests" time="0.002"/>
+<testcase name="testThatSpacesCanBeEncodedAsPluses" classname="URLEncodedFormEncoderTests" time="0.003"/>
+<testcase name="testThatSpacesInKeysAndValuesArePercentEscaped" classname="URLEncodedFormEncoderTests" time="0.004"/>
+<testcase name="testThatUnreservedCharactersAreNotPercentEscaped" classname="URLEncodedFormEncoderTests" time="0.002"/>
+</testsuite>
+<testsuite name="URLEncodedFormParameterEncoderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:25 +0000" hostname="JunitEncoder" time="0.011000000000000001">
+<testcase name="testThatEncoderCanBeCustomized" classname="URLEncodedFormParameterEncoderTests" time="0.003"/>
+<testcase name="testThatQueryIsBodyEncodedAndProperContentTypeIsSetForPOSTRequest" classname="URLEncodedFormParameterEncoderTests" time="0.003"/>
+<testcase name="testThatQueryIsBodyEncodedButContentTypeIsNotSetWhenRequestAlreadyHasContentType" classname="URLEncodedFormParameterEncoderTests" time="0.003"/>
+<testcase name="testThatQueryIsInURLWhenDestinationIsURLAndMethodIsPOST" classname="URLEncodedFormParameterEncoderTests" time="0.002"/>
+</testsuite>
+<testsuite name="URLParameterEncodingTestCase" tests="36" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:25 +0000" hostname="JunitEncoder" time="0.11400000000000007">
+<testcase name="testThatIllegalASCIICharactersArePercentEscaped" classname="URLParameterEncodingTestCase" time="0.004"/>
+<testcase name="testThatReservedCharactersArePercentEscapedMinusQuestionMarkAndForwardSlash" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testThatReservedCharactersQuestionMarkAndForwardSlashAreNotPercentEscaped" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testThatUnreservedLowercaseCharactersAreNotPercentEscaped" classname="URLParameterEncodingTestCase" time="0.004"/>
+<testcase name="testThatUnreservedNumericCharactersAreNotPercentEscaped" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testThatUnreservedUppercaseCharactersAreNotPercentEscaped" classname="URLParameterEncodingTestCase" time="0.002"/>
+<testcase name="testThatURLEncodedInURLParameterEncodingEncodesPOSTParametersInURL" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testThatURLParameterEncodingEncodesGETParametersInURL" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testThatURLParameterEncodingEncodesPOSTParametersInHTTPBody" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeEmptyDictionaryParameter" classname="URLParameterEncodingTestCase" time="0.002"/>
+<testcase name="testURLParameterEncodeNilParameters" classname="URLParameterEncodingTestCase" time="0.002"/>
+<testcase name="testURLParameterEncodeOneStringKeyStringValueParameter" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeOneStringKeyStringValueParameterAppendedToQuery" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringForRequestWithPrecomposedQuery" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringKeyArrayValueParameter" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringKeyArrayValueParameterWithoutBrackets" classname="URLParameterEncodingTestCase" time="0.004"/>
+<testcase name="testURLParameterEncodeStringKeyBoolValueParameter" classname="URLParameterEncodingTestCase" time="0.004"/>
+<testcase name="testURLParameterEncodeStringKeyDictionaryValueParameter" classname="URLParameterEncodingTestCase" time="0.004"/>
+<testcase name="testURLParameterEncodeStringKeyDoubleValueParameter" classname="URLParameterEncodingTestCase" time="0.004"/>
+<testcase name="testURLParameterEncodeStringKeyIntegerValueParameter" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringKeyNestedDictionaryArrayValueParameter" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringKeyNestedDictionaryArrayValueParameterWithoutBrackets" classname="URLParameterEncodingTestCase" time="0.002"/>
+<testcase name="testURLParameterEncodeStringKeyNestedDictionaryValueParameter" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringKeyNonLatinStringValueParameter" classname="URLParameterEncodingTestCase" time="0.002"/>
+<testcase name="testURLParameterEncodeStringKeyNSNumberBoolValueParameter" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringKeyNSNumberIntegerValueParameter" classname="URLParameterEncodingTestCase" time="0.002"/>
+<testcase name="testURLParameterEncodeStringKeyPercentEncodedStringValueParameter" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringWithAmpersandKeyStringWithAmpersandValueParameter" classname="URLParameterEncodingTestCase" time="0.002"/>
+<testcase name="testURLParameterEncodeStringWithPlusKeyStringWithPlusValueParameter" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringWithPlusKeyStringWithPlusValueParameterForRequestWithPrecomposedQuery" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringWithQuestionMarkKeyStringWithQuestionMarkValueParameter" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringWithSlashKeyStringWithQuestionMarkValueParameter" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringWithSpaceKeyStringWithSpaceValueParameter" classname="URLParameterEncodingTestCase" time="0.003"/>
+<testcase name="testURLParameterEncodeStringWithThousandsOfChineseCharacters" classname="URLParameterEncodingTestCase" time="0.008"/>
+<testcase name="testURLParameterEncodeTwoStringKeyStringValueParameters" classname="URLParameterEncodingTestCase" time="0.004"/>
+<testcase name="testURLParameterLiteralBoolEncodingWorksAndDoesNotAffectNumbers" classname="URLParameterEncodingTestCase" time="0.004"/>
+</testsuite>
+<testsuite name="URLProtocolTestCase" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:26 +0000" hostname="JunitEncoder" time="0.636">
+<testcase name="testThatURLProtocolReceivesRequestHeadersAndSessionConfigurationHeaders" classname="URLProtocolTestCase" time="0.636"/>
+</testsuite>
+<testsuite name="UploadDataInitializationTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:26 +0000" hostname="JunitEncoder" time="0.361">
+<testcase name="testUploadClassMethodWithMethodURLAndData" classname="UploadDataInitializationTestCase" time="0.181"/>
+<testcase name="testUploadClassMethodWithMethodURLHeadersAndData" classname="UploadDataInitializationTestCase" time="0.18"/>
+</testsuite>
+<testsuite name="UploadDataTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:27 +0000" hostname="JunitEncoder" time="0.405">
+<testcase name="testUploadDataRequest" classname="UploadDataTestCase" time="0.183"/>
+<testcase name="testUploadDataRequestWithProgress" classname="UploadDataTestCase" time="0.222"/>
+</testsuite>
+<testsuite name="UploadFileInitializationTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:27 +0000" hostname="JunitEncoder" time="0.479">
+<testcase name="testUploadClassMethodWithMethodURLAndFile" classname="UploadFileInitializationTestCase" time="0.237"/>
+<testcase name="testUploadClassMethodWithMethodURLHeadersAndFile" classname="UploadFileInitializationTestCase" time="0.242"/>
+</testsuite>
+<testsuite name="UploadMultipartFormDataTestCase" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:28 +0000" hostname="JunitEncoder" time="2.012">
+<testcase name="testThatUploadingMultipartFormDataAboveMemoryThresholdSetsContentTypeHeader" classname="UploadMultipartFormDataTestCase" time="0.196"/>
+<testcase name="testThatUploadingMultipartFormDataAboveMemoryThresholdStreamsFromDisk" classname="UploadMultipartFormDataTestCase" time="0.183"/>
+<testcase name="testThatUploadingMultipartFormDataBelowMemoryThresholdSetsContentTypeHeader" classname="UploadMultipartFormDataTestCase" time="0.183"/>
+<testcase name="testThatUploadingMultipartFormDataBelowMemoryThresholdStreamsFromMemory" classname="UploadMultipartFormDataTestCase" time="0.224"/>
+<testcase name="testThatUploadingMultipartFormDataSetsContentTypeHeader" classname="UploadMultipartFormDataTestCase" time="0.286"/>
+<testcase name="testThatUploadingMultipartFormDataSucceedsWithDefaultParameters" classname="UploadMultipartFormDataTestCase" time="0.28"/>
+<testcase name="testThatUploadingMultipartFormDataWhileStreamingFromDiskMonitorsProgress" classname="UploadMultipartFormDataTestCase" time="0.32"/>
+<testcase name="testThatUploadingMultipartFormDataWhileStreamingFromMemoryMonitorsProgress" classname="UploadMultipartFormDataTestCase" time="0.34"/>
+</testsuite>
+<testsuite name="UploadStreamInitializationTestCase" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:24:30 +0000" hostname="JunitEncoder" time="0.653">
+<testcase name="testUploadClassMethodWithMethodURLAndStream" classname="UploadStreamInitializationTestCase" time="0.346"/>
+<testcase name="testUploadClassMethodWithMethodURLHeadersAndStream" classname="UploadStreamInitializationTestCase" time="0.307"/>
+</testsuite>
+</testsuites>

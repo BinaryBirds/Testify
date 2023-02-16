@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites id="All tests" name="All tests" tests="6" failures="0" time="2.497">
+<testsuite name="ShellTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-01-19 18:53:57 +0000" hostname="JunitEncoder" time="2.497">
+<testcase name="testAsyncRun" classname="ShellTests" time="2.172"/>
+<testcase name="testEnvironment" classname="ShellTests" time="0.065"/>
+<testcase name="testError" classname="ShellTests" time="0.065"/>
+<testcase name="testErrorHandler" classname="ShellTests" time="0.066"/>
+<testcase name="testOutput" classname="ShellTests" time="0.065"/>
+<testcase name="testOutputHandler" classname="ShellTests" time="0.064"/>
+</testsuite>
+</testsuites>

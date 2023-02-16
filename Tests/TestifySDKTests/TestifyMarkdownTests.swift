@@ -23,14 +23,15 @@ final class TestifyMarkdownTests: XCTestCase {
 
         let assetsUrl = URL(fileURLWithPath: String(packageRootPath)).appendingPathComponent("Tests")
                                                                      .appendingPathComponent("Assets")
-
         let decoder = RawTestResultDecoder()
         let encoder = TestResultMarkdownEncoder()
+        let testsDir = "/tests/"
+        let jsonDir = "/json/"
         
         for file in testFiles {
-            let testUrl = assetsUrl.appendingPathComponent(file)
+            let testUrl = assetsUrl.appendingPathComponent(testsDir + file)
                                    .appendingPathExtension("tests")
-            let jsonUrl = assetsUrl.appendingPathComponent(file)
+            let jsonUrl = assetsUrl.appendingPathComponent(jsonDir + file)
                                    .appendingPathExtension("json")
 
             let testData = try Data(contentsOf: testUrl)
