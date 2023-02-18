@@ -8,18 +8,13 @@ let package = Package(
     ],
     products: [
         .executable(name: "testify", targets: ["testify"]),
-
-        .library(name: "TestifySDK", targets: ["TestifySDK"]),
-        .library(name: "TestifyJUnit", targets: ["TestifyJUnit"]),
-        .library(name: "TestifyMarkdown", targets: ["TestifyMarkdown"]),
+        .library(name: "TestifySDK", targets: ["TestifySDK"])
     ],
     targets: [
         .executableTarget(
             name: "testify",
             dependencies: [
-                .target(name: "TestifySDK"),
-                .target(name: "TestifyJUnit"),
-                .target(name: "TestifyMarkdown"),
+                .target(name: "TestifySDK")
             ]
         ),
 
@@ -29,24 +24,6 @@ let package = Package(
             name: "TestifySDK",
             dependencies: []
         ),
-        .target(
-            name: "TestifyJSON",
-            dependencies: [
-                .target(name: "TestifySDK"),
-            ]
-        ),
-        .target(
-            name: "TestifyJUnit",
-            dependencies: [
-                .target(name: "TestifySDK"),
-            ]
-        ),
-        .target(
-            name: "TestifyMarkdown",
-            dependencies: [
-                .target(name: "TestifySDK"),
-            ]
-        ),
         
         // MARK: - test targets
 
@@ -54,24 +31,6 @@ let package = Package(
             name: "TestifySDKTests",
             dependencies: [
                 .target(name: "TestifySDK"),
-            ]
-        ),
-        .testTarget(
-            name: "TestifyJSONTests",
-            dependencies: [
-                .target(name: "TestifyJSON"),
-            ]
-        ),
-        .testTarget(
-            name: "TestifyJUnitTests",
-            dependencies: [
-                .target(name: "TestifyJUnit"),
-            ]
-        ),
-        .testTarget(
-            name: "TestifyMarkdownTests",
-            dependencies: [
-                .target(name: "TestifyMarkdown"),
             ]
         ),
     ]

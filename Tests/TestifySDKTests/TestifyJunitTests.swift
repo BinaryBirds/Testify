@@ -23,13 +23,11 @@ final class TestifyJunitTests: XCTestCase {
         let assetsUrl = URL(fileURLWithPath: String(packageRootPath)).appendingPathComponent("Tests")
                                                                      .appendingPathComponent("Assets")
         let decoder = RawTestResultDecoder()
-        let testsDir = "/tests/"
-        let xmlDir = "/xml/"
         
         for file in testFiles {
-            let testUrl = assetsUrl.appendingPathComponent(testsDir + file)
+            let testUrl = assetsUrl.appendingPathComponent("/tests/" + file)
                                    .appendingPathExtension("tests")
-            let xmlUrl = assetsUrl.appendingPathComponent(xmlDir + file)
+            let xmlUrl = assetsUrl.appendingPathComponent("/xml/" + file)
                                    .appendingPathExtension("xml")
 
             let testData = try Data(contentsOf: testUrl)

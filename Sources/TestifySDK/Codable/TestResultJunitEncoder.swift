@@ -29,7 +29,7 @@ public struct TestResultJunitEncoder: TestResultEncoder {
             allTests += tests
             allTimes += time
             allFails += failureCount
-            restOfResult += "<testsuite name=\"\(name)\" tests=\"\(tests)\" skipped=\"0\" failures=\"\(failureCount)\" errors=\"0\" timestamp=\"\(start)\" hostname=\"JunitEncoder\" time=\"\(time)\">\n"
+            restOfResult += "<testsuite  id=\"\(name)\" name=\"\(name)\" tests=\"\(tests)\" skipped=\"0\" failures=\"\(failureCount)\" errors=\"0\" timestamp=\"\(start)\" hostname=\"JunitEncoder\" time=\"\(time)\">\n"
         
             for testCase in suite.cases {
                 let name = testCase.testName
@@ -56,10 +56,12 @@ public struct TestResultJunitEncoder: TestResultEncoder {
             }
             restOfResult += "</testsuite>\n"
         }
-        restOfResult += "</testsuites>\n\n\n"
+        restOfResult += "</testsuites>\n"
         
-        var startResult = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
-        startResult += "<testsuites id=\"\(input.name)\" name=\"\(input.name)\" tests=\"\(allTests)\" failures=\"\(allFails)\" time=\"\(allTimes)\">\n"
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyyMMdd_HHmmss"
+        var startResult = "\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+        startResult += "<testsuites id=\"\(formatter.string(from: input.startDate))\" name=\"\(input.name)\" tests=\"\(allTests)\" failures=\"\(allFails)\" time=\"\(allTimes)\">\n"
         
         return startResult + restOfResult
     }

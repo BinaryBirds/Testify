@@ -18,7 +18,7 @@ public struct TestResultMarkdownEncoder: TestResultEncoder {
 
         let suites: [TestSuite] = input.children.reduce([]) { $0 + $1.children }
         for suite in suites {
-            result += "\n\n"
+            result += "\n"
             let name = suite.name
             let count = suite.cases.count
             let time = suite.cases.reduce(0) { $0 + $1.duration }
