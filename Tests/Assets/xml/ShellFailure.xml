@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites id="All tests" name="All tests" tests="7" failures="3" time="2.532">
+<testsuite name="ShellTests" tests="7" skipped="0" failures="3" errors="0" timestamp="2019-01-19 18:57:24 +0000" hostname="JunitEncoder" time="2.532">
+<testcase name="testAsyncRun" classname="ShellTests" time="2.143"/>
+<testcase name="testEnvironment" classname="ShellTests" time="0.067">
+<failure message="33" type="type">
+XCTAssertEqual failed: ("Custom bad env variable") is not equal to ("Custom env variable") - Invalid output `Custom bad env variable`, expected `Custom env variable`.
+</failure>
+</testcase>
+<testcase name="testError" classname="ShellTests" time="0.064"/>
+<testcase name="testErrorHandler" classname="ShellTests" time="0.064"/>
+<testcase name="testOutput" classname="ShellTests" time="0.064">
+<failure message="33" type="type">
+XCTAssertEqual failed: ("Hello world!") is not equal to ("Hello outside world!") - Invalid output `Hello world!`, expected `Hello outside world!`.
+</failure>
+</testcase>
+<testcase name="testOutputHandler" classname="ShellTests" time="0.064"/>
+<testcase name="testThrow" classname="ShellTests" time="0.066">
+<failure message="0" type="type">
+failed: caught error: The operation couldn’t be completed. (Shell.ShellError error 0.)
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

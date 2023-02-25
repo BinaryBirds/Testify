@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites id="All tests" name="All tests" tests="14" failures="3" time="6.191999999999998">
+<testsuite name="ShellOutTests" tests="14" skipped="0" failures="3" errors="0" timestamp="2019-01-19 12:08:34 +0000" hostname="JunitEncoder" time="6.191999999999998">
+<testcase name="testCapturingErrorWithHandle" classname="ShellOutTests" time="0.269"/>
+<testcase name="testCapturingOutputWithHandle" classname="ShellOutTests" time="0.185"/>
+<testcase name="testErrorDescription" classname="ShellOutTests" time="0.001"/>
+<testcase name="testGitCommands" classname="ShellOutTests" time="1.833"/>
+<testcase name="testSeriesOfCommands" classname="ShellOutTests" time="0.169">
+<failure message="50" type="type">
+XCTAssertEqual failed: ("Helloworld") is not equal to ("Hellowdorld")
+</failure>
+</testcase>
+<testcase name="testSeriesOfCommandsAtPath" classname="ShellOutTests" time="0.345"/>
+<testcase name="testSingleCommandAtPath" classname="ShellOutTests" time="0.336">
+<failure message="32" type="type">
+XCTAssertEqual failed: ("Hello") is not equal to ("Heallo")
+</failure>
+</testcase>
+<testcase name="testSingleCommandAtPathContainingSpace" classname="ShellOutTests" time="0.525"/>
+<testcase name="testSingleCommandAtPathContainingTilde" classname="ShellOutTests" time="0.165"/>
+<testcase name="testSwiftPackageManagerCommands" classname="ShellOutTests" time="1.665"/>
+<testcase name="testThrowingError" classname="ShellOutTests" time="0.188"/>
+<testcase name="testWithArguments" classname="ShellOutTests" time="0.18">
+<failure message="18" type="type">
+XCTAssertEqual failed: ("Hello world") is not equal to ("Hello worldd")
+</failure>
+</testcase>
+<testcase name="testWithInlineArguments" classname="ShellOutTests" time="0.159"/>
+<testcase name="testWithoutArguments" classname="ShellOutTests" time="0.172"/>
+</testsuite>
+</testsuites>

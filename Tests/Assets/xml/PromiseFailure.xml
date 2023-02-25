@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites id="All tests" name="All tests" tests="61" failures="1" time="21.932000000000002">
+<testsuite name="ExecutionContextTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-01-19 12:42:47 +0000" hostname="JunitEncoder" time="18.541">
+<testcase name="testConcurrency" classname="ExecutionContextTests" time="15.354"/>
+<testcase name="testInvalidatableQueueSupportsNonMainQueues" classname="ExecutionContextTests" time="0.002"/>
+<testcase name="testInvalidatedInvalidatableQueue" classname="ExecutionContextTests" time="0.102"/>
+<testcase name="testNonInvalidatedInvalidatableQueue" classname="ExecutionContextTests" time="0.007"/>
+<testcase name="testTapContinuesToFireInvalidatableQueue" classname="ExecutionContextTests" time="0.001"/>
+<testcase name="testThreads" classname="ExecutionContextTests" time="3.075"/>
+</testsuite>
+<testsuite name="PromiseAllTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-01-19 12:43:05 +0000" hostname="JunitEncoder" time="0.271">
+<testcase name="testAll" classname="PromiseAllTests" time="0.108"/>
+<testcase name="testAllWithEmptyArray" classname="PromiseAllTests" time="0.001"/>
+<testcase name="testAllWithPreFulfilledValues" classname="PromiseAllTests" time="0.001"/>
+<testcase name="testAllWithRejectionHappeningFirst" classname="PromiseAllTests" time="0.058"/>
+<testcase name="testAllWithRejectionHappeningLast" classname="PromiseAllTests" time="0.103"/>
+</testsuite>
+<testsuite name="PromiseAlwaysTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-19 12:43:06 +0000" hostname="JunitEncoder" time="1.024">
+<testcase name="testAlways" classname="PromiseAlwaysTests" time="0.507"/>
+<testcase name="testAlwaysInstantFulfill" classname="PromiseAlwaysTests" time="0.001"/>
+<testcase name="testAlwaysInstantReject" classname="PromiseAlwaysTests" time="0.001"/>
+<testcase name="testAlwaysRejects" classname="PromiseAlwaysTests" time="0.515"/>
+</testsuite>
+<testsuite name="PromiseDelayTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-19 12:43:07 +0000" hostname="JunitEncoder" time="0.9360000000000002">
+<testcase name="testDelay" classname="PromiseDelayTests" time="0.202"/>
+<testcase name="testTimeoutFunctionFails" classname="PromiseDelayTests" time="0.519"/>
+<testcase name="testTimeoutFunctionSucceeds" classname="PromiseDelayTests" time="0.012"/>
+<testcase name="testTimeoutPromise" classname="PromiseDelayTests" time="0.203"/>
+</testsuite>
+<testsuite name="PromiseEnsureTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-19 12:43:08 +0000" hostname="JunitEncoder" time="0.003">
+<testcase name="testEnsureOnlyCalledOnSucceess" classname="PromiseEnsureTests" time="0.001"/>
+<testcase name="testEnsureRejects" classname="PromiseEnsureTests" time="0.001"/>
+<testcase name="testEnsureSucceeds" classname="PromiseEnsureTests" time="0.001"/>
+</testsuite>
+<testsuite name="PromiseKickoffTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-19 12:43:08 +0000" hostname="JunitEncoder" time="0.104">
+<testcase name="testFailingKickoff" classname="PromiseKickoffTests" time="0.001"/>
+<testcase name="testKickoff" classname="PromiseKickoffTests" time="0.001"/>
+<testcase name="testPromiseKickoff" classname="PromiseKickoffTests" time="0.102"/>
+</testsuite>
+<testsuite name="PromiseRaceTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-19 12:43:08 +0000" hostname="JunitEncoder" time="0.111">
+<testcase name="testInstantReject" classname="PromiseRaceTests" time="0.001"/>
+<testcase name="testInstantResolve" classname="PromiseRaceTests" time="0.001"/>
+<testcase name="testRace" classname="PromiseRaceTests" time="0.056"/>
+<testcase name="testRaceFailure" classname="PromiseRaceTests" time="0.053"/>
+</testsuite>
+<testsuite name="PromiseRecoverTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-01-19 12:43:08 +0000" hostname="JunitEncoder" time="0.423">
+<testcase name="testIgnoreRecover" classname="PromiseRecoverTests" time="0.107"/>
+<testcase name="testIgnoreRecoverInstant" classname="PromiseRecoverTests" time="0.001"/>
+<testcase name="testRecover" classname="PromiseRecoverTests" time="0.105"/>
+<testcase name="testRecoverInstant" classname="PromiseRecoverTests" time="0.001"/>
+<testcase name="testRecoverWithThrowingFunction" classname="PromiseRecoverTests" time="0.106"/>
+<testcase name="testRecoverWithThrowingFunctionError" classname="PromiseRecoverTests" time="0.103"/>
+</testsuite>
+<testsuite name="PromiseRetryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-19 12:43:08 +0000" hostname="JunitEncoder" time="0.005">
+<testcase name="testRetry" classname="PromiseRetryTests" time="0.002"/>
+<testcase name="testRetryWithInstantSuccess" classname="PromiseRetryTests" time="0.001"/>
+<testcase name="testRetryWithNeverSuccess" classname="PromiseRetryTests" time="0.002"/>
+</testsuite>
+<testsuite name="PromiseTests" tests="17" skipped="0" failures="1" errors="0" timestamp="2019-01-19 12:43:08 +0000" hostname="JunitEncoder" time="0.503">
+<testcase name="testAsync" classname="PromiseTests" time="0.056"/>
+<testcase name="testAsyncRejection" classname="PromiseTests" time="0.052"/>
+<testcase name="testAsyncThrowing" classname="PromiseTests" time="0.002"/>
+<testcase name="testDoubleReject" classname="PromiseTests" time="0.001"/>
+<testcase name="testDoubleResolve" classname="PromiseTests" time="0.001"/>
+<testcase name="testFlatMap" classname="PromiseTests" time="0.108"/>
+<testcase name="testFulfilled" classname="PromiseTests" time="0.053"/>
+<testcase name="testMap" classname="PromiseTests" time="0.001"/>
+<testcase name="testPending" classname="PromiseTests" time="0.001"/>
+<testcase name="testRejected" classname="PromiseTests" time="0.001"/>
+<testcase name="testRejectedAfterFulfilled" classname="PromiseTests" time="0.051"/>
+<testcase name="testRejectThenResolve" classname="PromiseTests" time="0.001"/>
+<testcase name="testResolveThenReject" classname="PromiseTests" time="0.001"/>
+<testcase name="testThen" classname="PromiseTests" time="0.001"/>
+<testcase name="testThenWhenPending" classname="PromiseTests" time="0.054"/>
+<testcase name="testTrailingClosuresCompile" classname="PromiseTests" time="0.107"/>
+<testcase name="testZalgoContained" classname="PromiseTests" time="0.012">
+<failure message="232" type="type">
+XCTAssertTrue failed
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="PromiseThrowsTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-19 12:43:09 +0000" hostname="JunitEncoder" time="0.004">
+<testcase name="testThrowsInFlatmapping" classname="PromiseThrowsTests" time="0.001"/>
+<testcase name="testThrowsInFlatmappingWithError" classname="PromiseThrowsTests" time="0.001"/>
+<testcase name="testThrowsInMapping" classname="PromiseThrowsTests" time="0.001"/>
+<testcase name="testThrowsInMappingWithError" classname="PromiseThrowsTests" time="0.001"/>
+</testsuite>
+<testsuite name="PromiseZipTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-19 12:43:09 +0000" hostname="JunitEncoder" time="0.007">
+<testcase name="testMultipleParameters" classname="PromiseZipTests" time="0.001"/>
+<testcase name="testZipping2" classname="PromiseZipTests" time="0.006"/>
+</testsuite>
+</testsuites>

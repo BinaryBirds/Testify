@@ -1,5 +1,5 @@
 import XCTest
-@testable import Testify
+@testable import TestifySDK
 
 final class TestifyTests: XCTestCase {
 
@@ -23,11 +23,12 @@ final class TestifyTests: XCTestCase {
 
         let assetsUrl = URL(fileURLWithPath: String(packageRootPath)).appendingPathComponent("Tests")
                                                                      .appendingPathComponent("Assets")
-
+        let decoder = RawTestResultDecoder()
+    
         for file in testFiles {
-            let testUrl = assetsUrl.appendingPathComponent(file)
+            let testUrl = assetsUrl.appendingPathComponent("/tests/" + file)
                                    .appendingPathExtension("tests")
-            let jsonUrl = assetsUrl.appendingPathComponent(file)
+            let jsonUrl = assetsUrl.appendingPathComponent("/json/" + file)
                                    .appendingPathExtension("json")
 
             let testData = try Data(contentsOf: testUrl)
@@ -35,7 +36,7 @@ final class TestifyTests: XCTestCase {
                 return XCTFail("Could not decode test data.")
             }
             let resultData = try Data(contentsOf: jsonUrl)
-            let suite = TestSuite.parse(testOutput)
+            let suite = try decoder.decode(testOutput)
             
             let decoder = JSONDecoder()
             decoder.dateDecodingStrategy = .secondsSince1970
@@ -52,4 +53,5 @@ final class TestifyTests: XCTestCase {
         testSuite1.cases.count == testSuite2.cases.count &&
         testSuite1.children.count == testSuite2.children.count
     }
+    
 }

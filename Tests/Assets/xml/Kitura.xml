@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites id="All tests" name="All tests" tests="241" failures="2" time="102.13399999999999">
+<testsuite name="MiscellaneousTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:09:33 +0000" hostname="JunitEncoder" time="0.095">
+<testcase name="testHeaders" classname="MiscellaneousTests" time="0.095"/>
+<testcase name="testHeadersHelpers" classname="MiscellaneousTests" time="0.0"/>
+</testsuite>
+<testsuite name="TestBridgingHTTPStatusCode" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:09:33 +0000" hostname="JunitEncoder" time="0.126">
+<testcase name="testSimpleResponse" classname="TestBridgingHTTPStatusCode" time="0.126"/>
+</testsuite>
+<testsuite name="TestBridgingRequestError" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:09:33 +0000" hostname="JunitEncoder" time="0.053">
+<testcase name="testRequestError" classname="TestBridgingRequestError" time="0.053"/>
+</testsuite>
+<testsuite name="TestCodableRouter" tests="25" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:09:33 +0000" hostname="JunitEncoder" time="36.36">
+<testcase name="testBasicDelete" classname="TestCodableRouter" time="0.158"/>
+<testcase name="testBasicDeleteSingle" classname="TestCodableRouter" time="0.155"/>
+<testcase name="testBasicGetArray" classname="TestCodableRouter" time="0.153"/>
+<testcase name="testBasicGetIdentifiersArray" classname="TestCodableRouter" time="0.208"/>
+<testcase name="testBasicGetSingle" classname="TestCodableRouter" time="0.16"/>
+<testcase name="testBasicGetSingleton" classname="TestCodableRouter" time="0.158"/>
+<testcase name="testBasicPatch" classname="TestCodableRouter" time="6.195"/>
+<testcase name="testBasicPost" classname="TestCodableRouter" time="0.364"/>
+<testcase name="testBasicPostIdentifier" classname="TestCodableRouter" time="0.163"/>
+<testcase name="testBasicPut" classname="TestCodableRouter" time="6.194"/>
+<testcase name="testCodableDeleteQueryParameters" classname="TestCodableRouter" time="0.291"/>
+<testcase name="testCodableGetArrayQueryParameters" classname="TestCodableRouter" time="0.285"/>
+<testcase name="testCodableGetSingleQueryParameters" classname="TestCodableRouter" time="0.292"/>
+<testcase name="testCodablePostSuccessStatuses" classname="TestCodableRouter" time="0.158"/>
+<testcase name="testCodableRoutesWithBodyParsingFail" classname="TestCodableRouter" time="4.194"/>
+<testcase name="testErrorOverridesBody" classname="TestCodableRouter" time="8.488"/>
+<testcase name="testIdentifierNotExpected" classname="TestCodableRouter" time="0.05"/>
+<testcase name="testIdentifierNotSupplied" classname="TestCodableRouter" time="0.053"/>
+<testcase name="testInvalidIdentifierSupplied" classname="TestCodableRouter" time="0.052"/>
+<testcase name="testJoinPath" classname="TestCodableRouter" time="0.001"/>
+<testcase name="testNoDataCustomStatus" classname="TestCodableRouter" time="2.124"/>
+<testcase name="testNoDataDefaultStatus" classname="TestCodableRouter" time="2.122"/>
+<testcase name="testPartialIdentifierSupplied" classname="TestCodableRouter" time="0.054"/>
+<testcase name="testRouteParameters" classname="TestCodableRouter" time="0.05"/>
+<testcase name="testRouteWithTrailingSlash" classname="TestCodableRouter" time="4.238"/>
+</testsuite>
+<testsuite name="TestContentType" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:09 +0000" hostname="JunitEncoder" time="0.0">
+<testcase name="testFilename" classname="TestContentType" time="0.0"/>
+<testcase name="testInitialize" classname="TestContentType" time="0.0"/>
+<testcase name="testIsContentType" classname="TestContentType" time="0.0"/>
+</testsuite>
+<testsuite name="TestCookies" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:09 +0000" hostname="JunitEncoder" time="0.36">
+<testcase name="testCookieFromServer" classname="TestCookies" time="0.111"/>
+<testcase name="testCookieToServerWithSemiColonSeparator" classname="TestCookies" time="0.053"/>
+<testcase name="testCookieToServerWithSemiColonSpaceSeparator" classname="TestCookies" time="0.054"/>
+<testcase name="testCookieToServerWithSemiColonWhitespacesSeparator" classname="TestCookies" time="0.049"/>
+<testcase name="testNoCookies" classname="TestCookies" time="0.093"/>
+</testsuite>
+<testsuite name="TestCustomCoders" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:10 +0000" hostname="JunitEncoder" time="0.46599999999999997">
+<testcase name="testCustomCoder" classname="TestCustomCoders" time="0.108"/>
+<testcase name="testCustomQueryEncoder" classname="TestCustomCoders" time="0.253"/>
+<testcase name="testRawCustomCoder" classname="TestCustomCoders" time="0.105"/>
+</testsuite>
+<testsuite name="TestDecodingErrorExtension" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:10 +0000" hostname="JunitEncoder" time="0.0">
+<testcase name="testMalformedJson" classname="TestDecodingErrorExtension" time="0.0"/>
+<testcase name="testMissingRequiredKey" classname="TestDecodingErrorExtension" time="0.0"/>
+<testcase name="testMissingValue" classname="TestDecodingErrorExtension" time="0.0"/>
+<testcase name="testWrongType" classname="TestDecodingErrorExtension" time="0.0"/>
+</testsuite>
+<testsuite name="TestErrors" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:10 +0000" hostname="JunitEncoder" time="0.153">
+<testcase name="testInvalidEndpoint" classname="TestErrors" time="0.05"/>
+<testcase name="testInvalidHeader" classname="TestErrors" time="0.049"/>
+<testcase name="testInvalidMethod" classname="TestErrors" time="0.054"/>
+</testsuite>
+<testsuite name="TestMediaType" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:10 +0000" hostname="JunitEncoder" time="0.0">
+<testcase name="testAllTextMediaTypeBuilder" classname="TestMediaType" time="0.0"/>
+<testcase name="testAllTextSlashMediaTypeBuilder" classname="TestMediaType" time="0.0"/>
+<testcase name="testHTMLMediaTypeBuilder" classname="TestMediaType" time="0.0"/>
+<testcase name="testIncorrectTopLevelType" classname="TestMediaType" time="0.0"/>
+<testcase name="testInvalidMediaType" classname="TestMediaType" time="0.0"/>
+<testcase name="testMediaCaseInsensitive" classname="TestMediaType" time="0.0"/>
+<testcase name="testPartsAllTextMediaTypeBuilder" classname="TestMediaType" time="0.0"/>
+<testcase name="testPartsHTMLMediaTypeBuilder" classname="TestMediaType" time="0.0"/>
+<testcase name="testPartsMediaCaseInsensitive" classname="TestMediaType" time="0.0"/>
+<testcase name="testValidMediaType" classname="TestMediaType" time="0.0"/>
+</testsuite>
+<testsuite name="TestMultiplicity" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:10 +0000" hostname="JunitEncoder" time="0.594">
+<testcase name="testCombined" classname="TestMultiplicity" time="0.148"/>
+<testcase name="testPlus" classname="TestMultiplicity" time="0.151"/>
+<testcase name="testQuestion" classname="TestMultiplicity" time="0.146"/>
+<testcase name="testStar" classname="TestMultiplicity" time="0.149"/>
+</testsuite>
+<testsuite name="TestRangeHeaderDataExtensions" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:11 +0000" hostname="JunitEncoder" time="0.012">
+<testcase name="testPartialDataRead" classname="TestRangeHeaderDataExtensions" time="0.008"/>
+<testcase name="testPartialDataReadEntireFile" classname="TestRangeHeaderDataExtensions" time="0.002"/>
+<testcase name="testPartialDataReadWithErrorFileNotFound" classname="TestRangeHeaderDataExtensions" time="0.002"/>
+</testsuite>
+<testsuite name="TestRangeHeaderParser" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:11 +0000" hostname="JunitEncoder" time="0.001">
+<testcase name="testIsBytesRangeHeader" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testParseString" classname="TestRangeHeaderParser" time="0.001"/>
+<testcase name="testReturnNilOnInvalidNonDigitsRanges" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testReturnNilOnInvalidRanges" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testReturnNilOnMalformedHeader" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldCapEndAtSize" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldCombineOverlappingRanges" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldCombineOverlappingRangesAndRetainOriginalOrder" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldParseNonBytesRange" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldParseNormalString" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldParseStringAskingForLastByte" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldParseStringWithBytesEqualZeroZero" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldParseStringWithMultipleRanges" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldParseStringWithOnlyEnd" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldParseStringWithOnlyStart" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldParseStringWithSomeInvalidRanges" classname="TestRangeHeaderParser" time="0.0"/>
+<testcase name="testShouldParseWithStartBytesEqualtToZero" classname="TestRangeHeaderParser" time="0.0"/>
+</testsuite>
+<testsuite name="TestRequests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:11 +0000" hostname="JunitEncoder" time="0.612">
+<testcase name="testCustomMiddlewareURLParameter" classname="TestRequests" time="0.051"/>
+<testcase name="testCustomMiddlewareURLParameterWithQueryParam" classname="TestRequests" time="0.052"/>
+<testcase name="testMultipleParametersMultipleHandlers" classname="TestRequests" time="0.098"/>
+<testcase name="testOneParameterMultipleHandlers" classname="TestRequests" time="0.053"/>
+<testcase name="testParameterExit" classname="TestRequests" time="0.097"/>
+<testcase name="testParameters" classname="TestRequests" time="0.097"/>
+<testcase name="testQueryParameters" classname="TestRequests" time="0.111"/>
+<testcase name="testRouteParameters" classname="TestRequests" time="0.053"/>
+</testsuite>
+<testsuite name="TestResponse" tests="35" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:12 +0000" hostname="JunitEncoder" time="7.216">
+<testcase name="testAcceptEncodingTypes" classname="TestResponse" time="0.1"/>
+<testcase name="testAcceptTypes" classname="TestResponse" time="0.105"/>
+<testcase name="testChangeStatusCodeOnInvokedSend" classname="TestResponse" time="0.1"/>
+<testcase name="testEmptyHandler" classname="TestResponse" time="0.05"/>
+<testcase name="testErrorHandler" classname="TestResponse" time="0.05"/>
+<testcase name="testFormat" classname="TestResponse" time="0.15"/>
+<testcase name="testHeaderModifiers" classname="TestResponse" time="0.058"/>
+<testcase name="testJsonp" classname="TestResponse" time="0.25"/>
+<testcase name="testLargeGet" classname="TestResponse" time="0.089"/>
+<testcase name="testLargePost" classname="TestResponse" time="2.146"/>
+<testcase name="testLifecycle" classname="TestResponse" time="0.05"/>
+<testcase name="testLink" classname="TestResponse" time="0.104"/>
+<testcase name="testMultipartFormParsing" classname="TestResponse" time="0.207"/>
+<testcase name="testOptionalStringNilResponse" classname="TestResponse" time="0.053"/>
+<testcase name="testOptionalStringResponse" classname="TestResponse" time="0.055"/>
+<testcase name="testParameters" classname="TestResponse" time="0.048"/>
+<testcase name="testParametersPercent20InPath" classname="TestResponse" time="0.05"/>
+<testcase name="testParametersPercent20InQuery" classname="TestResponse" time="0.05"/>
+<testcase name="testParametersPercentageEncoding" classname="TestResponse" time="0.046"/>
+<testcase name="testParametersPlusInPath" classname="TestResponse" time="0.052"/>
+<testcase name="testParametersPlusInQuery" classname="TestResponse" time="0.05"/>
+<testcase name="testPostJSONRequest" classname="TestResponse" time="0.054"/>
+<testcase name="testPostRequest" classname="TestResponse" time="0.054"/>
+<testcase name="testPostRequestTheHardWay" classname="TestResponse" time="0.05"/>
+<testcase name="testPostRequestUrlEncoded" classname="TestResponse" time="0.157"/>
+<testcase name="testPostRequestWithDoubleBodyParser" classname="TestResponse" time="0.048"/>
+<testcase name="testRawDataPost" classname="TestResponse" time="2.061"/>
+<testcase name="testRedirect" classname="TestResponse" time="0.094"/>
+<testcase name="testResponseNoEndOrNext" classname="TestResponse" time="0.053"/>
+<testcase name="testRouteFunc" classname="TestResponse" time="0.107"/>
+<testcase name="testSend" classname="TestResponse" time="0.37"/>
+<testcase name="testSendAfterEnd" classname="TestResponse" time="0.051"/>
+<testcase name="testSimpleResponse" classname="TestResponse" time="0.049"/>
+<testcase name="testSubdomains" classname="TestResponse" time="0.155"/>
+<testcase name="testUserInfo" classname="TestResponse" time="0.05"/>
+</testsuite>
+<testsuite name="TestRouteRegex" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:19 +0000" hostname="JunitEncoder" time="2.7859999999999996">
+<testcase name="testBuildRegexFromPattern" classname="TestRouteRegex" time="0.001"/>
+<testcase name="testCustomMatchesWithModifiers" classname="TestRouteRegex" time="1.102"/>
+<testcase name="testRouteWithPercentEncoding" classname="TestRouteRegex" time="0.051"/>
+<testcase name="testSimpleCustomMatches" classname="TestRouteRegex" time="0.199"/>
+<testcase name="testSimpleMatches" classname="TestRouteRegex" time="0.254"/>
+<testcase name="testSimpleModifiers" classname="TestRouteRegex" time="0.786"/>
+<testcase name="testSimplePaths" classname="TestRouteRegex" time="0.393"/>
+</testsuite>
+<testsuite name="TestRouterHTTPVerbsGenerated" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:22 +0000" hostname="JunitEncoder" time="0.004">
+<testcase name="testFirstTypeVerbsAdded" classname="TestRouterHTTPVerbsGenerated" time="0.001"/>
+<testcase name="testFourthTypeVerbsAdded" classname="TestRouterHTTPVerbsGenerated" time="0.001"/>
+<testcase name="testSecondTypeVerbsAdded" classname="TestRouterHTTPVerbsGenerated" time="0.001"/>
+<testcase name="testThirdTypeVerbsAdded" classname="TestRouterHTTPVerbsGenerated" time="0.001"/>
+</testsuite>
+<testsuite name="TestServer" tests="4" skipped="0" failures="2" errors="0" timestamp="2019-01-18 23:10:22 +0000" hostname="JunitEncoder" time="20.392">
+<testcase name="testServerFail" classname="TestServer" time="0.04"/>
+<testcase name="testServerRestart" classname="TestServer" time="0.175"/>
+<testcase name="testServerRun" classname="TestServer" time="10.169">
+<failure message="116" type="type">
+failed - Error code: -9992(0x-2708), Address already in use/Users/tib/Downloads/Kitura-master/Tests/KituraTests/TestServer.swift:144: error: -[KituraTests.TestServer testServerRun] : Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "FastCGIServer started()"./Users/tib/Downloads/Kitura-master/Tests/KituraTests/TestServer.swift:146: error: -[KituraTests.TestServer testServerRun] : XCTAssertNil failed: "Error Domain=com.apple.XCTestErrorDomain Code=0 "(null)""
+</failure>
+</testcase>
+<testcase name="testServerStartStop" classname="TestServer" time="10.008">
+<failure message="116" type="type">
+failed - Error code: -9992(0x-2708), Address already in use/Users/tib/Downloads/Kitura-master/Tests/KituraTests/TestServer.swift:131: error: -[KituraTests.TestServer testServerStartStop] : Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "FastCGIServer started()", "FastCGIServer stopped()"./Users/tib/Downloads/Kitura-master/Tests/KituraTests/TestServer.swift:132: error: -[KituraTests.TestServer testServerStartStop] : XCTAssertNil failed: "Error Domain=com.apple.XCTestErrorDomain Code=0 "(null)""
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="TestStack" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:42 +0000" hostname="JunitEncoder" time="0.0">
+<testcase name="testEmpty" classname="TestStack" time="0.0"/>
+<testcase name="testPushPop" classname="TestStack" time="0.0"/>
+</testsuite>
+<testsuite name="TestStaticFileServer" tests="30" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:42 +0000" hostname="JunitEncoder" time="2.3390000000000004">
+<testcase name="testAbsolutePathFunction" classname="TestStaticFileServer" time="0.0"/>
+<testcase name="testAbsoluteRootPath" classname="TestStaticFileServer" time="0.0"/>
+<testcase name="testDataIsNotCorrupted" classname="TestStaticFileServer" time="0.195"/>
+<testcase name="testFileServer" classname="TestStaticFileServer" time="0.496"/>
+<testcase name="testGetDefaultResponse" classname="TestStaticFileServer" time="0.05"/>
+<testcase name="testGetKituraResource" classname="TestStaticFileServer" time="0.052"/>
+<testcase name="testGetMissingKituraResource" classname="TestStaticFileServer" time="0.056"/>
+<testcase name="testGetTraversedFile" classname="TestStaticFileServer" time="0.047"/>
+<testcase name="testGetTraversedFileKituraResource" classname="TestStaticFileServer" time="0.047"/>
+<testcase name="testGetWithSpecialCharacters" classname="TestStaticFileServer" time="0.052"/>
+<testcase name="testGetWithSpecialCharactersEncoded" classname="TestStaticFileServer" time="0.051"/>
+<testcase name="testGetWithWhiteSpaces" classname="TestStaticFileServer" time="0.051"/>
+<testcase name="testParameterizedSubRouterSubFolderStaticFileServer" classname="TestStaticFileServer" time="0.089"/>
+<testcase name="testParameterizedSubRouterSubFolderStaticFileServerRedirect" classname="TestStaticFileServer" time="0.118"/>
+<testcase name="testRangeRequestIsIgnoredOnNonGetMethod" classname="TestStaticFileServer" time="0.052"/>
+<testcase name="testRangeRequestIsIgnoredOnOptionOff" classname="TestStaticFileServer" time="0.053"/>
+<testcase name="testRangeRequests" classname="TestStaticFileServer" time="0.052"/>
+<testcase name="testRangeRequestsWithLargeLastBytePos" classname="TestStaticFileServer" time="0.05"/>
+<testcase name="testRangeRequestsWithMultipleRanges" classname="TestStaticFileServer" time="0.056"/>
+<testcase name="testRangeRequestWithIfRangeHeaderAsLastModified" classname="TestStaticFileServer" time="0.099"/>
+<testcase name="testRangeRequestWithIfRangeHeaderAsOldLastModified" classname="TestStaticFileServer" time="0.05"/>
+<testcase name="testRangeRequestWithIfRangeHeaderWithETag" classname="TestStaticFileServer" time="0.117"/>
+<testcase name="testRangeRequestWithIfRangeHeaderWithOldETag" classname="TestStaticFileServer" time="0.055"/>
+<testcase name="testRangeRequestWithNotSatisfiableRange" classname="TestStaticFileServer" time="0.057"/>
+<testcase name="testRangeRequestWithSintacticallyInvalidRange" classname="TestStaticFileServer" time="0.067"/>
+<testcase name="testSubRouterStaticFileServer" classname="TestStaticFileServer" time="0.052"/>
+<testcase name="testSubRouterStaticFileServerRedirect" classname="TestStaticFileServer" time="0.085"/>
+<testcase name="testSubRouterSubFolderStaticFileServer" classname="TestStaticFileServer" time="0.052"/>
+<testcase name="testSubRouterSubFolderStaticFileServerRedirect" classname="TestStaticFileServer" time="0.089"/>
+<testcase name="testWelcomePageCanBeDisabled" classname="TestStaticFileServer" time="0.049"/>
+</testsuite>
+<testsuite name="TestSubrouter" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:44 +0000" hostname="JunitEncoder" time="0.502">
+<testcase name="testExternSub" classname="TestSubrouter" time="0.1"/>
+<testcase name="testMergeParams" classname="TestSubrouter" time="0.155"/>
+<testcase name="testMultipleMiddleware" classname="TestSubrouter" time="0.051"/>
+<testcase name="testSimpleSub" classname="TestSubrouter" time="0.097"/>
+<testcase name="testSubSubs" classname="TestSubrouter" time="0.099"/>
+</testsuite>
+<testsuite name="TestSwaggerGeneration" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:45 +0000" hostname="JunitEncoder" time="0.99">
+<testcase name="testArrayReturnTypes" classname="TestSwaggerGeneration" time="0.101"/>
+<testcase name="testBasePath" classname="TestSwaggerGeneration" time="0.095"/>
+<testcase name="testInfo" classname="TestSwaggerGeneration" time="0.095"/>
+<testcase name="testInputTypesModelled" classname="TestSwaggerGeneration" time="0.172"/>
+<testcase name="testNestedTypesModelled" classname="TestSwaggerGeneration" time="0.1"/>
+<testcase name="testSwaggerContent" classname="TestSwaggerGeneration" time="0.1"/>
+<testcase name="testSwaggerDefinitions" classname="TestSwaggerGeneration" time="0.102"/>
+<testcase name="testSwaggerQueryParams" classname="TestSwaggerGeneration" time="0.104"/>
+<testcase name="testSwaggerVersion" classname="TestSwaggerGeneration" time="0.121"/>
+</testsuite>
+<testsuite name="TestTemplateEngine" tests="23" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:46 +0000" hostname="JunitEncoder" time="0.37999999999999995">
+<testcase name="testAddWithFileExtensions" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testAddWithFileExtensionsWithoutTheDefaultOne" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testCodableAddWithFileExtensions" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testCodableAddWithFileExtensionsWithoutTheDefaultOne" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testCodableRender" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testCodableRenderWithExtensionAndWithoutDefaultTemplateEngine" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testCodableRenderWithExtensionAndWithoutDefaultTemplateEngineAfterSettingViewsPath" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testCodableRenderWithOptionsWithServer" classname="TestTemplateEngine" time="0.052"/>
+<testcase name="testCodableRenderWithServer" classname="TestTemplateEngine" time="0.051"/>
+<testcase name="testCodableRenderWithServerAndSubRouter" classname="TestTemplateEngine" time="0.053"/>
+<testcase name="testCodableRenderWithTuple" classname="TestTemplateEngine" time="0.051"/>
+<testcase name="testEmptyTemplateName" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testEmptyTemplateNameCodable" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testMissingExtension" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testMissingExtensionCodable" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testNoDefaultEngine" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testNoDefaultEngineCodable" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testRender" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testRenderWithExtensionAndWithoutDefaultTemplateEngine" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testRenderWithExtensionAndWithoutDefaultTemplateEngineAfterSettingViewsPath" classname="TestTemplateEngine" time="0.001"/>
+<testcase name="testRenderWithOptionsWithServer" classname="TestTemplateEngine" time="0.052"/>
+<testcase name="testRenderWithServer" classname="TestTemplateEngine" time="0.054"/>
+<testcase name="testRenderWithServerAndSubRouter" classname="TestTemplateEngine" time="0.051"/>
+</testsuite>
+<testsuite name="TestTypeSafeMiddleware" tests="33" skipped="0" failures="0" errors="0" timestamp="2019-01-18 23:10:46 +0000" hostname="JunitEncoder" time="28.692999999999994">
+<testcase name="testCustomCoder" classname="TestTypeSafeMiddleware" time="4.24"/>
+<testcase name="testCustomCoderGet" classname="TestTypeSafeMiddleware" time="0.294"/>
+<testcase name="testMiddlewareLogging" classname="TestTypeSafeMiddleware" time="0.059"/>
+<testcase name="testMultipleMiddlewareDelete" classname="TestTypeSafeMiddleware" time="0.163"/>
+<testcase name="testMultipleMiddlewareDeleteIdentifier" classname="TestTypeSafeMiddleware" time="0.164"/>
+<testcase name="testMultipleMiddlewareDeleteOptionalParameters" classname="TestTypeSafeMiddleware" time="0.115"/>
+<testcase name="testMultipleMiddlewareDeleteParameters" classname="TestTypeSafeMiddleware" time="0.159"/>
+<testcase name="testMultipleMiddlewareGetArray" classname="TestTypeSafeMiddleware" time="0.153"/>
+<testcase name="testMultipleMiddlewareGetArrayOptionalParameters" classname="TestTypeSafeMiddleware" time="0.163"/>
+<testcase name="testMultipleMiddlewareGetArrayParameters" classname="TestTypeSafeMiddleware" time="0.158"/>
+<testcase name="testMultipleMiddlewareGetIdentifier" classname="TestTypeSafeMiddleware" time="0.156"/>
+<testcase name="testMultipleMiddlewareGetIdentifierCodableArray" classname="TestTypeSafeMiddleware" time="0.153"/>
+<testcase name="testMultipleMiddlewareGetSingleton" classname="TestTypeSafeMiddleware" time="0.155"/>
+<testcase name="testMultipleMiddlewareGetSingletonParameters" classname="TestTypeSafeMiddleware" time="0.161"/>
+<testcase name="testMultipleMiddlewarePatch" classname="TestTypeSafeMiddleware" time="6.187"/>
+<testcase name="testMultipleMiddlewarePost" classname="TestTypeSafeMiddleware" time="0.159"/>
+<testcase name="testMultipleMiddlewarePostIdentifier" classname="TestTypeSafeMiddleware" time="0.156"/>
+<testcase name="testMultipleMiddlewarePut" classname="TestTypeSafeMiddleware" time="6.181"/>
+<testcase name="testSingleMiddlewareDelete" classname="TestTypeSafeMiddleware" time="0.113"/>
+<testcase name="testSingleMiddlewareDeleteIdentifier" classname="TestTypeSafeMiddleware" time="0.102"/>
+<testcase name="testSingleMiddlewareDeleteOptionalParameters" classname="TestTypeSafeMiddleware" time="0.113"/>
+<testcase name="testSingleMiddlewareDeleteParameters" classname="TestTypeSafeMiddleware" time="0.112"/>
+<testcase name="testSingleMiddlewareGetArray" classname="TestTypeSafeMiddleware" time="0.104"/>
+<testcase name="testSingleMiddlewareGetArrayOptionalParameters" classname="TestTypeSafeMiddleware" time="0.154"/>
+<testcase name="testSingleMiddlewareGetArrayParameters" classname="TestTypeSafeMiddleware" time="0.112"/>
+<testcase name="testSingleMiddlewareGetIdentifier" classname="TestTypeSafeMiddleware" time="0.104"/>
+<testcase name="testSingleMiddlewareGetIdentifierCodableArray" classname="TestTypeSafeMiddleware" time="0.106"/>
+<testcase name="testSingleMiddlewareGetSingleton" classname="TestTypeSafeMiddleware" time="0.104"/>
+<testcase name="testSingleMiddlewareGetSingletonParameters" classname="TestTypeSafeMiddleware" time="0.115"/>
+<testcase name="testSingleMiddlewarePatch" classname="TestTypeSafeMiddleware" time="4.127"/>
+<testcase name="testSingleMiddlewarePost" classname="TestTypeSafeMiddleware" time="0.11"/>
+<testcase name="testSingleMiddlewarePostIdentifier" classname="TestTypeSafeMiddleware" time="0.108"/>
+<testcase name="testSingleMiddlewarePut" classname="TestTypeSafeMiddleware" time="4.133"/>
+</testsuite>
+</testsuites>
