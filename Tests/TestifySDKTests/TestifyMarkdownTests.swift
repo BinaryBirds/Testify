@@ -60,8 +60,8 @@ final class TestifyMarkdownTests: XCTestCase {
         
             let tests = Int(item.components(separatedBy: " tests were completed in ").filter { $0.contains(": ") }[0]
                 .components(separatedBy: ": ")[1])
-            let fails = Int(item.components(separatedBy: " passed, ").filter { $0.contains("failed and") }[0]
-                .components(separatedBy: " failed ")[0])
+            let fails = Int(item.components(separatedBy: " passed, ").filter { $0.contains("failed.") }[0]
+                .components(separatedBy: " failed.")[0])
             mdAllTests += tests ?? 0
             mdAllFails += fails ?? 0
         }
