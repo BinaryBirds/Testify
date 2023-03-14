@@ -10,16 +10,12 @@ import TestifySDK
 
 let args = CommandLine.arguments
 var format: String = OutputFormat.json.rawValue
-let msg = "Testify output format is"
 if (args.count >= 2) {
     if let enumCase = OutputFormat(rawValue: args[1]) {
         format = enumCase.rawValue
-        print(msg, "'\(format)'")
     } else {
-        print("Unknown Testify output format, the format is 'json' for now. Available formats: 'json', 'junit', 'md'")
+        fatalError("Error: Unknown output format. Available formats: 'json', 'junit', 'md'")
     }
-} else {
-    print(msg, "'json'")
 }
 
 var data: Data
@@ -50,5 +46,5 @@ case OutputFormat.md.rawValue:
     print(mdData)
     
 default:
-    print("Unknown output format")
+    fatalError("Error: Unknown output format")
 }
