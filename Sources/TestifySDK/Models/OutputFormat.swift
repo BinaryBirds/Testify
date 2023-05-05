@@ -7,8 +7,9 @@
 
 import Foundation
 
-public enum OutputFormat : String  {
+public enum OutputFormat : String, CaseIterable  {
     case json
     case junit
     case md
+    case gfm
 }
