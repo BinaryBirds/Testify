@@ -9,12 +9,15 @@ import Foundation
 import TestifySDK
 
 let args = CommandLine.arguments
-var format: String = OutputFormat.json.rawValue
+var outputFormat: OutputFormat = .json
 if (args.count >= 2) {
-    if let enumCase = OutputFormat(rawValue: args[1]) {
-        format = enumCase.rawValue
+    if let format = OutputFormat(rawValue: args[1]) {
+        outputFormat = format
     } else {
-        fatalError("Error: Unknown output format. Available formats: 'json', 'junit', 'md'")
+        let formats = OutputFormat.allCases
+            .map { "'\($0)'"}
+            .joined(separator: ", ")
+        fatalError("Error: Unknown output format. Available formats: \(formats)")
     }
 }
 
@@ -28,23 +31,25 @@ repeat {
 let decoder = RawTestResultDecoder()
 let suite = try decoder.decode(input)
 
-switch format {
-case OutputFormat.json.rawValue:
+switch outputFormat {
+case .json:
     let encoder = JSONEncoder()
     encoder.outputFormatting = .prettyPrinted
     let jsonData = try! encoder.encode(suite)
     print("\n", String(data: jsonData, encoding: .utf8)!, "\n")
     
-case OutputFormat.junit.rawValue:
+case .junit:
     let encoder = TestResultJunitEncoder()
     let junitData = try! encoder.encode(suite)
     print(junitData)
     
-case OutputFormat.md.rawValue:
+case .md:
     let encoder = TestResultMarkdownEncoder()
     let mdData = try! encoder.encode(suite)
     print(mdData)
     
-default:
-    fatalError("Error: Unknown output format")
+case .gfm:
+    let encoder = TestResultGitHubFlavoredMarkdownEncoder()
+    let mdData = try! encoder.encode(suite)
+    print(mdData)
 }
