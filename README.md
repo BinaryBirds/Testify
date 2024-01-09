@@ -3,7 +3,9 @@
 Testify converts XCTest output into a proper structure (JSON, JUNIT, MD, GFM), or it'll miserably fail. 😉
 
 
-## Install command line utility
+## Installation 
+
+### Command line utility
 
 You can use the command line utility to convert test results into JSON, JUNIT, MD and GFM on the fly.
 
@@ -11,6 +13,14 @@ You can use the command line utility to convert test results into JSON, JUNIT, M
 git clone https://github.com/BinaryBirds/Testify.git && cd Testify
 make install
 which testify
+```
+
+### Mint
+
+To install BinaryBirds/Testify via [Mint](https://github.com/yonaskolb/Mint), simply use:
+
+```sh
+$ mint run BinaryBirds/Testify
 ```
 
 ## Usage
