@@ -13,6 +13,7 @@ final class TestifyTests: XCTestCase {
             "ShellFailure",
             "Alamofire",
             "Kitura",
+            "log",
         ]
 
         let decoder = RawTestResultDecoder()

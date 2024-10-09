@@ -29,8 +29,6 @@ final class TestifyJunitTests: XCTestCase {
             }
             
             let suite = try decoder.decode(testOutput)
-            let _xmlString = try! TestResultJunitEncoder().encode(suite!)
-            print(_xmlString)
             let xmlData = try Data(contentsOf: xmlUrl)
             let xmlParser = XMLParser(data: xmlData)
             let parser = SuiteXmlParser()

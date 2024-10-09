@@ -1,0 +1,124 @@
+{
+   "outcome":"failure",
+   "name":"All tests",
+   "unexpected":3,
+   "cases":[
+      
+   ],
+   "startDate":750153371.743,
+   "endDate":750153386.4779999,
+   "children":[
+      {
+         "endDate":750153386.4779999,
+         "unexpected":3,
+         "children":[
+            {
+               "name":"DestinationDevicesTests",
+               "unexpected":3,
+               "children":[
+                  
+               ],
+               "startDate":750153371.7449999,
+               "endDate":750153384.7720001,
+               "cases":[
+                  {
+                     "moduleName":"DestinationDevicesTests",
+                     "testName":"test_get_all_devices",
+                     "outcome":"failure",
+                     "className":"DestinationDevicesTests",
+                     "failureInfo":{
+                        "line":77,
+                        "reason":"failed: caught error: \"failure(code: 0, reason: Optional(\"\"))\"",
+                        "file":"\/Users\/abensalah\/Developer\/personal\/executor\/Sources\/CommandLine\/CommandLine.swift"
+                     },
+                     "duration":12.412
+                  },
+                  {
+                     "failureInfo":{
+                        "file":"\/Users\/abensalah\/Developer\/personal\/executor\/Sources\/CommandLine\/CommandLine.swift",
+                        "line":77,
+                        "reason":"failed: caught error: \"failure(code: 0, reason: Optional(\"\"))\""
+                     },
+                     "duration":0.344,
+                     "testName":"test_get_first_iPhone_device",
+                     "moduleName":"DestinationDevicesTests",
+                     "className":"DestinationDevicesTests",
+                     "outcome":"failure"
+                  },
+                  {
+                     "testName":"test_get_last_iPhone_device",
+                     "outcome":"failure",
+                     "failureInfo":{
+                        "file":"\/Users\/abensalah\/Developer\/personal\/executor\/Sources\/CommandLine\/CommandLine.swift",
+                        "line":77,
+                        "reason":"failed: caught error: \"failure(code: 0, reason: Optional(\"\"))\""
+                     },
+                     "className":"DestinationDevicesTests",
+                     "moduleName":"DestinationDevicesTests",
+                     "duration":0.271
+                  }
+               ],
+               "outcome":"failure"
+            },
+            {
+               "cases":[
+                  {
+                     "duration":0.005,
+                     "outcome":"success",
+                     "testName":"test_decode_device_list_tests_json_file",
+                     "className":"DeviceListTests",
+                     "moduleName":"DestinationDevicesTests"
+                  },
+                  {
+                     "outcome":"success",
+                     "moduleName":"DestinationDevicesTests",
+                     "duration":0,
+                     "testName":"testPerformanceExample",
+                     "className":"DeviceListTests"
+                  }
+               ],
+               "name":"DeviceListTests",
+               "children":[
+                  
+               ],
+               "endDate":750153385.0339999,
+               "unexpected":0,
+               "startDate":750153384.7720001,
+               "outcome":"success"
+            },
+            {
+               "children":[
+                  
+               ],
+               "unexpected":0,
+               "cases":[
+                  {
+                     "className":"TestReportTests",
+                     "testName":"test_generate_failed_result_junit_content",
+                     "duration":1.053,
+                     "moduleName":"TestReportTests",
+                     "outcome":"success"
+                  },
+                  {
+                     "moduleName":"TestReportTests",
+                     "duration":0.39,
+                     "outcome":"success",
+                     "testName":"test_generate_junit_content",
+                     "className":"TestReportTests"
+                  }
+               ],
+               "startDate":750153385.0339999,
+               "name":"TestReportTests",
+               "outcome":"success",
+               "endDate":750153386.4779999
+            }
+         ],
+         "outcome":"failure",
+         "name":"executorPackageTests.xctest",
+         "startDate":750153371.7449999,
+         "cases":[
+            
+         ]
+      }
+   ]
+}
