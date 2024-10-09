@@ -122,13 +122,13 @@ public struct RawTestResultDecoder {
                     gatherTestCaseOutput = false
                     guard var suite = suites.last else { continue }
                     suites = Array(suites.dropLast())
-                    let outcome: Outcome = line.contains("passed") ? .success : .failure
+                    let outcome: Outcome = line.contains("passed") || line.contains("measured") ? .success : .failure
                     
                     var failureInfo: FailureInfo? = nil
-                    if outcome == .failure {
+                    if outcome == .failure, !testCaseOutput.isEmpty {
                         let outputSplit = testCaseOutput.split(separator: ":")
                         let file = String(outputSplit[0])
-                        if let line = Int(outputSplit[1]) {
+                        if outputSplit.count >= 2, let line = Int(outputSplit[1]) {
                             let reason = String(outputSplit.dropFirst(4)
                                 .joined(separator: ":")
                                 .trimmingCharacters(in: CharacterSet(charactersIn: "-").union(.whitespaces)))
@@ -152,9 +152,9 @@ public struct RawTestResultDecoder {
                             failureInfo: failureInfo
                         )
                         suite.cases.append(testCase)
-                        suites.append(suite)
-                        currentCaseName = nil
                     }
+                    suites.append(suite)
+                    currentCaseName = nil
                     continue;
                 }
             }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites id="20241009_095611" name="All tests" tests="7" failures="4" time="14.475000000000001">
+<testsuite  id="DestinationDevicesTests" name="DestinationDevicesTests" tests="3" skipped="0" failures="3" errors="0" timestamp="2024-10-09 07:56:11 +0000" hostname="JunitEncoder" time="13.027000000000001">
+<testcase name="test_get_all_devices" classname="DestinationDevicesTests" time="12.412">
+<failure message="77" type="type">
+failed: caught error: "failure(code: 0, reason: Optional(""))"
+</failure>
+</testcase>
+<testcase name="test_get_first_iPhone_device" classname="DestinationDevicesTests" time="0.344">
+<failure message="77" type="type">
+failed: caught error: "failure(code: 0, reason: Optional(""))"
+</failure>
+</testcase>
+<testcase name="test_get_last_iPhone_device" classname="DestinationDevicesTests" time="0.271">
+<failure message="77" type="type">
+failed: caught error: "failure(code: 0, reason: Optional(""))"
+</failure>
+</testcase>
+</testsuite>
+<testsuite  id="DeviceListTests" name="DeviceListTests" tests="2" skipped="0" failures="1" errors="0" timestamp="2024-10-09 07:56:24 +0000" hostname="JunitEncoder" time="0.005">
+<testcase name="test_decode_device_list_tests_json_file" classname="DeviceListTests" time="0.005"/>
+<testcase name="testPerformanceExample" classname="DeviceListTests" time="0.0"/>
+</testsuite>
+<testsuite  id="TestReportTests" name="TestReportTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-10-09 07:56:25 +0000" hostname="JunitEncoder" time="1.443">
+<testcase name="test_generate_failed_result_junit_content" classname="TestReportTests" time="1.053"/>
+<testcase name="test_generate_junit_content" classname="TestReportTests" time="0.39"/>
+</testsuite>
+</testsuites>

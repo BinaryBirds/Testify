@@ -1,0 +1,33 @@
+Test Suite 'All tests' started at 2024-10-09 09:56:11.743.
+Test Suite 'executorPackageTests.xctest' started at 2024-10-09 09:56:11.745.
+Test Suite 'DestinationDevicesTests' started at 2024-10-09 09:56:11.745.
+Test Case '-[DestinationDevicesTests.DestinationDevicesTests test_get_all_devices]' started.
+/Users/abensalah/Developer/personal/executor/Sources/CommandLine/CommandLine.swift:77: error: -[DestinationDevicesTests.DestinationDevicesTests test_get_all_devices] : failed: caught error: "failure(code: 0, reason: Optional(""))"
+Test Case '-[DestinationDevicesTests.DestinationDevicesTests test_get_all_devices]' failed (12.412 seconds).
+Test Case '-[DestinationDevicesTests.DestinationDevicesTests test_get_first_iPhone_device]' started.
+/Users/abensalah/Developer/personal/executor/Sources/CommandLine/CommandLine.swift:77: error: -[DestinationDevicesTests.DestinationDevicesTests test_get_first_iPhone_device] : failed: caught error: "failure(code: 0, reason: Optional(""))"
+Test Case '-[DestinationDevicesTests.DestinationDevicesTests test_get_first_iPhone_device]' failed (0.344 seconds).
+Test Case '-[DestinationDevicesTests.DestinationDevicesTests test_get_last_iPhone_device]' started.
+/Users/abensalah/Developer/personal/executor/Sources/CommandLine/CommandLine.swift:77: error: -[DestinationDevicesTests.DestinationDevicesTests test_get_last_iPhone_device] : failed: caught error: "failure(code: 0, reason: Optional(""))"
+Test Case '-[DestinationDevicesTests.DestinationDevicesTests test_get_last_iPhone_device]' failed (0.271 seconds).
+Test Suite 'DestinationDevicesTests' failed at 2024-10-09 09:56:24.772.
+     Executed 3 tests, with 3 failures (3 unexpected) in 13.027 (13.027) seconds
+Test Suite 'DeviceListTests' started at 2024-10-09 09:56:24.772.
+Test Case '-[DestinationDevicesTests.DeviceListTests test_decode_device_list_tests_json_file]' started.
+Test Case '-[DestinationDevicesTests.DeviceListTests test_decode_device_list_tests_json_file]' passed (0.005 seconds).
+Test Case '-[DestinationDevicesTests.DeviceListTests testPerformanceExample]' started.
+/Users/abensalah/Developer/personal/executor/Tests/DestinationDevicesTests/DeviceListTests.swift:39: Test Case '-[DestinationDevicesTests.DeviceListTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 123.731%, values: [0.000120, 0.000024, 0.000016, 0.000014, 0.000013, 0.000014, 0.000013, 0.000013, 0.000016, 0.000013], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , polarity: prefers smaller, maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[DestinationDevicesTests.DeviceListTests testPerformanceExample]' passed (0.257 seconds).
+Test Suite 'DeviceListTests' passed at 2024-10-09 09:56:25.034.
+     Executed 2 tests, with 0 failures (0 unexpected) in 0.262 (0.262) seconds
+Test Suite 'TestReportTests' started at 2024-10-09 09:56:25.034.
+Test Case '-[TestReportTests.TestReportTests test_generate_failed_result_junit_content]' started.
+Test Case '-[TestReportTests.TestReportTests test_generate_failed_result_junit_content]' passed (1.053 seconds).
+Test Case '-[TestReportTests.TestReportTests test_generate_junit_content]' started.
+Test Case '-[TestReportTests.TestReportTests test_generate_junit_content]' passed (0.390 seconds).
+Test Suite 'TestReportTests' passed at 2024-10-09 09:56:26.478.
+     Executed 2 tests, with 0 failures (0 unexpected) in 1.443 (1.443) seconds
+Test Suite 'executorPackageTests.xctest' failed at 2024-10-09 09:56:26.478.
+     Executed 7 tests, with 3 failures (3 unexpected) in 14.732 (14.733) seconds
+Test Suite 'All tests' failed at 2024-10-09 09:56:26.478.
+     Executed 7 tests, with 3 failures (3 unexpected) in 14.732 (14.735) seconds
