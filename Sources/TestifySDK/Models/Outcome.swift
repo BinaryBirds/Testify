@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum Outcome: String, Codable {
+public enum Outcome: String, Codable, Sendable {
     case success
     case failure
 }

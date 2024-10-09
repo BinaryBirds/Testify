@@ -1,4 +1,5 @@
 import XCTest
+import Foundation
 @testable import TestifySDK
 
 final class TestifyJunitTests: XCTestCase {
@@ -14,21 +15,12 @@ final class TestifyJunitTests: XCTestCase {
             "Kitura",
         ]
 
-        let packageRootPath = URL(fileURLWithPath: #file)
-                                .pathComponents
-                                .prefix(while: { $0 != "Tests" })
-                                .joined(separator: "/")
-                                .dropFirst()
-
-        let assetsUrl = URL(fileURLWithPath: String(packageRootPath)).appendingPathComponent("Tests")
-                                                                     .appendingPathComponent("Assets")
         let decoder = RawTestResultDecoder()
         
         for file in testFiles {
-            let testUrl = assetsUrl.appendingPathComponent("/tests/" + file)
-                                   .appendingPathExtension("tests")
-            let xmlUrl = assetsUrl.appendingPathComponent("/xml/" + file)
-                                   .appendingPathExtension("xml")
+            
+            let testUrl = try Bundle.module.getURL(for: file, withExtension: "tests")
+            let xmlUrl = try Bundle.module.getURL(for: file, withExtension: "xml")
 
             let testData = try Data(contentsOf: testUrl)
             guard let testOutput = String(data: testData, encoding: .utf8) else {
@@ -42,7 +34,11 @@ final class TestifyJunitTests: XCTestCase {
             xmlParser.delegate = parser
             xmlParser.parse()
         
-            XCTAssertTrue(self.checkNumbers(suite, parser), "Invalid numbers count for \(file).")
+            if let suite {
+                XCTAssertTrue(self.checkNumbers(suite, parser), "Invalid numbers count for \(file).")
+            } else {
+                XCTFail("Could not parse XML for \(file).")
+            }
         }
     }
     

@@ -25,18 +25,21 @@ var data: Data
 var input: String = ""
 repeat {
     data = FileHandle.standardInput.availableData
-    input += String(data: data, encoding: .utf8)!
+    input += String(decoding: data, as: UTF8.self)
 } while (data.count > 0)
 
 let decoder = RawTestResultDecoder()
-let suite = try decoder.decode(input)
+guard let suite = try decoder.decode(input) else {
+    fatalError("Error: Invalid test result data.")
+}
 
 switch outputFormat {
 case .json:
     let encoder = JSONEncoder()
     encoder.outputFormatting = .prettyPrinted
-    let jsonData = try! encoder.encode(suite)
+    let jsonData = try encoder.encode(suite)
     print("\n", String(data: jsonData, encoding: .utf8)!, "\n")
+    print("\n", String(decoding: data, as: UTF8.self), "\n")
     
 case .junit:
     let encoder = TestResultJunitEncoder()

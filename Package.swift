@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:6.0
 import PackageDescription
 
 let package = Package(
@@ -31,6 +31,9 @@ let package = Package(
             name: "TestifySDKTests",
             dependencies: [
                 .target(name: "TestifySDK"),
+            ],
+            resources: [
+                .process("Resources"),
             ]
         ),
     ]
