@@ -46,16 +46,16 @@ case .json:
 
 case .junit:
     let encoder = TestResultJunitEncoder()
-    let junitData = try! encoder.encode(suite)
+    let junitData = try encoder.encode(suite)
     print(junitData)
 
 case .md:
     let encoder = TestResultMarkdownEncoder()
-    let mdData = try! encoder.encode(suite)
+    let mdData = try encoder.encode(suite)
     print(mdData)
 
 case .gfm:
     let encoder = TestResultGitHubFlavoredMarkdownEncoder()
-    let mdData = try! encoder.encode(suite)
+    let mdData = try encoder.encode(suite)
     print(mdData)
 }

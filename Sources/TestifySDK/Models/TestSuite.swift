@@ -10,7 +10,7 @@ import Foundation
 extension TestSuite {
     public static func parse(_ input: String) -> TestSuite? {
         let decoder = RawTestResultDecoder()
-        let suite = try! decoder.decode(input)
+        let suite = try? decoder.decode(input)
         return suite
     }
 }
