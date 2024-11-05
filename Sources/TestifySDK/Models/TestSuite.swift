@@ -7,8 +7,8 @@
 
 import Foundation
 
-public extension TestSuite {
-    static func parse(_ input: String) -> TestSuite? {
+extension TestSuite {
+    public static func parse(_ input: String) -> TestSuite? {
         let decoder = RawTestResultDecoder()
         let suite = try! decoder.decode(input)
         return suite
@@ -23,7 +23,7 @@ public struct TestSuite: Codable {
     public var outcome: Outcome
     public var cases: [TestCase]
     public var children: [TestSuite]
-    
+
     public init(
         name: String,
         startDate: Date,
