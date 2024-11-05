@@ -5,6 +5,9 @@ baseUrl = https://raw.githubusercontent.com/BinaryBirds/github-workflows/refs/he
 test:
 	swift test --parallel
 
+language:
+	curl -s $(baseUrl)/check-unacceptable-language.sh | bash
+
 lint:
 	curl -s $(baseUrl)/run-swift-format.sh | bash
 
