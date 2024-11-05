@@ -7,18 +7,18 @@
 
 import Foundation
 
-public enum TestResultEncoderError: Error {
+public enum TestResultEncoderError: Error, Sendable {
     case unknown
 }
 
-public enum TestResultDecoderError: Error {
+public enum TestResultDecoderError: Error, Sendable {
     case unknown
 }
 
-public protocol TestResultEncoder {
+public protocol TestResultEncoder: Sendable {
     func encode(_: TestSuite) throws -> String
 }
 
-public protocol TestResultDecoder {
+public protocol TestResultDecoder: Sendable {
     func decode(_: String) throws -> TestSuite
 }

@@ -13,23 +13,14 @@ final class TestifyMarkdownTests: XCTestCase {
             "ShellFailure",
             "Alamofire",
             "Kitura",
+            "log",
         ]
 
-        let packageRootPath = URL(fileURLWithPath: #file)
-                                .pathComponents
-                                .prefix(while: { $0 != "Tests" })
-                                .joined(separator: "/")
-                                .dropFirst()
-
-        let assetsUrl = URL(fileURLWithPath: String(packageRootPath)).appendingPathComponent("Tests")
-                                                                     .appendingPathComponent("Assets")
         let decoder = RawTestResultDecoder()
         
         for file in testFiles {
-            let testUrl = assetsUrl.appendingPathComponent("/tests/" + file)
-                                   .appendingPathExtension("tests")
-            let mdUrl = assetsUrl.appendingPathComponent("/md/" + file)
-                                   .appendingPathExtension("md")
+            let testUrl = try Bundle.module.getURL(for: file, withExtension: "tests")
+            let mdUrl = try Bundle.module.getURL(for: file, withExtension: "md")
 
             let testData = try Data(contentsOf: testUrl)
             guard let testOutput = String(data: testData, encoding: .utf8) else {
@@ -48,7 +39,12 @@ final class TestifyMarkdownTests: XCTestCase {
                 $0.contains("failed")
             }
             
-            XCTAssertTrue(self.checkNumbers(suite, filtered), "Invalid numbers count for \(file).")
+            if let suite {
+                XCTAssertTrue(self.checkNumbers(suite, filtered), "Invalid numbers count for \(file).")
+            } else {
+                XCTFail("Not found suite for \(file).")
+            }
+            
         }
     }
     

@@ -13,23 +13,14 @@ final class TestifyTests: XCTestCase {
             "ShellFailure",
             "Alamofire",
             "Kitura",
+            "log",
         ]
 
-        let packageRootPath = URL(fileURLWithPath: #file)
-                                .pathComponents
-                                .prefix(while: { $0 != "Tests" })
-                                .joined(separator: "/")
-                                .dropFirst()
-
-        let assetsUrl = URL(fileURLWithPath: String(packageRootPath)).appendingPathComponent("Tests")
-                                                                     .appendingPathComponent("Assets")
         let decoder = RawTestResultDecoder()
     
         for file in testFiles {
-            let testUrl = assetsUrl.appendingPathComponent("/tests/" + file)
-                                   .appendingPathExtension("tests")
-            let jsonUrl = assetsUrl.appendingPathComponent("/json/" + file)
-                                   .appendingPathExtension("json")
+            let testUrl = try Bundle.module.getURL(for: file, withExtension: "tests")
+            let jsonUrl = try Bundle.module.getURL(for: file, withExtension: "json")
 
             let testData = try Data(contentsOf: testUrl)
             guard let testOutput = String(data: testData, encoding: .utf8) else {
@@ -42,7 +33,11 @@ final class TestifyTests: XCTestCase {
             decoder.dateDecodingStrategy = .secondsSince1970
             let expectation = try decoder.decode(TestSuite.self, from: resultData)
 
-            XCTAssertTrue(self.checkIsEqual(suite, expectation), "Invalid case count for \(file).")            
+            if let suite {
+                XCTAssertTrue(self.checkIsEqual(suite, expectation), "Invalid case count for \(file).")
+            } else {
+                XCTFail("no test suite found")
+            }
         }
     }
 

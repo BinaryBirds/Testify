@@ -10,17 +10,15 @@ import Foundation
 private extension String {
 
     func match(_ pattern: String) -> String? {
-        let regex = try! NSRegularExpression(pattern: pattern)
+        guard let regex = try? NSRegularExpression(pattern: pattern)
+        else { return nil }
         let matches = regex.matches(
             in: self,
             range: .init(location: 0, length: count)
         )
-        guard
-            let match = matches.first,
-            let range = Range(match.range, in: self)
-        else {
-            return nil
-        }
+        guard let match = matches.first, 
+                let range = Range(match.range, in: self)
+        else { return nil }
         return String(self[range])
     }
 
@@ -40,7 +38,8 @@ private extension String {
     }
     
     var matchedUnexpected: String? {
-        String(match("\\((\\d+)")!.dropFirst())
+        guard let dropFirst = match("\\((\\d+)")?.dropFirst() else { return nil }
+        return String(dropFirst)
     }
 }
 
@@ -53,10 +52,10 @@ public struct RawTestResultDecoder {
         self.dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss.SSS"
     }
 
-    public func decode(_ input: String) throws -> TestSuite {
+    public func decode(_ input: String) throws -> TestSuite? {
         var suites: [TestSuite] = []
         var currentCaseName: String?
-        var testCaseOutput: String!
+        var testCaseOutput: String = ""
         var gatherTestCaseOutput = false
         
         let lines = input.split(separator: "\n").map({ String($0) })
@@ -64,8 +63,11 @@ public struct RawTestResultDecoder {
             // start or end test suite
             if line.contains("Test Suite") {
                 if line.contains("started") {
-                    let name = line.matchedTestName!
-                    let date = dateFormatter.date(from: line.matchedDate!)!
+                    guard let name = line.matchedTestName else { continue }
+                    
+                    guard let matchedDate = line.matchedDate,
+                          let date =  dateFormatter.date(from: matchedDate)
+                    else { continue }
                     
                     suites.append(
                         TestSuite(
@@ -79,16 +81,20 @@ public struct RawTestResultDecoder {
                     continue;
                 }
                 else {
-                    var suite = suites.last!
+                    guard var suite = suites.last else { continue }
                     suites = Array(suites.dropLast())
                     
                     suite.outcome = line.contains("passed") ? .success : .failure
-                    suite.endDate = dateFormatter.date(from: line.matchedDate!)!
-                    
+                    if let matchedDate = line.matchedDate,
+                        let date =  dateFormatter.date(from: matchedDate) {
+                        suite.endDate = date
+                    }
                     if index+1 < lines.count {
                         let nextLine = lines[index+1]
-                        if nextLine.contains("Executed") {
-                            suite.unexpected = UInt(nextLine.matchedUnexpected!)!
+                        if nextLine.contains("Executed"),
+                           let matchedUnexpected = nextLine.matchedUnexpected,
+                           let unexpected = UInt(matchedUnexpected) {
+                            suite.unexpected = unexpected
                         }
                     }
                     
@@ -96,10 +102,11 @@ public struct RawTestResultDecoder {
                         suites.append(suite)
                     }
                     else {
-                        var parentSuite = suites.last!
-                        suites = Array(suites.dropLast())
-                        parentSuite.children.append(suite)
-                        suites.append(parentSuite)
+                        if var parentSuite = suites.last {
+                            suites = Array(suites.dropLast())
+                            parentSuite.children.append(suite)
+                            suites.append(parentSuite)
+                        }
                     }
                     continue;
                 }
@@ -113,33 +120,39 @@ public struct RawTestResultDecoder {
                 }
                 else {
                     gatherTestCaseOutput = false
-                    var suite = suites.last!
+                    guard var suite = suites.last else { continue }
                     suites = Array(suites.dropLast())
-                    let outcome: Outcome = line.contains("passed") ? .success : .failure
-                    let caseName = currentCaseName!.dropFirst(2).dropLast()
-                    let firstSplit = caseName.split(separator: ".")
-                    let secondSplit = firstSplit[1].split(separator: " ")
+                    let outcome: Outcome = line.contains("passed") || line.contains("measured") ? .success : .failure
                     
                     var failureInfo: FailureInfo? = nil
-                    if outcome == .failure {
+                    if outcome == .failure, !testCaseOutput.isEmpty {
                         let outputSplit = testCaseOutput.split(separator: ":")
                         let file = String(outputSplit[0])
-                        let line = Int(outputSplit[1])!
-                        let reason = String(outputSplit.dropFirst(4)
-                            .joined(separator: ":")
-                            .trimmingCharacters(in: CharacterSet(charactersIn: "-").union(.whitespaces)))
-                        failureInfo = FailureInfo(file: file, line: line, reason: reason)
+                        if outputSplit.count >= 2, let line = Int(outputSplit[1]) {
+                            let reason = String(outputSplit.dropFirst(4)
+                                .joined(separator: ":")
+                                .trimmingCharacters(in: CharacterSet(charactersIn: "-").union(.whitespaces)))
+                            failureInfo = FailureInfo(file: file, line: line, reason: reason)
+                        }
                     }
                     
-                    let testCase = TestCase(
-                        moduleName: String(firstSplit[0]),
-                        className: String(secondSplit[0]),
-                        testName: String(secondSplit[1]),
-                        duration: TimeInterval(line.matchedSeconds!)!,
-                        outcome: outcome,
-                        failureInfo: failureInfo
-                    )
-                    suite.cases.append(testCase)
+                    if let _currentCaseName = currentCaseName,
+                        let matchedSeconds = line.matchedSeconds,
+                        let duration = TimeInterval(matchedSeconds) {
+                        
+                        let caseName = _currentCaseName.dropFirst(2).dropLast()
+                        let firstSplit = caseName.split(separator: ".")
+                        let secondSplit = firstSplit[1].split(separator: " ")
+                        let testCase = TestCase(
+                            moduleName: String(firstSplit[0]),
+                            className: String(secondSplit[0]),
+                            testName: String(secondSplit[1]),
+                            duration: duration,
+                            outcome: outcome,
+                            failureInfo: failureInfo
+                        )
+                        suite.cases.append(testCase)
+                    }
                     suites.append(suite)
                     currentCaseName = nil
                     continue;
@@ -149,6 +162,6 @@ public struct RawTestResultDecoder {
                 testCaseOutput += line
             }
         }
-        return suites.first!
+        return suites.first
     }
 }
