@@ -1,1 +1,9 @@
-Tests/TestifySDKTests/Resources/json/Kitura-coverage.json
+Tests/TestifySDKTests/Resources/Assets/json/Kitura.json
+Tests/TestifySDKTests/Resources/Assets/json/Kitura-coverage.json
+Tests/TestifySDKTests/Resources/Assets/json/PromiseFailure.json
+Tests/TestifySDKTests/Resources/Assets/json/Shell-coverage.json
+Tests/TestifySDKTests/Resources/Assets/json/ShellOutFailure.json
+Tests/TestifySDKTests/Resources/Assets/tests/Kitura.tests
+Tests/TestifySDKTests/Resources/Assets/tests/Kitura-coverage.tests
+Tests/TestifySDKTests/Resources/Assets/tests/PromiseFailure.tests
+Tests/TestifySDKTests/Resources/Assets/tests/ShellOutFailure.tests
