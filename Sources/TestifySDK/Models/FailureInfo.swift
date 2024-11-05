@@ -11,7 +11,7 @@ public struct FailureInfo: Codable {
     public let file: String
     public let line: Int
     public let reason: String
-    
+
     public init(
         file: String,
         line: Int,

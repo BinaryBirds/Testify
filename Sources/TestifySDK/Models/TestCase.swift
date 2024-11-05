@@ -14,7 +14,7 @@ public struct TestCase: Codable {
     public let duration: TimeInterval
     public let outcome: Outcome
     public let failureInfo: FailureInfo?
-    
+
     public init(
         moduleName: String,
         className: String,
@@ -30,5 +30,5 @@ public struct TestCase: Codable {
         self.outcome = outcome
         self.failureInfo = failureInfo
     }
-    
+
 }
