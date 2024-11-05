@@ -1,10 +1,11 @@
 import Foundation
 import XCTest
+
+@testable import TestifySDK
+
 #if canImport(FoundationXML)
 import FoundationXML
 #endif
-
-@testable import TestifySDK
 
 final class TestifyJunitTests: XCTestCase {
 
